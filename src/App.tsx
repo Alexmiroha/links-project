@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import Header from "./Hearer/Header";
+import Main from "./Main/Main";
+import Footer from "./Footer/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+type LanguagesType = {
+    [key: string]: string;
+};
+
+const App: React.FC = () => {
+
+    const languages: LanguagesType = {
+        en: 'English',
+        pl: 'Polski',
+        ua: 'Українська'
+    };
+
+    const [language, setLanguage] = useState('en');
+
+    useEffect(() => {
+        // Завантаження вибраної мови з localStorage при завантаженні компонента
+        const savedLanguage = localStorage.getItem('selectedLanguage');
+        if (savedLanguage) {
+            setLanguage(savedLanguage);
+        }
+    }, []);
+
+    const handleLanguageChange = (event: { target: { value: any; }; }) => {
+        const newLanguage = event.target.value;
+        setLanguage(newLanguage);
+        localStorage.setItem('selectedLanguage', newLanguage);
+    };
+
+    return (
+        <div className="App">
+            <Header
+                languages={languages}
+                language={language}
+                onLanguageChange={handleLanguageChange}
+            />
+            <Main language={language}/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
