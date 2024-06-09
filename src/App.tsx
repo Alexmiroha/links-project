@@ -32,9 +32,24 @@ const App: React.FC = () => {
         localStorage.setItem('selectedLanguage', newLanguage);
     };
 
+    const storedDarkMode = localStorage.getItem('darkMode') === 'true';
+    const [isDarkMode, setDarkMode] = useState(storedDarkMode);
+
+    useEffect(() => {
+        localStorage.setItem('darkMode', isDarkMode.toString());
+    }, [isDarkMode])
+
+
+
+    const toggleDarkMode = () => {
+        setDarkMode(!isDarkMode);
+    }
+
     return (
         <div className="App">
             <Header
+                toggleDarkMode={toggleDarkMode}
+                isDarkMode={isDarkMode}
                 languages={languages}
                 language={language}
                 onLanguageChange={handleLanguageChange}
