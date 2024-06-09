@@ -1,5 +1,6 @@
 {
   "name": "links-project",
+  "homepage": "https://alexmiroha.github.io/links-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
