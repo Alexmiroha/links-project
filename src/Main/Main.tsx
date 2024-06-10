@@ -33,7 +33,7 @@ const Main = (props: MainProps) => {
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
             </section>
             <section className={s.categoriesSection}>
-                <Categories/>
+                <Categories language={props.language}/>
             </section>
             <section className={s.productiesSection}>
                 <Products/>

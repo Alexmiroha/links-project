@@ -7,4 +7,9 @@
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.cards__active {
+
 }

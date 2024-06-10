@@ -1,7 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Categories.module.css'
 import img1 from '../../img/home and garden.jpg'
 import img2 from '../../img/sport.jpg'
+import img3 from '../../img/pets.jpg'
+import img4 from '../../img/furniture.jpg'
+import img5 from '../../img/beauty.jpg'
+import img6 from '../../img/toys.jpg'
+import img7 from '../../img/bags and shoes.jpg'
+import img8 from '../../img/lightning.jpg'
+import img9 from '../../img/moto.jpg'
+import img10 from '../../img/watch.jpg'
+import img11 from '../../img/electronics.jpg'
+import img12 from '../../img/bsize.jpg'
+import img13 from '../../img/hair.jpg'
+import img14 from '../../img/computer.jpg'
+import img15 from '../../img/phone.jpg'
+import img16 from '../../img/kids.jpg'
+import img17 from '../../img/womens.jpg'
+import img18 from '../../img/man.jpg'
+
 
 import CategoryCard from "./CategoryCard";
 
@@ -21,7 +38,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img3,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Pet Supplies",
@@ -35,7 +52,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img4,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Furniture",
@@ -49,7 +66,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img5,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Beauty & Health",
@@ -63,7 +80,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img6,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Toys & Games",
@@ -77,7 +94,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img7,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Luggage, Bags & Shoes",
@@ -91,7 +108,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img8,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Home Improvement & Lighting",
@@ -105,7 +122,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img9,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Automotive & Motorcycle",
@@ -115,11 +132,11 @@ const categories = [
         "description": {
             "en": "Explore a wide range of automotive and motorcycle products to keep your vehicles running smoothly.",
             "pl": "Odkryj szeroki wybór produktów motoryzacyjnych i motocyklowych, aby utrzymać swoje pojazdy w doskonałym stanie.",
-            "ua": "Досліджуйте широкий асортимент автомобільних та мотоциклетних товарів, щоб забезпечити безперебійну роботу ваших транспортних засобів."
+            "ua": "Відкрий широкий асортимент автомобільних та мотоциклетних товарів."
         }
     },
     {
-        "img": img2,
+        "img": img10,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Jewelry, Watches & Accessories",
@@ -129,11 +146,11 @@ const categories = [
         "description": {
             "en": "Explore our exquisite collection of jewelry, watches, and accessories to add elegance to any outfit.",
             "pl": "Odkryj naszą wykwintną kolekcję biżuterii, zegarków i akcesoriów, aby dodać elegancji do każdej stylizacji.",
-            "ua": "Досліджуйте нашу вишукану колекцію прикрас, годинників та аксесуарів, щоб додати елегантності до будь-якого образу."
+            "ua": "Тут ти знайдеш прикраси, годинники та аксесуари на свій смак."
         }
     },
     {
-        "img": img2,
+        "img": img11,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Electronics",
@@ -147,7 +164,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img12,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Plus Sized Clothing",
@@ -161,7 +178,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img13,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Hair Extensions & Wigs",
@@ -175,7 +192,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img14,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Computer, Office & Education",
@@ -189,7 +206,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img15,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Phones & Telecommunications",
@@ -203,7 +220,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img16,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Babies & Kids",
@@ -231,7 +248,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img17,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Women's Clothing",
@@ -245,7 +262,7 @@ const categories = [
         }
     },
     {
-        "img": img2,
+        "img": img18,
         "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
         "title": {
             "en": "Men's Clothing",
@@ -264,23 +281,38 @@ const categories = [
 ]
 
 
+const Categories = (props:any) => {
 
+    const [activeCategories, setActiveCategories] = useState(false);
 
-const Categories = () => {
     return (
         <div className={s.Categories}>
-            <div className={s.cards}>
+            <div className={`${s.cards} ${activeCategories? 'max-h-max': 'max-h-60'}`}>
                 {categories.map((category, index) => (
                     <CategoryCard
+                        active={activeCategories}
                         key={index}
                         image={category.img}
                         link={category.link}
-                        title={category.title["en"]}
-                        description={category.description['en']}
+                        title={props.language === 'ua'? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
+                        description={props.language === 'ua'? category.description['ua'] : props.language === 'pl' ? category.description['pl'] : category.description['en']}
                     />
                 ))}
             </div>
-
+            <button onClick={() => setActiveCategories(!activeCategories)}
+               className={`inline-flex items-center
+                    px-3 py-2 text-sm font-medium text-center
+                     text-white bg-blue-700 rounded-lg hover:bg-blue-800
+                      focus:ring-4 focus:outline-none focus:ring-blue-300
+                       dark:bg-blue-600 dark:hover:bg-blue-700
+                        dark:focus:ring-blue-800 ${activeCategories? '': ''}`}>
+                {activeCategories? 'hide categories' : 'show more categories'}
+                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </button>
         </div>
     );
 };
