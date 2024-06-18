@@ -43,7 +43,7 @@ const cards = [
 const Products = (props: ProductsPropsType) => {
     return (
         <div className={`${s.productsSection} ${'mt-10'}`}>
-            <h3 className="mb-6">{props.language === 'ua' ? 'Товари' : props.language === 'pl' ? 'Towary' : 'Products'}</h3>
+            <h3 className="mb-6 text-gray-900 dark:text-amber-50">{props.language === 'ua' ? 'Товари' : props.language === 'pl' ? 'Towary' : 'Products'}</h3>
             <form className="max-w-screen-sm mx-auto">
                 <label htmlFor="default-search"
                        className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>

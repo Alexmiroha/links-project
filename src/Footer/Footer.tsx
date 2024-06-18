@@ -3,7 +3,7 @@ import s from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer className={s.footer}>
+        <footer className='min-h-32 bg-blue-200 dark:bg-black'>
 
         </footer>
     );

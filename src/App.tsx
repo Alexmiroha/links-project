@@ -1,32 +1,19 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import Header from "./Hearer/Header";
+import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Footer from "./Footer/Footer";
 
-type LanguagesType = {
-    [key: string]: string;
-};
-
 const App: React.FC = () => {
-
-    const languages: LanguagesType = {
-        en: 'English',
-        pl: 'Polski',
-        ua: 'Українська'
-    };
-
+    const languages = { en: 'English', pl: 'Polski', ua: 'Українська' };
     const [language, setLanguage] = useState('en');
 
     useEffect(() => {
-        // Завантаження вибраної мови з localStorage при завантаженні компонента
         const savedLanguage = localStorage.getItem('selectedLanguage');
-        if (savedLanguage) {
-            setLanguage(savedLanguage);
-        }
+        if (savedLanguage) setLanguage(savedLanguage);
     }, []);
 
-    const handleLanguageChange = (event: { target: { value: any; }; }) => {
+    const handleLanguageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const newLanguage = event.target.value;
         setLanguage(newLanguage);
         localStorage.setItem('selectedLanguage', newLanguage);
@@ -37,16 +24,17 @@ const App: React.FC = () => {
 
     useEffect(() => {
         localStorage.setItem('darkMode', isDarkMode.toString());
-    }, [isDarkMode])
+        if (isDarkMode) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    }, [isDarkMode]);
 
-
-
-    const toggleDarkMode = () => {
-        setDarkMode(!isDarkMode);
-    }
+    const toggleDarkMode = () => setDarkMode(!isDarkMode);
 
     return (
-        <div className="App">
+        <div className={`App ${isDarkMode ? 'dark' : ''}`}>
             <Header
                 toggleDarkMode={toggleDarkMode}
                 isDarkMode={isDarkMode}
@@ -54,8 +42,8 @@ const App: React.FC = () => {
                 language={language}
                 onLanguageChange={handleLanguageChange}
             />
-            <Main language={language}/>
-            <Footer/>
+            <Main language={language} />
+            <Footer />
         </div>
     );
 }

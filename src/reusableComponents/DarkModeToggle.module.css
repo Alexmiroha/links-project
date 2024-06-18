@@ -17,7 +17,7 @@ label {
     cursor: pointer;
     transform: scale(.4);
     left: calc(50% - 125px);
-    top: -20px;
+    top: -15px;
     transition: 1s;
 }
 

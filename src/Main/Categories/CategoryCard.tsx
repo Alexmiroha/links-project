@@ -11,7 +11,7 @@ const CategoryCard = (props:any) => {
             <div className={`p-5 flex flex-col items-center flex-wrap justify-between ${props.active? 'h-52': 'h-16'}`}>
                 <a href={props.link} target="_blank"
                    rel="noopener noreferrer">
-                    <h6 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h6>
+                    <h6 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-amber-50">{props.title}</h6>
                 </a>
                 <p className={`font-normal text-gray-700 dark:text-gray-400 ${props.active? '': 'hidden'}`}>{props.description}</p>
                 <a href={props.link} target="_blank"

@@ -20,14 +20,11 @@ const Header: React.FC<HeaderProps> = (props) => {
                     <DarkModeToggle isDarkMode={props.isDarkMode} toggleDarkMode={props.toggleDarkMode}/>
                 </div>
                 <div className={s.languageChanger}>
-                    <p className={s.languageLabel}>
-                        {props.language === 'en' ? 'language:' : props.language === 'pl' ? 'język:' : 'мова:'}
-                    </p>
                     <select
                         id="languageSelect"
                         value={props.language}
                         onChange={props.onLanguageChange}
-                        className={s.languageSelect}
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
                         {Object.entries(props.languages).map(([langCode, langName]) => (
                             <option key={langCode} value={langCode}>
