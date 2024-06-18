@@ -1,19 +1,21 @@
 import React from 'react';
-import img1 from "../../img/home and garden.jpg";
 
 const CategoryCard = (props:any) => {
     return (
         <div
             className="max-w-60 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href={props.link}>
+            <a href={props.link} target="_blank"
+               rel="noopener noreferrer">
                 <img className="rounded-t-lg" src={props.image} alt=""/>
             </a>
             <div className={`p-5 flex flex-col items-center flex-wrap justify-between ${props.active? 'h-52': 'h-16'}`}>
-                <a href="#">
+                <a href={props.link} target="_blank"
+                   rel="noopener noreferrer">
                     <h6 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h6>
                 </a>
                 <p className={`font-normal text-gray-700 dark:text-gray-400 ${props.active? '': 'hidden'}`}>{props.description}</p>
-                <a href={props.link}
+                <a href={props.link} target="_blank"
+                   rel="noopener noreferrer"
                    className={`inline-flex items-center
                     px-3 py-2 text-sm font-medium text-center
                      text-white bg-blue-700 rounded-lg hover:bg-blue-800

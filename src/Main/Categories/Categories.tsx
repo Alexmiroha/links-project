@@ -1,26 +1,29 @@
 import React, {useState} from 'react';
-import s from './Categories.module.css'
-import img1 from '../../img/home and garden.jpg'
-import img2 from '../../img/sport.jpg'
-import img3 from '../../img/pets.jpg'
-import img4 from '../../img/furniture.jpg'
-import img5 from '../../img/beauty.jpg'
-import img6 from '../../img/toys.jpg'
-import img7 from '../../img/bags and shoes.jpg'
-import img8 from '../../img/lightning.jpg'
-import img9 from '../../img/moto.jpg'
-import img10 from '../../img/watch.jpg'
-import img11 from '../../img/electronics.jpg'
-import img12 from '../../img/bsize.jpg'
-import img13 from '../../img/hair.jpg'
-import img14 from '../../img/computer.jpg'
-import img15 from '../../img/phone.jpg'
-import img16 from '../../img/kids.jpg'
-import img17 from '../../img/womens.jpg'
-import img18 from '../../img/man.jpg'
+import s from './Categories.module.css';
+import img1 from '../../img/home and garden.jpg';
+import img2 from '../../img/sport.jpg';
+import img3 from '../../img/pets.jpg';
+import img4 from '../../img/furniture.jpg';
+import img5 from '../../img/beauty.jpg';
+import img6 from '../../img/toys.jpg';
+import img7 from '../../img/bags and shoes.jpg';
+import img8 from '../../img/lightning.jpg';
+import img9 from '../../img/moto.jpg';
+import img10 from '../../img/watch.jpg';
+import img11 from '../../img/electronics.jpg';
+import img12 from '../../img/bsize.jpg';
+import img13 from '../../img/hair.jpg';
+import img14 from '../../img/computer.jpg';
+import img15 from '../../img/phone.jpg';
+import img16 from '../../img/kids.jpg';
+import img17 from '../../img/womens.jpg';
+import img18 from '../../img/man.jpg';
 
+import CategoryCard from './CategoryCard';
 
-import CategoryCard from "./CategoryCard";
+type CategoriesPropsType = {
+    language: string,
+};
 
 const categories = [
     {
@@ -277,40 +280,51 @@ const categories = [
     }
 
 
-
 ]
 
-
-const Categories = (props:any) => {
-
+const Categories = (props: CategoriesPropsType) => {
     const [activeCategories, setActiveCategories] = useState(false);
+    const buttonTextShow = props.language === 'ua' ? 'Більше категорій' : props.language === 'pl' ? 'Pokaż więcej' : 'show more categories';
+    const buttonTextHide = props.language === 'ua' ? 'Приховати' : props.language === 'pl' ? 'Pokaż mniej' : 'hide categories';
 
     return (
         <div className={s.Categories}>
-            <div className={`${s.cards} ${activeCategories? 'max-h-max': 'max-h-60'}`}>
+            <div className={`${s.cards} ${activeCategories ? 'max-h-max' : 'max-h-60'}`}>
                 {categories.map((category, index) => (
                     <CategoryCard
                         active={activeCategories}
                         key={index}
                         image={category.img}
                         link={category.link}
-                        title={props.language === 'ua'? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
-                        description={props.language === 'ua'? category.description['ua'] : props.language === 'pl' ? category.description['pl'] : category.description['en']}
+                        title={props.language === 'ua' ? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
+                        description={props.language === 'ua' ? category.description['ua'] : props.language === 'pl' ? category.description['pl'] : category.description['en']}
                     />
                 ))}
             </div>
-            <button onClick={() => setActiveCategories(!activeCategories)}
-               className={`inline-flex items-center
-                    px-3 py-2 text-sm font-medium text-center
-                     text-white bg-blue-700 rounded-lg hover:bg-blue-800
-                      focus:ring-4 focus:outline-none focus:ring-blue-300
-                       dark:bg-blue-600 dark:hover:bg-blue-700
-                        dark:focus:ring-blue-800 ${activeCategories? '': ''}`}>
-                {activeCategories? 'hide categories' : 'show more categories'}
-                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            <button
+                onClick={() => setActiveCategories(!activeCategories)}
+                className={`inline-flex items-center mt-4
+            px-3 py-2 text-sm font-medium text-center
+            text-white bg-blue-700 rounded-lg hover:bg-blue-800
+            focus:ring-4 focus:outline-none focus:ring-blue-300
+            dark:bg-blue-600 dark:hover:bg-blue-700
+            dark:focus:ring-blue-800`}
+            >
+                {activeCategories ? buttonTextHide : buttonTextShow}
+                <svg
+                    className={`w-3.5 h-3.5 ms-2 ${activeCategories ? '-rotate-[90deg]' : '-rotate-[270deg]'}`}
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                >
+                    <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
                 </svg>
             </button>
         </div>
