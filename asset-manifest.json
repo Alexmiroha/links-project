@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/links-project/static/css/main.e7c2f95a.css",
-    "main.js": "/links-project/static/js/main.7c4df90f.js",
+    "main.css": "/links-project/static/css/main.85b9ca08.css",
+    "main.js": "/links-project/static/js/main.437fb405.js",
     "static/js/453.3a7366d0.chunk.js": "/links-project/static/js/453.3a7366d0.chunk.js",
     "static/media/moto.jpg": "/links-project/static/media/moto.3cf0b57f5a4290404789.jpg",
     "static/media/home and garden.jpg": "/links-project/static/media/home and garden.fd9bd8228ca81a6a7e20.jpg",
@@ -23,12 +23,12 @@
     "static/media/lightning.jpg": "/links-project/static/media/lightning.d9ff07a22afd88c7dc15.jpg",
     "static/media/phone.jpg": "/links-project/static/media/phone.1d15df63340347d98c0c.jpg",
     "index.html": "/links-project/index.html",
-    "main.e7c2f95a.css.map": "/links-project/static/css/main.e7c2f95a.css.map",
-    "main.7c4df90f.js.map": "/links-project/static/js/main.7c4df90f.js.map",
+    "main.85b9ca08.css.map": "/links-project/static/css/main.85b9ca08.css.map",
+    "main.437fb405.js.map": "/links-project/static/js/main.437fb405.js.map",
     "453.3a7366d0.chunk.js.map": "/links-project/static/js/453.3a7366d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c2f95a.css",
-    "static/js/main.7c4df90f.js"
+    "static/css/main.85b9ca08.css",
+    "static/js/main.437fb405.js"
   ]
 }
