@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Footer from "./Footer/Footer";
 
 const App: React.FC = () => {
-    const languages = { en: 'English', pl: 'Polski', ua: 'Українська' };
+    const languages = {en: 'English', pl: 'Polski', ua: 'Українська'};
     const [language, setLanguage] = useState('en');
 
     useEffect(() => {
@@ -35,15 +35,17 @@ const App: React.FC = () => {
 
     return (
         <div className={`App ${isDarkMode ? 'dark' : ''}`}>
-            <Header
-                toggleDarkMode={toggleDarkMode}
-                isDarkMode={isDarkMode}
-                languages={languages}
-                language={language}
-                onLanguageChange={handleLanguageChange}
-            />
-            <Main language={language} />
-            <Footer />
+
+                <Header
+                    toggleDarkMode={toggleDarkMode}
+                    isDarkMode={isDarkMode}
+                    languages={languages}
+                    language={language}
+                    onLanguageChange={handleLanguageChange}
+                />
+                <Main language={language}/>
+
+            <Footer/>
         </div>
     );
 }

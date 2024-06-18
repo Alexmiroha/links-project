@@ -81,39 +81,25 @@ input:checked + label svg.moon {
     fill: white;
 }
 
-@media only screen and (min-width: 2561px) {
-    label {
-        transform: scale(.6);
-        top: 10px;
-    }
-}
-
-@media only screen and (max-width: 1649.98px) {
-    label {
-        transform: scale(.35);
-        top: -24px;
-    }
-}
-
 @media only screen and (max-width: 1100px) {
     label {
         transform: scale(.3);
-        top: -23px;
-        left: calc(35% - 130px);
+        top: -15px;
+
     }
 }
 
 @media only screen and (max-width: 767.98px) {
     label {
-        transform: scale(.20);
-        top: -29px;
-        left: calc(35% - 130px);
+        transform: scale(.27);
+        top: -14px;
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 700px) {
     label {
         display: block;
-        left: -60px;
+        transform: scale(.15);
+        left: -90px;
     }
 }

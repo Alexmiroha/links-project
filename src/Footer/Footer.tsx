@@ -3,8 +3,8 @@ import s from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer className='min-h-32 bg-blue-200 dark:bg-black'>
-
+        <footer className='h-24 relative bg-blue-200 dark:bg-black'>
+            <p></p>
         </footer>
     );
 };

@@ -18,7 +18,7 @@ const Main = (props: MainProps) => {
     } else title = 'Everything you need in one place.'
 
     return (
-        <main className="pt-24 pb-40 bg-blue-100 dark:bg-gray-950">
+        <main className="pt-24 pb-40 bg-blue-100 dark:bg-gray-950 h-full">
             <section className={s.introSection}>
                 <h1 className='text-gray-900 dark:text-amber-50'>{title}</h1>
                 <div className="platform">

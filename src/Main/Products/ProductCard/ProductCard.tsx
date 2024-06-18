@@ -36,7 +36,11 @@ const ProductCard = (props:ProductCardPropsType) => {
                rel="noopener noreferrer"
                className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:w-[80%] hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img
-                    className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                    className="object-cover w-full rounded-t-lg h-96
+                    md:h-auto md:w-36 md:rounded-none md:rounded-s-lg
+                    lg:w-40
+                    xl:w-52
+                    2xl:w-80"
                     src={i1} alt=""/>
                 <div className="flex flex-col justify-between p-4 leading-normal w-[90%] h-[90%]">
                     <h6 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h6>
