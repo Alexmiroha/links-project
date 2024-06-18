@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.css": "/links-project/static/css/main.d09daadf.css",
-    "main.js": "/links-project/static/js/main.7a3e6314.js",
+    "main.css": "/links-project/static/css/main.e7c2f95a.css",
+    "main.js": "/links-project/static/js/main.7c4df90f.js",
     "static/js/453.3a7366d0.chunk.js": "/links-project/static/js/453.3a7366d0.chunk.js",
-    "static/media/sport.jpg": "/links-project/static/media/sport.e3e6e3bfe0587fff0d39.jpg",
-    "static/media/home and garden.jpg": "/links-project/static/media/home and garden.6aeb0515df743173a67c.jpg",
+    "static/media/moto.jpg": "/links-project/static/media/moto.3cf0b57f5a4290404789.jpg",
+    "static/media/home and garden.jpg": "/links-project/static/media/home and garden.fd9bd8228ca81a6a7e20.jpg",
+    "static/media/sport.jpg": "/links-project/static/media/sport.34179ade6eaea60bc1a0.jpg",
+    "static/media/v1.webp": "/links-project/static/media/v1.f0b525fb4067b4d4fb31.webp",
+    "static/media/furniture.jpg": "/links-project/static/media/furniture.93dc829d2e0cd6141091.jpg",
+    "static/media/watch.jpg": "/links-project/static/media/watch.27919652863a0d0a732f.jpg",
+    "static/media/computer.jpg": "/links-project/static/media/computer.7464fd3ca2003f5bf97f.jpg",
+    "static/media/womens.jpg": "/links-project/static/media/womens.89ea277b3a4c3717898e.jpg",
+    "static/media/bsize.jpg": "/links-project/static/media/bsize.a2f40e3143204021f5d5.jpg",
+    "static/media/bags and shoes.jpg": "/links-project/static/media/bags and shoes.9f4ec3224b440b1defc9.jpg",
+    "static/media/toys.jpg": "/links-project/static/media/toys.74479aa5c7c7e301fd11.jpg",
+    "static/media/pets.jpg": "/links-project/static/media/pets.ada5898fd8aa216c790f.jpg",
+    "static/media/man.jpg": "/links-project/static/media/man.0aa3774ae6438293abe5.jpg",
+    "static/media/hair.jpg": "/links-project/static/media/hair.ecb639ed9d10a973040b.jpg",
+    "static/media/beauty.jpg": "/links-project/static/media/beauty.a71f1611de669e85f1a1.jpg",
+    "static/media/kids.jpg": "/links-project/static/media/kids.e40c7761c803bdf8ac2f.jpg",
+    "static/media/electronics.jpg": "/links-project/static/media/electronics.fff30eba1a7b591f17b5.jpg",
+    "static/media/lightning.jpg": "/links-project/static/media/lightning.d9ff07a22afd88c7dc15.jpg",
+    "static/media/phone.jpg": "/links-project/static/media/phone.1d15df63340347d98c0c.jpg",
     "index.html": "/links-project/index.html",
-    "main.d09daadf.css.map": "/links-project/static/css/main.d09daadf.css.map",
-    "main.7a3e6314.js.map": "/links-project/static/js/main.7a3e6314.js.map",
+    "main.e7c2f95a.css.map": "/links-project/static/css/main.e7c2f95a.css.map",
+    "main.7c4df90f.js.map": "/links-project/static/js/main.7c4df90f.js.map",
     "453.3a7366d0.chunk.js.map": "/links-project/static/js/453.3a7366d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d09daadf.css",
-    "static/js/main.7a3e6314.js"
+    "static/css/main.e7c2f95a.css",
+    "static/js/main.7c4df90f.js"
   ]
 }
