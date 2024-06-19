@@ -43,9 +43,9 @@ const ProductCard = (props:ProductCardPropsType) => {
                     2xl:w-48"
                     src={i1} alt=""/>
                 <div className="flex flex-col justify-between p-2 leading-normal w-[90%] h-[90%]">
-                    <p className="text-[.7rem] text-orange-400">{props.video}</p>
+                    <p className="text-sm md:text-xl text-orange-400">{props.video}</p>
                     <h6 className="text-sm md:text-xl mb-2 font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h6>
-                    <p className="text-[.7rem] mb-3 font-normal text-gray-700 dark:text-gray-400">{props.description}</p>
+                    <p className="text-[.7rem] md:text-sm mb-3 font-normal text-gray-700 dark:text-gray-400">{props.description}</p>
                 </div>
             </a>
         </div>
