@@ -197,7 +197,7 @@ const Products = (props: ProductsPropsType) => {
     return (
         <div className={`${s.productsSection} ${'mt-10'}`}>
             <h3 className="mb-6 text-gray-900 dark:text-amber-50 text-lg md:text-2xl xl:text-3xl">{props.language === 'ua' ? 'Товари' : props.language === 'pl' ? 'Towary' : 'Products'}</h3>
-            <form className="max-w-screen-sm mx-auto" onSubmit={handleSearchSubmit}>
+            <form className="max-w-screen-sm mx-auto pl-4 pr-2" onSubmit={handleSearchSubmit}>
                 <label htmlFor="default-search"
                        className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                 <div className="relative">
@@ -211,7 +211,7 @@ const Products = (props: ProductsPropsType) => {
                     <input type="search" id="default-search"
                            value={searchTerm}
                            onChange={handleSearchChange}
-                           className="block w-[79%] h-8 visible p-[17px] ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                           className="block w-[65%] sm:w-[79%] h-8 visible p-[17px] ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                            placeholder={props.language === 'ua' ? "Впиши номер відео тут (нп. V27)"
                                : props.language === 'pl' ? "Wpisz tutaj numer video (np. V27)"
                                    : "Type video number here (for ex. V27)"}/>
@@ -222,7 +222,7 @@ const Products = (props: ProductsPropsType) => {
                     </button>
                 </div>
             </form>
-            <div className={`${s.productsContainer} ${'mt-10'}`}>
+            <div className={`${s.productsContainer} ${'mt-10 flex flex-row flex-wrap justify-center md:flex-col items-center'}`}>
                 {filteredCards.map((card, index) => (
                     <ProductCard
                         video={card.video}

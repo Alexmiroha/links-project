@@ -284,8 +284,8 @@ const categories = [
 
 const Categories = (props: CategoriesPropsType) => {
     const [activeCategories, setActiveCategories] = useState(false);
-    const buttonTextShow = props.language === 'ua' ? 'Більше категорій' : props.language === 'pl' ? 'Pokaż więcej' : 'show more categories';
-    const buttonTextHide = props.language === 'ua' ? 'Приховати' : props.language === 'pl' ? 'Pokaż mniej' : 'hide categories';
+    const buttonTextShow = props.language === 'ua' ? 'Більше категорій' : props.language === 'pl' ? 'Więcej kategorii' : 'show more categories';
+    const buttonTextHide = props.language === 'ua' ? 'Приховати категорії' : props.language === 'pl' ? 'Ukryj kategorii' : 'hide categories';
 
     return (
         <div className={s.Categories}>
