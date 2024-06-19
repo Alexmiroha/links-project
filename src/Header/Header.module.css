@@ -17,18 +17,3 @@
     width: 80%;
     padding: 0 0px;
 }
-
-.logo {
-    color: #ff7961; /* Червоний колір для логотипу (можна змінити на інший) */
-    font-size: 24px; /* Розмір тексту логотипу */
-    font-weight: bold; /* Жирний текст */
-}
-
-.logo:hover {
-    color: #ff4500; /* Трохи темніший відтінок при наведенні */
-}
-
-.languageChanger {
-    display: flex;
-    text-align: center;
-}
