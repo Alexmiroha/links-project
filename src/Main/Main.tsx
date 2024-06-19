@@ -4,7 +4,7 @@ import Categories from "./Categories/Categories";
 import Products from "./Products/Products";
 
 type MainProps = {
-    language: string;
+    language: 'en' | 'pl' | 'ua';
 };
 
 const Main = (props: MainProps) => {

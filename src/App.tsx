@@ -5,16 +5,21 @@ import Main from "./Main/Main";
 import Footer from "./Footer/Footer";
 
 const App: React.FC = () => {
+
+    type languageType = "en" | "pl" | "ua";
+
     const languages = {en: 'English', pl: 'Polski', ua: 'Українська'};
-    const [language, setLanguage] = useState('en');
+    const [language, setLanguage] = useState<languageType>('en');
 
     useEffect(() => {
-        const savedLanguage = localStorage.getItem('selectedLanguage');
-        if (savedLanguage) setLanguage(savedLanguage);
+        const savedLanguage = localStorage.getItem('selectedLanguage') as languageType;
+        if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'pl' || savedLanguage === 'ua')) {
+            setLanguage(savedLanguage);
+        }
     }, []);
 
     const handleLanguageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        const newLanguage = event.target.value;
+        const newLanguage = event.target.value as languageType;
         setLanguage(newLanguage);
         localStorage.setItem('selectedLanguage', newLanguage);
     };
