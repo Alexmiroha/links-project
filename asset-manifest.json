@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/links-project/static/css/main.cf766297.css",
-    "main.js": "/links-project/static/js/main.5d319555.js",
+    "main.css": "/links-project/static/css/main.88ce1362.css",
+    "main.js": "/links-project/static/js/main.5baa03fe.js",
     "static/js/453.3a7366d0.chunk.js": "/links-project/static/js/453.3a7366d0.chunk.js",
     "static/media/moto.jpg": "/links-project/static/media/moto.3cf0b57f5a4290404789.jpg",
     "static/media/home and garden.jpg": "/links-project/static/media/home and garden.fd9bd8228ca81a6a7e20.jpg",
@@ -11,7 +11,6 @@
     "static/media/watch.jpg": "/links-project/static/media/watch.27919652863a0d0a732f.jpg",
     "static/media/computer.jpg": "/links-project/static/media/computer.7464fd3ca2003f5bf97f.jpg",
     "static/media/womens.jpg": "/links-project/static/media/womens.89ea277b3a4c3717898e.jpg",
-    "static/media/bsize.jpg": "/links-project/static/media/bsize.a2f40e3143204021f5d5.jpg",
     "static/media/bags and shoes.jpg": "/links-project/static/media/bags and shoes.9f4ec3224b440b1defc9.jpg",
     "static/media/toys.jpg": "/links-project/static/media/toys.74479aa5c7c7e301fd11.jpg",
     "static/media/pets.jpg": "/links-project/static/media/pets.ada5898fd8aa216c790f.jpg",
@@ -20,15 +19,16 @@
     "static/media/beauty.jpg": "/links-project/static/media/beauty.a71f1611de669e85f1a1.jpg",
     "static/media/kids.jpg": "/links-project/static/media/kids.e40c7761c803bdf8ac2f.jpg",
     "static/media/electronics.jpg": "/links-project/static/media/electronics.fff30eba1a7b591f17b5.jpg",
+    "static/media/shoes.jpg": "/links-project/static/media/shoes.a61ae100a3663b4efe48.jpg",
     "static/media/lightning.jpg": "/links-project/static/media/lightning.d9ff07a22afd88c7dc15.jpg",
     "static/media/phone.jpg": "/links-project/static/media/phone.1d15df63340347d98c0c.jpg",
     "index.html": "/links-project/index.html",
-    "main.cf766297.css.map": "/links-project/static/css/main.cf766297.css.map",
-    "main.5d319555.js.map": "/links-project/static/js/main.5d319555.js.map",
+    "main.88ce1362.css.map": "/links-project/static/css/main.88ce1362.css.map",
+    "main.5baa03fe.js.map": "/links-project/static/js/main.5baa03fe.js.map",
     "453.3a7366d0.chunk.js.map": "/links-project/static/js/453.3a7366d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf766297.css",
-    "static/js/main.5d319555.js"
+    "static/css/main.88ce1362.css",
+    "static/js/main.5baa03fe.js"
   ]
 }
