@@ -11,7 +11,7 @@ import img8 from '../../img/lightning.jpg';
 import img9 from '../../img/moto.jpg';
 import img10 from '../../img/watch.jpg';
 import img11 from '../../img/electronics.jpg';
-import img12 from '../../img/bsize.jpg';
+import img12 from '../../img/shoes.jpg';
 import img13 from '../../img/hair.jpg';
 import img14 from '../../img/computer.jpg';
 import img15 from '../../img/phone.jpg';
@@ -28,7 +28,7 @@ type CategoriesPropsType = {
 const categories = [
     {
         "img": img2,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DETX2pZ",
         "title": {
             "en": "Sports & Entertainment",
             "pl": "Sport i Rozrywka",
@@ -42,7 +42,7 @@ const categories = [
     },
     {
         "img": img3,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DlFzngb",
         "title": {
             "en": "Pet Supplies",
             "pl": "Produkty dla zwierząt",
@@ -56,7 +56,7 @@ const categories = [
     },
     {
         "img": img4,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DEq7IMP",
         "title": {
             "en": "Furniture",
             "pl": "Meble",
@@ -70,7 +70,7 @@ const categories = [
     },
     {
         "img": img5,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DlCsIb5",
         "title": {
             "en": "Beauty & Health",
             "pl": "Uroda i Zdrowie",
@@ -84,7 +84,7 @@ const categories = [
     },
     {
         "img": img6,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DDxVkt1",
         "title": {
             "en": "Toys & Games",
             "pl": "Zabawki i Gry",
@@ -98,21 +98,21 @@ const categories = [
     },
     {
         "img": img7,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DmThYOx",
         "title": {
-            "en": "Luggage, Bags & Shoes",
-            "pl": "Bagaże, Torby i Buty",
-            "ua": "Багаж, Сумки та Взуття"
+            "en": "Luggage & Bags",
+            "pl": "Bagaże i Torby",
+            "ua": "Багаж та Сумки"
         },
         "description": {
-            "en": "Discover stylish and functional luggage, bags, and shoes for every occasion.",
-            "pl": "Odkryj stylowe i funkcjonalne bagaże, torby i buty na każdą okazję.",
-            "ua": "Відкрийте для себе стильний та функціональний багаж, сумки та взуття на будь-яку подію."
+            "en": "Discover stylish and functional luggage and bags for every occasion.",
+            "pl": "Odkryj stylowe i funkcjonalne walizki i torby na każdą okazję.",
+            "ua": "Відкрийте для себе стильні та функціональні валізки та сумки на будь-який смак."
         }
     },
     {
         "img": img8,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DCEA9hV",
         "title": {
             "en": "Home Improvement & Lighting",
             "pl": "Wykończenia wnętrz i oświetlenie",
@@ -126,7 +126,7 @@ const categories = [
     },
     {
         "img": img9,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DCyO8I3",
         "title": {
             "en": "Automotive & Motorcycle",
             "pl": "Motoryzacja i Motocykle",
@@ -140,7 +140,7 @@ const categories = [
     },
     {
         "img": img10,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DCT3G63",
         "title": {
             "en": "Jewelry, Watches & Accessories",
             "pl": "Biżuteria, Zegarki i Akcesoria",
@@ -154,7 +154,7 @@ const categories = [
     },
     {
         "img": img11,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DlaFoZp",
         "title": {
             "en": "Electronics",
             "pl": "Elektronika",
@@ -168,21 +168,21 @@ const categories = [
     },
     {
         "img": img12,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DdCtSqj",
         "title": {
-            "en": "Plus Sized Clothing",
-            "pl": "Odzież w dużych rozmiarach",
-            "ua": "Одяг великих розмірів"
+            "en": "Shoes",
+            "pl": "Obuwie",
+            "ua": "Взуття"
         },
         "description": {
-            "en": "Discover stylish and comfortable clothing designed for plus-sized individuals.",
-            "pl": "Odkryj stylową i wygodną odzież przeznaczoną dla osób noszących duże rozmiary.",
-            "ua": "Відкрийте для себе стильний та комфортний одяг, призначений для людей великих розмірів."
+            "en": "Discover stylish and comfortable shoes.",
+            "pl": "Odkryj stylowe i wygodne obuwie.",
+            "ua": "Відкрийте для себе стильне та комфортне взуття."
         }
     },
     {
         "img": img13,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DkOAO75",
         "title": {
             "en": "Hair Extensions & Wigs",
             "pl": "Włosy przedłużające i peruki",
@@ -196,7 +196,7 @@ const categories = [
     },
     {
         "img": img14,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DCcMwoP",
         "title": {
             "en": "Computer, Office & Education",
             "pl": "Komputery, Biuro i Edukacja",
@@ -210,7 +210,7 @@ const categories = [
     },
     {
         "img": img15,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_Dkb6CKL",
         "title": {
             "en": "Phones & Telecommunications",
             "pl": "Telefony i Telekomunikacja",
@@ -224,7 +224,7 @@ const categories = [
     },
     {
         "img": img16,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DBZARcj",
         "title": {
             "en": "Babies & Kids",
             "pl": "Dzieci i Niemowlęta",
@@ -238,7 +238,7 @@ const categories = [
     },
     {
         "img": img1,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DmwJ2kf",
         "title": {
             "en": "Home & Garden",
             "pl": "Dom i Ogród",
@@ -252,7 +252,7 @@ const categories = [
     },
     {
         "img": img17,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DEe4JlV",
         "title": {
             "en": "Women's Clothing",
             "pl": "Odzież damska",
@@ -266,7 +266,7 @@ const categories = [
     },
     {
         "img": img18,
-        "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.categorymp.allcategoriespc.17.42c02xgN2xgNje&categoryTab=us_men%27s_clothing",
+        "link": "https://s.click.aliexpress.com/e/_DBhCqx5",
         "title": {
             "en": "Men's Clothing",
             "pl": "Odzież męska",
