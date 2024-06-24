@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { BrowserRouter as Router} from "react-router-dom";
 import './App.css';
 import Header from "./Header/Header";
 import Main from "./Main/Main";
@@ -39,6 +40,7 @@ const App: React.FC = () => {
     const toggleDarkMode = () => setDarkMode(!isDarkMode);
 
     return (
+        <Router>
         <div className={`App ${isDarkMode ? 'dark' : ''}`}>
 
                 <Header
@@ -52,6 +54,7 @@ const App: React.FC = () => {
 
             <Footer/>
         </div>
+        </Router>
     );
 }
 

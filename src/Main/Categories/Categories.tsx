@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import s from './Categories.module.css';
 import img1 from '../../img/home and garden.jpg';
 import img2 from '../../img/sport.jpg';
@@ -20,6 +20,11 @@ import img17 from '../../img/womens.jpg';
 import img18 from '../../img/man.jpg';
 
 import CategoryCard from './CategoryCard';
+import Category from "./Category";
+import {Route, Routes} from "react-router-dom";
+import category from "./Category";
+import i1 from "../../img/Produscts/v1.webp";
+import SubCategory from "./SubCategory";
 
 type CategoriesPropsType = {
     language: string,
@@ -28,7 +33,7 @@ type CategoriesPropsType = {
 const categories = [
     {
         "img": img2,
-        "link": "https://s.click.aliexpress.com/e/_DETX2pZ",
+        "link": "/sport",
         "title": {
             "en": "Sports & Entertainment",
             "pl": "Sport i Rozrywka",
@@ -38,11 +43,41 @@ const categories = [
             "en": "Dive into the thrill of sports and entertainment with our diverse selection.",
             "pl": "Zanurz się w emocje sportu i rozrywki z naszym różnorodnym wyborem.",
             "ua": "Поринь у захоплення спортом та розвагами з нашим різноманітним асортиментом."
-        }
+        },
+        "subcategories": [
+            {
+                "img": img1,
+                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "title": {
+                    "en": "Electric Bike",
+                    "pl": "Rowery Elektryczne",
+                    "ua": "Електровелосипеди"
+                },
+                "description": {
+                    "en": "Cool Electric Bike for You",
+                    "pl": "Rowery Elektryczne dla ciebie",
+                    "ua": "Електровелосипеди для тебе"
+                }
+            },
+            {
+                "img": img2,
+                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "title": {
+                    "en": "Yoga Clothing",
+                    "pl": "Odzież dla Yogi",
+                    "ua": "Одяг для йоги"
+                },
+                "description": {
+                    "en": "Yoga Clothing for You",
+                    "pl": "Odzież dla Yogi dla ciebie",
+                    "ua": "Одяг для йоги для тебе"
+                }
+            },
+        ]
     },
     {
         "img": img3,
-        "link": "https://s.click.aliexpress.com/e/_DlFzngb",
+        "link": "/pet",
         "title": {
             "en": "Pet Supplies",
             "pl": "Produkty dla zwierząt",
@@ -56,7 +91,7 @@ const categories = [
     },
     {
         "img": img4,
-        "link": "https://s.click.aliexpress.com/e/_DEq7IMP",
+        "link": "/furniture",
         "title": {
             "en": "Furniture",
             "pl": "Meble",
@@ -70,7 +105,7 @@ const categories = [
     },
     {
         "img": img5,
-        "link": "https://s.click.aliexpress.com/e/_DlCsIb5",
+        "link": "/b&h",
         "title": {
             "en": "Beauty & Health",
             "pl": "Uroda i Zdrowie",
@@ -84,7 +119,7 @@ const categories = [
     },
     {
         "img": img6,
-        "link": "https://s.click.aliexpress.com/e/_DDxVkt1",
+        "link": "/games",
         "title": {
             "en": "Toys & Games",
             "pl": "Zabawki i Gry",
@@ -98,7 +133,7 @@ const categories = [
     },
     {
         "img": img7,
-        "link": "https://s.click.aliexpress.com/e/_DmThYOx",
+        "link": "/bags",
         "title": {
             "en": "Luggage & Bags",
             "pl": "Bagaże i Torby",
@@ -112,7 +147,7 @@ const categories = [
     },
     {
         "img": img8,
-        "link": "https://s.click.aliexpress.com/e/_DCEA9hV",
+        "link": "/lighting",
         "title": {
             "en": "Home Improvement & Lighting",
             "pl": "Wykończenia wnętrz i oświetlenie",
@@ -126,7 +161,7 @@ const categories = [
     },
     {
         "img": img9,
-        "link": "https://s.click.aliexpress.com/e/_DCyO8I3",
+        "link": "/moto",
         "title": {
             "en": "Automotive & Motorcycle",
             "pl": "Motoryzacja i Motocykle",
@@ -140,7 +175,7 @@ const categories = [
     },
     {
         "img": img10,
-        "link": "https://s.click.aliexpress.com/e/_DCT3G63",
+        "link": "/accessories",
         "title": {
             "en": "Jewelry, Watches & Accessories",
             "pl": "Biżuteria, Zegarki i Akcesoria",
@@ -154,7 +189,7 @@ const categories = [
     },
     {
         "img": img11,
-        "link": "https://s.click.aliexpress.com/e/_DlaFoZp",
+        "link": "/electronics",
         "title": {
             "en": "Electronics",
             "pl": "Elektronika",
@@ -168,7 +203,7 @@ const categories = [
     },
     {
         "img": img12,
-        "link": "https://s.click.aliexpress.com/e/_DdCtSqj",
+        "link": "/shoes",
         "title": {
             "en": "Shoes",
             "pl": "Obuwie",
@@ -182,7 +217,7 @@ const categories = [
     },
     {
         "img": img13,
-        "link": "https://s.click.aliexpress.com/e/_DkOAO75",
+        "link": "/HairExtensions",
         "title": {
             "en": "Hair Extensions & Wigs",
             "pl": "Włosy przedłużające i peruki",
@@ -196,7 +231,7 @@ const categories = [
     },
     {
         "img": img14,
-        "link": "https://s.click.aliexpress.com/e/_DCcMwoP",
+        "link": "/Office&Education",
         "title": {
             "en": "Computer, Office & Education",
             "pl": "Komputery, Biuro i Edukacja",
@@ -210,7 +245,7 @@ const categories = [
     },
     {
         "img": img15,
-        "link": "https://s.click.aliexpress.com/e/_Dkb6CKL",
+        "link": "/Phones&Telecommunications",
         "title": {
             "en": "Phones & Telecommunications",
             "pl": "Telefony i Telekomunikacja",
@@ -224,7 +259,7 @@ const categories = [
     },
     {
         "img": img16,
-        "link": "https://s.click.aliexpress.com/e/_DBZARcj",
+        "link": "/kids",
         "title": {
             "en": "Babies & Kids",
             "pl": "Dzieci i Niemowlęta",
@@ -238,7 +273,7 @@ const categories = [
     },
     {
         "img": img1,
-        "link": "https://s.click.aliexpress.com/e/_DmwJ2kf",
+        "link": "/home&garden",
         "title": {
             "en": "Home & Garden",
             "pl": "Dom i Ogród",
@@ -252,7 +287,7 @@ const categories = [
     },
     {
         "img": img17,
-        "link": "https://s.click.aliexpress.com/e/_DEe4JlV",
+        "link": "/wClothing",
         "title": {
             "en": "Women's Clothing",
             "pl": "Odzież damska",
@@ -266,7 +301,7 @@ const categories = [
     },
     {
         "img": img18,
-        "link": "https://s.click.aliexpress.com/e/_DBhCqx5",
+        "link": "/mClothing",
         "title": {
             "en": "Men's Clothing",
             "pl": "Odzież męska",
@@ -283,51 +318,77 @@ const categories = [
 ]
 
 const Categories = (props: CategoriesPropsType) => {
-    const [activeCategories, setActiveCategories] = useState(false);
-    const buttonTextShow = props.language === 'ua' ? 'Більше категорій' : props.language === 'pl' ? 'Więcej kategorii' : 'show more categories';
-    const buttonTextHide = props.language === 'ua' ? 'Приховати категорії' : props.language === 'pl' ? 'Ukryj kategorii' : 'hide categories';
 
+    const listRef = useRef<HTMLUListElement | null>(null);
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const totalSlides = categories.length;
+
+    useEffect(() => {
+        const handleWheel = (event: WheelEvent) => {
+            if (event.deltaY !== 0) {
+                event.preventDefault();
+                if (listRef.current) {
+                    listRef.current.scrollLeft += event.deltaY;
+                }
+            }
+        };
+
+        const ulElement = listRef.current;
+        if (ulElement) {
+            ulElement.addEventListener('wheel', handleWheel as EventListener);
+        }
+
+        return () => {
+            if (ulElement) {
+                ulElement.removeEventListener('wheel', handleWheel as EventListener);
+            }
+        };
+    }, []);
+
+    const nextSlide = () => {
+        setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
+    };
+
+    const prevSlide = () => {
+        setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
+    };
+
+    // @ts-ignore
+    // @ts-ignore
+    // @ts-ignore
     return (
         <div className={s.Categories}>
-            <div className={`${s.cards} ${activeCategories ? 'max-h-max' : 'max-h-60'}`}>
-                {categories.map((category, index) => (
-                    <CategoryCard
-                        active={activeCategories}
-                        key={index}
-                        image={category.img}
-                        link={category.link}
-                        title={props.language === 'ua' ? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
-                        description={props.language === 'ua' ? category.description['ua'] : props.language === 'pl' ? category.description['pl'] : category.description['en']}
-                    />
-                ))}
+
+            <div className="border-gray-200 dark:border-gray-700">
+                <ul ref={listRef}
+                    className="flex flex-row overflow-y-hidden scrollbar -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+                    {categories.map((category, index) => (
+                        <Category
+                            key={index}
+                            link={category.link}
+                            name={props.language === 'ua' ? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
+                            icon={category.img}
+                        />
+                    ))}
+                </ul>
             </div>
-            <button
-                onClick={() => setActiveCategories(!activeCategories)}
-                className={`inline-flex items-center mt-4
-            px-3 py-2 text-sm font-medium text-center
-            text-white bg-blue-700 rounded-lg hover:bg-blue-800
-            focus:ring-4 focus:outline-none focus:ring-blue-300
-            dark:bg-blue-600 dark:hover:bg-blue-700
-            dark:focus:ring-blue-800`}
-            >
-                {activeCategories ? buttonTextHide : buttonTextShow}
-                <svg
-                    className={`w-3.5 h-3.5 ms-2 ${activeCategories ? '-rotate-[90deg]' : '-rotate-[270deg]'}`}
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 10"
-                >
-                    <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M1 5h12m0 0L9 1m4 4L9 9"
-                    />
-                </svg>
-            </button>
+            <Routes>
+                <Route
+                    path={"/sport"}
+                    element={
+                        <SubCategory
+                            language={props.language}
+                            CategoryImg={categories[0].img}
+                            CategoryTitle={categories[0].title}
+                            SubCategoryImg={categories[0].img}
+                            SubCategoryTitle={"subcategory Title Test"}
+                            SubCategoryLink={"#"}
+                            SubCategoryDescription={"subcategory describtion Test"}
+                        />
+                    }/>
+            </Routes>
         </div>
+
     );
 };
 
