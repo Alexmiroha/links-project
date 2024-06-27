@@ -4,7 +4,8 @@ import {NavLink} from "react-router-dom";
 type CategoryPropsType = {
     link: string,
     icon: string,
-    name: string
+    name: string,
+    onClick: () => void;
 }
 
 const Category = (props: CategoryPropsType) => {
