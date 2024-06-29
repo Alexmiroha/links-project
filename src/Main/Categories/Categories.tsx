@@ -89,12 +89,12 @@ const categories = [
                 "img": img13,
                 "link": "#",
                 "title": {
-                    "en": "Gardening & Decor",
+                    "en": "Gardening & Decor Sjudfspioj aspdjfsdpo asdasdaiophj",
                     "pl": "Ogrodnictwo i Dekoracje",
                     "ua": "Садівництво та Декор"
                 },
                 "description": {
-                    "en": "Transform your outdoor space with our gardening tools and decorative items.",
+                    "en": "Transform your outdoor space with our gardening tools and decorative items. Transform your outdoor space with our gardening tools and decorative items. Transform your outdoor space with our gardening tools and decorative items.",
                     "pl": "Zmień swoją przestrzeń na zewnątrz za pomocą naszych narzędzi ogrodniczych i przedmiotów dekoracyjnych.",
                     "ua": "Перетворіть ваш двір за допомогою наших садових інструментів та декоративних предметів."
                 }
@@ -171,7 +171,37 @@ const categories = [
             "en": "Discover a range of products to enhance your beauty and wellness.",
             "pl": "Odkryj szeroki wybór produktów, które pomogą poprawić Twoje piękno i dobre samopoczucie.",
             "ua": "Відкрийте широкий вибір продуктів, які допоможуть підкреслити вашу красу та покращити самопочуття."
-        }
+        },
+        "subcategories": [
+            {
+                "img": img1,
+                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "title": {
+                    "en": "Electric Bike",
+                    "pl": "Rowery Elektryczne",
+                    "ua": "Електровелосипеди"
+                },
+                "description": {
+                    "en": "Cool Electric Bike for You",
+                    "pl": "Rowery Elektryczne dla ciebie",
+                    "ua": "Електровелосипеди для тебе"
+                }
+            },
+            {
+                "img": img2,
+                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "title": {
+                    "en": "Yoga Clothing",
+                    "pl": "Odzież dla Yogi",
+                    "ua": "Одяг для йоги"
+                },
+                "description": {
+                    "en": "Yoga Clothing for You",
+                    "pl": "Odzież dla Yogi dla ciebie",
+                    "ua": "Одяг для йоги для тебе"
+                }
+            },
+        ]
     },
     {
         "img": img6,
