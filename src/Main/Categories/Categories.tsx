@@ -1,8 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {Route, Routes, useNavigate, useParams} from "react-router-dom";
 import s from './Categories.module.css';
-import img1 from '../../img/home and garden.jpg';
-import img2 from '../../img/sport.jpg';
+import img1 from '../../img/Categories/scooter.jpg';
+import img2 from '../../img/Categories/ebike.jpg';
 import img3 from '../../img/pets.jpg';
 import img4 from '../../img/furniture.jpg';
 import img5 from '../../img/beauty.jpg';
@@ -28,7 +28,6 @@ type CategoriesPropsType = {
 
 const categories = [
     {
-        "img": img2,
         "link": "/sport",
         "title": {
             "en": "Sports & Entertainment",
@@ -43,36 +42,49 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DdQnaZp",
+                "title": {
+                    "en": "Electric Scooter",
+                    "pl": "Hulajnogi Elektryczne",
+                    "ua": "Електросамокати"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img2,
+                "link": "https://s.click.aliexpress.com/e/_DCIENZz",
                 "title": {
                     "en": "Electric Bike",
                     "pl": "Rowery Elektryczne",
                     "ua": "Електровелосипеди"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdDkfdz",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Dumbbells",
+                    "pl": "Hantle",
+                    "ua": "Гантелі"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
         ]
     },
     {
-        "img": img3,
         "link": "/pet",
         "title": {
             "en": "Pet Supplies",
@@ -116,7 +128,6 @@ const categories = [
         ]
     },
     {
-        "img": img4,
         "link": "/furniture",
         "title": {
             "en": "Furniture",
@@ -160,7 +171,6 @@ const categories = [
         ]
     },
     {
-        "img": img5,
         "link": "/b&h",
         "title": {
             "en": "Beauty & Health",
@@ -204,7 +214,6 @@ const categories = [
         ]
     },
     {
-        "img": img6,
         "link": "/games",
         "title": {
             "en": "Toys & Games",
@@ -248,7 +257,6 @@ const categories = [
         ]
     },
     {
-        "img": img7,
         "link": "/bags",
         "title": {
             "en": "Luggage & Bags",
@@ -292,7 +300,6 @@ const categories = [
         ]
     },
     {
-        "img": img8,
         "link": "/lighting",
         "title": {
             "en": "Home Improvement & Lighting",
@@ -336,7 +343,6 @@ const categories = [
         ]
     },
     {
-        "img": img9,
         "link": "/moto",
         "title": {
             "en": "Automotive & Motorcycle",
@@ -380,7 +386,6 @@ const categories = [
         ]
     },
     {
-        "img": img10,
         "link": "/accessories",
         "title": {
             "en": "Jewelry, Watches & Accessories",
@@ -424,7 +429,6 @@ const categories = [
         ]
     },
     {
-        "img": img11,
         "link": "/electronics",
         "title": {
             "en": "Electronics",
@@ -468,7 +472,6 @@ const categories = [
         ]
     },
     {
-        "img": img12,
         "link": "/shoes",
         "title": {
             "en": "Shoes",
@@ -512,7 +515,6 @@ const categories = [
         ]
     },
     {
-        "img": img13,
         "link": "/HairExtensions",
         "title": {
             "en": "Hair Extensions & Wigs",
@@ -556,7 +558,6 @@ const categories = [
         ]
     },
     {
-        "img": img14,
         "link": "/Office&Education",
         "title": {
             "en": "Computer, Office & Education",
@@ -600,7 +601,6 @@ const categories = [
         ]
     },
     {
-        "img": img15,
         "link": "/Phones&Telecommunications",
         "title": {
             "en": "Phones & Telecommunications",
@@ -644,7 +644,6 @@ const categories = [
         ]
     },
     {
-        "img": img16,
         "link": "/kids",
         "title": {
             "en": "Babies & Kids",
@@ -688,7 +687,6 @@ const categories = [
         ]
     },
     {
-        "img": img1,
         "link": "/home&garden",
         "title": {
             "en": "Home & Garden",
@@ -732,7 +730,6 @@ const categories = [
         ]
     },
     {
-        "img": img17,
         "link": "/wClothing",
         "title": {
             "en": "Women's Clothing",
@@ -776,7 +773,6 @@ const categories = [
         ]
     },
     {
-        "img": img18,
         "link": "/mClothing",
         "title": {
             "en": "Men's Clothing",
@@ -872,13 +868,45 @@ const Categories = (props: CategoriesPropsType) => {
         const category = categories.find(cat => cat.link === `/${categoryLink}`);
 
         if (!category) {
-            return <div>Category not found</div>;
+            return <SubCategories
+                language={props.language}
+                CategoryTitle={{en: 'dsakdkas', pl: 'daskdaksd', ua: 'asdkjalksdj'}}
+                Subcategories={[
+                    {
+                        "img": img1,
+                        "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                        "title": {
+                            "en": "Electric Bike",
+                            "pl": "Rowery Elektryczne",
+                            "ua": "Електровелосипеди"
+                        },
+                        "description": {
+                            "en": "Cool Electric Bike for You",
+                            "pl": "Rowery Elektryczne dla ciebie",
+                            "ua": "Електровелосипеди для тебе"
+                        }
+                    },
+                    {
+                        "img": img2,
+                        "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                        "title": {
+                            "en": "Yoga Clothing",
+                            "pl": "Odzież dla Yogi",
+                            "ua": "Одяг для йоги"
+                        },
+                        "description": {
+                            "en": "Yoga Clothing for You",
+                            "pl": "Odzież dla Yogi dla ciebie",
+                            "ua": "Одяг для йоги для тебе"
+                        }
+                    },
+                ]}
+            />
         }
 
         return (
             <SubCategories
                 language={props.language}
-                CategoryImg={category.img}
                 CategoryTitle={category.title}
                 Subcategories={category.subcategories}
             />
@@ -895,9 +923,9 @@ const Categories = (props: CategoriesPropsType) => {
                     {categories.map((category, index) => (
                         <Category
                             key={index}
+                            icon={'skmdkas'}
                             link={category.link}
                             name={props.language === 'ua' ? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
-                            icon={category.img}
                             onClick={() => navigate(category.link)}
                         />
                     ))}

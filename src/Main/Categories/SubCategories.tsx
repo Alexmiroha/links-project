@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 
 type SubCategoryPropsType = {
     language: string,
-    CategoryImg: string,
     CategoryTitle: { en: string; pl: string; ua: string; },
     Subcategories: {
         img: string;
@@ -56,8 +55,8 @@ const SubCategories = (props: SubCategoryPropsType) => {
             <div id="default-carousel" className="relative w-full flex justify-center" data-carousel="slide">
                 <div className="relative h-auto overflow-hidden rounded-lg w-[93%] md:w-[80%] lg:w-[85%] 2xl:w-[88%]">
                     {props.Subcategories?.map((SubCategory, index) => (
-                        <a href={SubCategory.link} key={index}
-                           className={`h-[100%]  transition-all duration-700 ease-in-out flex flex-col md:flex-row items-center
+                        <a href={SubCategory.link} key={index} target="_blank"
+                           className={`h-[100%] target:_blank transition-all duration-700 ease-in-out flex flex-col md:flex-row items-center
                             bg-white border border-gray-200 rounded-lg shadow
                              hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700
                               ${index === currentIndex ? 'block' : 'hidden'}`} data-carousel-item>
