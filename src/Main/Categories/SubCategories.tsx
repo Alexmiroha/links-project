@@ -50,7 +50,7 @@ const SubCategories = (props: SubCategoryPropsType) => {
 
     return (
         <div>
-            <h2>{props.language === 'ua' ? props.CategoryTitle.ua : props.language === 'pl' ? props.CategoryTitle.pl : props.CategoryTitle.en}</h2>
+            <h2 className="text-gray-900 dark:text-white">{props.language === 'ua' ? props.CategoryTitle.ua : props.language === 'pl' ? props.CategoryTitle.pl : props.CategoryTitle.en}</h2>
 
             <div id="default-carousel" className="relative w-full flex justify-center" data-carousel="slide">
                 <div className="relative h-auto overflow-hidden rounded-lg w-[93%] md:w-[80%] lg:w-[85%] 2xl:w-[88%]">
@@ -61,7 +61,7 @@ const SubCategories = (props: SubCategoryPropsType) => {
                              hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700
                               ${index === currentIndex ? 'block' : 'hidden'}`} data-carousel-item>
                             <img
-                                className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-[35%] md:rounded-none md:rounded-s-lg"
+                                className="object-cover w-full rounded-t-lg h-44 md:h-auto md:w-[35%] md:rounded-none md:rounded-s-lg"
                                 src={SubCategory.img} alt={SubCategory.link}/>
                             <div className="flex flex-col justify-between p-4 leading-normal h-[40%] md:h-[100%] w-[90%]">
                                 <h3 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white 3xl:text-4xl 2xl:text-2xl text-sm">{props.language === 'ua' ? SubCategory.title.ua : props.language === 'pl' ? SubCategory.title.pl : SubCategory.title.en}</h3>
@@ -69,7 +69,7 @@ const SubCategories = (props: SubCategoryPropsType) => {
                                 <button type="button"
                                         className="flex justify-center mt-4 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
                                     <p className="3xl:text-lg text-[12px]">{props.language === 'ua' ? SubCategory.title.ua : props.language === 'pl' ? SubCategory.title.pl : SubCategory.title.en}{' '}
-                                        {props.language === 'ua' ? 'на' : props.language === 'pl' ? 'na' : 'on'} {' '} Aliexpress</p>
+                                    </p>
                                     <svg className="w-6 h-6 text-white" aria-hidden="true"
                                          xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                          viewBox="0 0 24 24">
