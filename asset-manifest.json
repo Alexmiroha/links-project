@@ -1,23 +1,19 @@
 {
   "files": {
     "main.css": "/links-project/static/css/main.e3c7939d.css",
-    "main.js": "/links-project/static/js/main.0c422c57.js",
+    "main.js": "/links-project/static/js/main.798dee68.js",
     "static/js/453.3a7366d0.chunk.js": "/links-project/static/js/453.3a7366d0.chunk.js",
     "static/media/scooter.jpg": "/links-project/static/media/scooter.423449e52d4c050644bf.jpg",
     "static/media/ebike.jpg": "/links-project/static/media/ebike.90659f178a6dd0d3bf07.jpg",
     "static/media/v1.webp": "/links-project/static/media/v1.f0b525fb4067b4d4fb31.webp",
-    "static/media/furniture.jpg": "/links-project/static/media/furniture.93dc829d2e0cd6141091.jpg",
-    "static/media/bags and shoes.jpg": "/links-project/static/media/bags and shoes.9f4ec3224b440b1defc9.jpg",
     "static/media/pets.jpg": "/links-project/static/media/pets.ada5898fd8aa216c790f.jpg",
-    "static/media/hair.jpg": "/links-project/static/media/hair.ecb639ed9d10a973040b.jpg",
-    "static/media/shoes.jpg": "/links-project/static/media/shoes.a61ae100a3663b4efe48.jpg",
     "index.html": "/links-project/index.html",
     "main.e3c7939d.css.map": "/links-project/static/css/main.e3c7939d.css.map",
-    "main.0c422c57.js.map": "/links-project/static/js/main.0c422c57.js.map",
+    "main.798dee68.js.map": "/links-project/static/js/main.798dee68.js.map",
     "453.3a7366d0.chunk.js.map": "/links-project/static/js/453.3a7366d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3c7939d.css",
-    "static/js/main.0c422c57.js"
+    "static/js/main.798dee68.js"
   ]
 }
