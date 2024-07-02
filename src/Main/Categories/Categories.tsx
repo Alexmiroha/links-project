@@ -4,21 +4,7 @@ import s from './Categories.module.css';
 import img1 from '../../img/Categories/scooter.jpg';
 import img2 from '../../img/Categories/ebike.jpg';
 import img3 from '../../img/pets.jpg';
-import img4 from '../../img/furniture.jpg';
-import img5 from '../../img/beauty.jpg';
-import img6 from '../../img/toys.jpg';
-import img7 from '../../img/bags and shoes.jpg';
-import img8 from '../../img/lightning.jpg';
-import img9 from '../../img/moto.jpg';
-import img10 from '../../img/watch.jpg';
-import img11 from '../../img/electronics.jpg';
-import img12 from '../../img/shoes.jpg';
-import img13 from '../../img/hair.jpg';
-import img14 from '../../img/computer.jpg';
-import img15 from '../../img/phone.jpg';
-import img16 from '../../img/kids.jpg';
-import img17 from '../../img/womens.jpg';
-import img18 from '../../img/man.jpg';
+
 import Category from "./Category";
 import SubCategories from "./SubCategories";
 
@@ -82,13 +68,97 @@ const categories = [
                     "ua": ""
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DnnUwO3",
+                "title": {
+                    "en": "Yoga Clothing",
+                    "pl": "Odzież do Jogi",
+                    "ua": "Одяг для йоги"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DCvOALl",
+                "title": {
+                    "en": "Fishing Accessories",
+                    "pl": "Accesoria wędkarskie",
+                    "ua": "Аксесуари для риболовлі"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dk1PEXz",
+                "title": {
+                    "en": "Road Bicycle",
+                    "pl": "Rowery Szosowe",
+                    "ua": "Шосейні Велосипеди"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DCjQIXV",
+                "title": {
+                    "en": "Mountain bike",
+                    "pl": "Rowery Górskie",
+                    "ua": "Гірськькі Велосипеди"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DkRivuL",
+                "title": {
+                    "en": "Electric Bike Motor",
+                    "pl": "Silniki Elekrorowerowe",
+                    "ua": "Велосипедні Електродвигуни"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dk5vZ9N",
+                "title": {
+                    "en": "Bicycle Accessories",
+                    "pl": "Accesoia Rowerowe",
+                    "ua": "Велоаксесуари"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
         ]
     },
     {
         "link": "/pet",
         "title": {
             "en": "Pet Supplies",
-            "pl": "Produkty dla zwierząt",
+            "pl": "Artykuły dla zwierząt",
             "ua": "Товари для тварин"
         },
         "description": {
@@ -98,31 +168,87 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img13,
-                "link": "#",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DCx0WiF",
                 "title": {
-                    "en": "Gardening & Decor Sjudfspioj aspdjfsdpo asdasdaiophj",
-                    "pl": "Ogrodnictwo i Dekoracje",
-                    "ua": "Садівництво та Декор"
+                    "en": "Toys",
+                    "pl": "Zabawki",
+                    "ua": "Іграшки"
                 },
                 "description": {
-                    "en": "Transform your outdoor space with our gardening tools and decorative items. Transform your outdoor space with our gardening tools and decorative items. Transform your outdoor space with our gardening tools and decorative items.",
-                    "pl": "Zmień swoją przestrzeń na zewnątrz za pomocą naszych narzędzi ogrodniczych i przedmiotów dekoracyjnych.",
-                    "ua": "Перетворіть ваш двір за допомогою наших садових інструментів та декоративних предметів."
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
             {
-                "img": img12,
-                "link": "#",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DFLyBHz",
                 "title": {
-                    "en": "Fitness & Health",
-                    "pl": "Fitness i Zdrowie",
-                    "ua": "Фітнес та Здоров'я"
+                    "en": "Beds & Furniture",
+                    "pl": "Zabawki",
+                    "ua": "Іграшки"
                 },
                 "description": {
-                    "en": "Explore our range of fitness equipment and health supplements to stay fit and healthy.",
-                    "pl": "Odkryj naszą gamę sprzętu fitness i suplementów zdrowotnych, aby być fit i zdrowym.",
-                    "ua": "Досліджуйте наш асортимент фітнес-обладнання та добавок для здоров'я, щоб бути у формі та здоровим."
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DB469AB",
+                "title": {
+                    "en": "Carriers & Travel Products",
+                    "pl": "Produkty na podróże",
+                    "ua": "Товари для подорожі"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBhYUdv",
+                "title": {
+                    "en": "Grooming",
+                    "pl": "Strzyżenie",
+                    "ua": "Грумінг"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DEQJfVd",
+                "title": {
+                    "en": "Feeding & Watering Supplies",
+                    "pl": "Artykuły do karmienia i pojenia",
+                    "ua": "Приладдя для годування та поїння"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DnOqwJ5",
+                "title": {
+                    "en": "Collars, Harnesses & Leashes",
+                    "pl": "Obroże, szelki i smycze",
+                    "ua": "Нашийники, шлейки та повідці"
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
         ]
@@ -141,7 +267,7 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img4,
+                "img": img3,
                 "link": "#",
                 "title": {
                     "en": "Tech & Gadgets",
@@ -155,7 +281,7 @@ const categories = [
                 }
             },
             {
-                "img": img7,
+                "img": img3,
                 "link": "#",
                 "title": {
                     "en": "Fashion & Accessories",
@@ -870,34 +996,132 @@ const Categories = (props: CategoriesPropsType) => {
         if (!category) {
             return <SubCategories
                 language={props.language}
-                CategoryTitle={{en: 'dsakdkas', pl: 'daskdaksd', ua: 'asdkjalksdj'}}
+                CategoryTitle={{en: 'Sports & Entertainment', pl: 'Sport i Rozrywka', ua: 'Спорт і Розваги'}}
                 Subcategories={[
                     {
                         "img": img1,
-                        "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                        "link": "https://s.click.aliexpress.com/e/_DdQnaZp",
+                        "title": {
+                            "en": "Electric Scooter",
+                            "pl": "Hulajnogi Elektryczne",
+                            "ua": "Електросамокати"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img2,
+                        "link": "https://s.click.aliexpress.com/e/_DCIENZz",
                         "title": {
                             "en": "Electric Bike",
                             "pl": "Rowery Elektryczne",
                             "ua": "Електровелосипеди"
                         },
                         "description": {
-                            "en": "Cool Electric Bike for You",
-                            "pl": "Rowery Elektryczne dla ciebie",
-                            "ua": "Електровелосипеди для тебе"
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
                         }
                     },
                     {
-                        "img": img2,
-                        "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_DdDkfdz",
+                        "title": {
+                            "en": "Dumbbells",
+                            "pl": "Hantle",
+                            "ua": "Гантелі"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_DnnUwO3",
                         "title": {
                             "en": "Yoga Clothing",
-                            "pl": "Odzież dla Yogi",
+                            "pl": "Odzież do Jogi",
                             "ua": "Одяг для йоги"
                         },
                         "description": {
-                            "en": "Yoga Clothing for You",
-                            "pl": "Odzież dla Yogi dla ciebie",
-                            "ua": "Одяг для йоги для тебе"
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_DCvOALl",
+                        "title": {
+                            "en": "Fishing Accessories",
+                            "pl": "Accesoria wędkarskie",
+                            "ua": "Аксесуари для риболовлі"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_Dk1PEXz",
+                        "title": {
+                            "en": "Road Bicycle",
+                            "pl": "Rowery Szosowe",
+                            "ua": "Шосейні Велосипеди"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_DCjQIXV",
+                        "title": {
+                            "en": "Mountain bike",
+                            "pl": "Rowery Górskie",
+                            "ua": "Гірськькі Велосипеди"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_DkRivuL",
+                        "title": {
+                            "en": "Electric Bike Motor",
+                            "pl": "Silniki Elekrorowerowe",
+                            "ua": "Велосипедні Електродвигуни"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
+                        }
+                    },
+                    {
+                        "img": img3,
+                        "link": "https://s.click.aliexpress.com/e/_Dk5vZ9N",
+                        "title": {
+                            "en": "Bicycle Accessories",
+                            "pl": "Accesoia Rowerowe",
+                            "ua": "Велоаксесуари"
+                        },
+                        "description": {
+                            "en": "",
+                            "pl": "",
+                            "ua": ""
                         }
                     },
                 ]}
