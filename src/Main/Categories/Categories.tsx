@@ -466,33 +466,117 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBzBpj1",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Movies & TV",
+                    "pl": "Filmy i TV",
+                    "ua": "Фільми та ТВ"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Bring your favorite characters to life with our movie and TV-themed toys.",
+                    "pl": "Ożyw swoje ulubione postacie dzięki naszym zabawkom inspirowanym filmami i telewizją.",
+                    "ua": "Оживіть улюблених персонажів за допомогою наших іграшок за мотивами фільмів та телебачення."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DDJc39H",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Inflatable Toys",
+                    "pl": "Zabawki dmuchane",
+                    "ua": "Надувні іграшки"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Bounce into fun with our variety of inflatable toys.",
+                    "pl": "Skacz do zabawy z naszymi różnorodnymi zabawkami dmuchanymi.",
+                    "ua": "Пориньте у веселощі з нашими різноманітними надувними іграшками."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdcDMpp",
+                "title": {
+                    "en": "Toy Sports",
+                    "pl": "Zabawki sportowe",
+                    "ua": "Спортивні іграшки"
+                },
+                "description": {
+                    "en": "Get active with our exciting range of toy sports equipment.",
+                    "pl": "Bądź aktywny dzięki naszemu ekscytującemu asortymentowi sprzętu sportowego dla dzieci.",
+                    "ua": "Будьте активними з нашим захоплюючим асортиментом спортивних іграшок."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DmUq2gP",
+                "title": {
+                    "en": "Party Games",
+                    "pl": "Gry imprezowe",
+                    "ua": "Ігри для вечірок"
+                },
+                "description": {
+                    "en": "Liven up any gathering with our collection of party games.",
+                    "pl": "Ożyw każde spotkanie dzięki naszej kolekcji gier imprezowych.",
+                    "ua": "Оживіть будь-яке зібрання за допомогою нашої колекції ігор для вечірок."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DecSOVv",
+                "title": {
+                    "en": "RC Cars",
+                    "pl": "Samochody RC",
+                    "ua": "Автомобілі на дистанційному управлінні"
+                },
+                "description": {
+                    "en": "Race to the finish with our high-speed RC cars.",
+                    "pl": "Ścigaj się do mety z naszymi szybkimi samochodami RC.",
+                    "ua": "Гоніть до фінішу з нашими швидкісними автомобілями на дистанційному управлінні."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdBQWUB",
+                "title": {
+                    "en": "Bath Toys",
+                    "pl": "Zabawki do kąpieli",
+                    "ua": "Іграшки для ванни"
+                },
+                "description": {
+                    "en": "Make bath time fun and playful with our bath toys.",
+                    "pl": "Uczyń czas kąpieli zabawnym i pełnym zabawy dzięki naszym zabawkom do kąpieli.",
+                    "ua": "Зробіть час купання веселим та грайливим з нашими іграшками для ванни."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DkRG0RV",
+                "title": {
+                    "en": "Stress Relief Toys",
+                    "pl": "Zabawki antystresowe",
+                    "ua": "Антистресові іграшки"
+                },
+                "description": {
+                    "en": "Relax and unwind with our stress relief toys.",
+                    "pl": "Zrelaksuj się i odpręż dzięki naszym zabawkom antystresowym.",
+                    "ua": "Розслабтесь та відпочиньте з нашими антистресовими іграшками."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DmqjBYb",
+                "title": {
+                    "en": "Ride On Vehicles",
+                    "pl": "Pojazdy na baterie",
+                    "ua": "Каталки"
+                },
+                "description": {
+                    "en": "Let your little ones drive around in style with our ride-on vehicles.",
+                    "pl": "Pozwól swoim maluchom jeździć w stylu dzięki naszym pojazdom na baterie.",
+                    "ua": "Нехай ваші малюки катаються стильно з нашими каталками."
+                }
+            }
         ]
     },
     {
@@ -509,33 +593,89 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DecJJ5z",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Tote Bag",
+                    "pl": "Torba na zakupy",
+                    "ua": "Сумка-тоут"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Stylish and spacious tote bags for your everyday needs.",
+                    "pl": "Stylowe i przestronne torby na zakupy na codzienne potrzeby.",
+                    "ua": "Стильні та місткі сумки-тоут для ваших повсякденних потреб."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DexYrld",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Middle Size Luggage",
+                    "pl": "Walizki średniej wielkości",
+                    "ua": "Середній багаж"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Convenient and durable middle size luggage for your travels.",
+                    "pl": "Wygodne i trwałe walizki średniej wielkości na Twoje podróże.",
+                    "ua": "Зручний і міцний середній багаж для ваших подорожей."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBarZsL",
+                "title": {
+                    "en": "Casual Backpack",
+                    "pl": "Plecak codzienny",
+                    "ua": "Повсякденний рюкзак"
+                },
+                "description": {
+                    "en": "Versatile and comfortable casual backpacks for daily use.",
+                    "pl": "Uniwersalne i wygodne plecaki codziennego użytku.",
+                    "ua": "Універсальні та зручні повсякденні рюкзаки для щоденного використання."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DDO3IMf",
+                "title": {
+                    "en": "Carry-Ons Luggage",
+                    "pl": "Walizki podręczne",
+                    "ua": "Ручна поклажа"
+                },
+                "description": {
+                    "en": "Compact and lightweight carry-ons for your travel essentials.",
+                    "pl": "Kompaktowe i lekkie walizki podręczne na niezbędne rzeczy w podróży.",
+                    "ua": "Компактна та легка ручна поклажа для ваших подорожей."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DcZwED1",
+                "title": {
+                    "en": "Travel Bag",
+                    "pl": "Torba podróżna",
+                    "ua": "Дорожня сумка"
+                },
+                "description": {
+                    "en": "Durable and spacious travel bags for all your adventures.",
+                    "pl": "Trwałe i przestronne torby podróżne na wszystkie Twoje przygody.",
+                    "ua": "Міцні та місткі дорожні сумки для всіх ваших пригод."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dls1tIB",
+                "title": {
+                    "en": "Women's Fold Wallet",
+                    "pl": "Portfele Damskie",
+                    "ua": "Жіночі гаманці"
+                },
+                "description": {
+                    "en": "Stylish and spacious women's fold wallets.",
+                    "pl": "Stylowe i wygodne portfele damskie.",
+                    "ua": "Стильні та якісні жіночі гаманці"
+                }
+            }
         ]
     },
     {
