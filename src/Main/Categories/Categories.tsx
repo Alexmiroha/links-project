@@ -35,9 +35,9 @@ const categories = [
                     "ua": "Електросамокати"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Enjoy fast and eco-friendly rides with our electric scooters.",
+                    "pl": "Ciesz się szybką i ekologiczną jazdą dzięki naszym hulajnogom elektrycznym.",
+                    "ua": "Насолоджуйтеся швидкими та екологічними поїздками на наших електросамокатах."
                 }
             },
             {
@@ -49,9 +49,9 @@ const categories = [
                     "ua": "Електровелосипеди"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Discover the freedom of electric biking with our top models.",
+                    "pl": "Odkryj wolność jazdy na rowerze elektrycznym z naszymi najlepszymi modelami.",
+                    "ua": "Відкрийте для себе свободу їзди на електровелосипеді з нашими найкращими моделями."
                 }
             },
             {
@@ -63,9 +63,9 @@ const categories = [
                     "ua": "Гантелі"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Build strength and tone your muscles with our range of dumbbells.",
+                    "pl": "Buduj siłę i rzeźb mięśnie dzięki naszemu asortymentowi hantli.",
+                    "ua": "Будуйте силу та тонізуйте м’язи з нашим асортиментом гантелей."
                 }
             },
             {
@@ -77,9 +77,9 @@ const categories = [
                     "ua": "Одяг для йоги"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Stay comfortable and stylish during your yoga sessions with our yoga clothing.",
+                    "pl": "Pozostań wygodny i stylowy podczas sesji jogi dzięki naszej odzieży do jogi.",
+                    "ua": "Будьте зручними та стильними під час занять йогою з нашим одягом для йоги."
                 }
             },
             {
@@ -87,13 +87,13 @@ const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DCvOALl",
                 "title": {
                     "en": "Fishing Accessories",
-                    "pl": "Accesoria wędkarskie",
+                    "pl": "Akcesoria wędkarskie",
                     "ua": "Аксесуари для риболовлі"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Gear up for the perfect fishing trip with our fishing accessories.",
+                    "pl": "Przygotuj się na idealny wypad na ryby dzięki naszym akcesoriom wędkarskim.",
+                    "ua": "Підготуйтесь до ідеальної риболовлі з нашими аксесуарами для риболовлі."
                 }
             },
             {
@@ -105,9 +105,9 @@ const categories = [
                     "ua": "Шосейні Велосипеди"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Experience speed and performance with our range of road bicycles.",
+                    "pl": "Doświadcz prędkości i wydajności dzięki naszemu asortymentowi rowerów szosowych.",
+                    "ua": "Відчуйте швидкість та продуктивність з нашим асортиментом шосейних велосипедів."
                 }
             },
             {
@@ -119,9 +119,9 @@ const categories = [
                     "ua": "Гірськькі Велосипеди"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Conquer any terrain with our rugged mountain bikes.",
+                    "pl": "Podbijaj każde teren dzięki naszym wytrzymałym rowerom górskim.",
+                    "ua": "Підкорюйте будь-яку місцевість з нашими міцними гірськими велосипедами."
                 }
             },
             {
@@ -133,9 +133,9 @@ const categories = [
                     "ua": "Велосипедні Електродвигуни"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Upgrade your bike with our powerful electric bike motors.",
+                    "pl": "Ulepsz swój rower dzięki naszym potężnym silnikom elektrycznym.",
+                    "ua": "Покращте свій велосипед з нашими потужними електродвигунами."
                 }
             },
             {
@@ -143,15 +143,15 @@ const categories = [
                 "link": "https://s.click.aliexpress.com/e/_Dk5vZ9N",
                 "title": {
                     "en": "Bicycle Accessories",
-                    "pl": "Accesoia Rowerowe",
+                    "pl": "Akcesoria Rowerowe",
                     "ua": "Велоаксесуари"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Enhance your cycling experience with our range of bicycle accessories.",
+                    "pl": "Zwiększ swoje doświadczenie rowerowe dzięki naszemu asortymentowi akcesoriów rowerowych.",
+                    "ua": "Покращте свій досвід їзди на велосипеді з нашим асортиментом велоаксесуарів."
                 }
-            },
+            }
         ]
     },
     {
@@ -176,9 +176,9 @@ const categories = [
                     "ua": "Іграшки"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Delight your furry friend with these fantastic toys!",
+                    "pl": "Spraw radość swojemu futrzastemu przyjacielowi tymi fantastycznymi zabawkami!",
+                    "ua": "Порадуйте свого пухнастого друга цими чудовими іграшками!"
                 }
             },
             {
@@ -186,13 +186,13 @@ const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DFLyBHz",
                 "title": {
                     "en": "Beds & Furniture",
-                    "pl": "Zabawki",
-                    "ua": "Іграшки"
+                    "pl": "Łóżka i meble",
+                    "ua": "Ліжка та меблі"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Comfortable beds and furniture for your pets to relax in style.",
+                    "pl": "Wygodne łóżka i meble, aby twoje zwierzęta mogły relaksować się w stylu.",
+                    "ua": "Зручні ліжка та меблі для ваших тварин, щоб розслаблятися зі стилем."
                 }
             },
             {
@@ -200,13 +200,13 @@ const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DB469AB",
                 "title": {
                     "en": "Carriers & Travel Products",
-                    "pl": "Produkty na podróże",
-                    "ua": "Товари для подорожі"
+                    "pl": "Transportery i produkty podróżne",
+                    "ua": "Переноски та товари для подорожей"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Travel comfortably and safely with your pets using our carriers and travel products.",
+                    "pl": "Podróżuj wygodnie i bezpiecznie ze swoimi zwierzętami dzięki naszym transporterom i produktom podróżnym.",
+                    "ua": "Подорожуйте зручно та безпечно з вашими тваринами, використовуючи наші переноски та товари для подорожей."
                 }
             },
             {
@@ -214,13 +214,13 @@ const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DBhYUdv",
                 "title": {
                     "en": "Grooming",
-                    "pl": "Strzyżenie",
+                    "pl": "Pielęgnacja",
                     "ua": "Грумінг"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Keep your pets looking their best with our grooming supplies.",
+                    "pl": "Utrzymuj swoje zwierzęta w najlepszej formie dzięki naszym artykułom do pielęgnacji.",
+                    "ua": "Зберігайте ваших тварин у найкращій формі з нашими засобами для грумінгу."
                 }
             },
             {
@@ -232,9 +232,9 @@ const categories = [
                     "ua": "Приладдя для годування та поїння"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "High-quality feeding and watering supplies for your pets.",
+                    "pl": "Wysokiej jakości artykuły do karmienia i pojenia twoich zwierząt.",
+                    "ua": "Високоякісні приладдя для годування та поїння ваших тварин."
                 }
             },
             {
@@ -246,11 +246,11 @@ const categories = [
                     "ua": "Нашийники, шлейки та повідці"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Durable and stylish collars, harnesses, and leashes for your pets.",
+                    "pl": "Trwałe i stylowe obroże, szelki i smycze dla twoich zwierząt.",
+                    "ua": "Міцні та стильні нашийники, шлейки та повідці для ваших тварин."
                 }
-            },
+            }
         ]
     },
     {
@@ -268,34 +268,119 @@ const categories = [
         "subcategories": [
             {
                 "img": img3,
-                "link": "#",
+                "link": "https://s.click.aliexpress.com/e/_Dd7T01p",
                 "title": {
-                    "en": "Tech & Gadgets",
-                    "pl": "Technologia i Gadżety",
-                    "ua": "Технології та Гаджети"
+                    "en": "Coffee Tables",
+                    "pl": "Stoliki kawowe",
+                    "ua": "Кавові столики"
                 },
                 "description": {
-                    "en": "Discover the latest tech gadgets and accessories to enhance your digital lifestyle.",
-                    "pl": "Odkryj najnowsze gadżety technologiczne i akcesoria, aby ulepszyć swój cyfrowy styl życia.",
-                    "ua": "Дізнайтеся про найновіші технічні гаджети та аксесуари, щоб покращити свій цифровий стиль життя."
+                    "en": "Elegant and high-quality coffee tables for your home and office.",
+                    "pl": "Eleganckie i wysokiej jakości stoliki kawowe do domu i biura.",
+                    "ua": "Вишукані та якісні кавові столики для вашого дому та офісу."
                 }
             },
             {
                 "img": img3,
-                "link": "#",
+                "link": "https://s.click.aliexpress.com/e/_DEPRKz1",
                 "title": {
-                    "en": "Fashion & Accessories",
-                    "pl": "Moda i Akcesoria",
-                    "ua": "Мода та Аксесуари"
+                    "en": "Living Room Cabinets",
+                    "pl": "Szafki do salonu",
+                    "ua": "Шафи для вітальні"
                 },
                 "description": {
-                    "en": "Explore the latest fashion trends and stylish accessories for every occasion.",
-                    "pl": "Odkryj najnowsze trendy w modzie i stylowe akcesoria na każdą okazję.",
-                    "ua": "Досліджуйте найновіші модні тенденції та стильні аксесуари на будь-який випадок."
+                    "en": "Stylish living room cabinets to organize your space.",
+                    "pl": "Stylowe szafki do salonu, aby zorganizować przestrzeń.",
+                    "ua": "Стильні шафи для вітальні для організації вашого простору."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBoxGFV",
+                "title": {
+                    "en": "Sun Loungers",
+                    "pl": "Leżaki",
+                    "ua": "Шезлонги"
+                },
+                "description": {
+                    "en": "Relax in style with our comfortable sun loungers.",
+                    "pl": "Zrelaksuj się w stylu z naszymi wygodnymi leżakami.",
+                    "ua": "Розслабтесь зі стилем на наших зручних шезлонгах."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dlod9dV",
+                "title": {
+                    "en": "Living Room Sofas",
+                    "pl": "Sofy do salonu",
+                    "ua": "Дивани для вітальні"
+                },
+                "description": {
+                    "en": "Comfortable and stylish sofas for your living room.",
+                    "pl": "Wygodne i stylowe sofy do Twojego salonu.",
+                    "ua": "Зручні та стильні дивани для вашої вітальні."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DFjuNoT",
+                "title": {
+                    "en": "Inflatable Seatings",
+                    "pl": "Nadmuchiwane siedzenia",
+                    "ua": "Надувні сидіння"
+                },
+                "description": {
+                    "en": "Versatile and fun inflatable seatings for any occasion.",
+                    "pl": "Wszechstronne i zabawne nadmuchiwane siedzenia na każdą okazję.",
+                    "ua": "Універсальні та веселі надувні сидіння для будь-якої нагоди."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dm5XmNh",
+                "title": {
+                    "en": "Bed Bases & Frames",
+                    "pl": "Bazy i ramy łóżek",
+                    "ua": "Підстави та рами для ліжок"
+                },
+                "description": {
+                    "en": "Sturdy and stylish bed bases and frames for a good night's sleep.",
+                    "pl": "Solidne i stylowe bazy i ramy łóżek dla dobrego snu.",
+                    "ua": "Міцні та стильні підстави та рами для ліжок для хорошого сну."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DcAfpwn",
+                "title": {
+                    "en": "Dressers",
+                    "pl": "Komody",
+                    "ua": "Комоди"
+                },
+                "description": {
+                    "en": "Elegant dressers to keep your clothes organized.",
+                    "pl": "Eleganckie komody, aby utrzymać ubrania w porządku.",
+                    "ua": "Елегантні комоди для організації вашого одягу."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Ddb2xHd",
+                "title": {
+                    "en": "Hammocks",
+                    "pl": "Hamak",
+                    "ua": "Гамаки"
+                },
+                "description": {
+                    "en": "Relax and unwind in our comfortable hammocks.",
+                    "pl": "Zrelaksuj się i odpręż w naszych wygodnych hamakach.",
+                    "ua": "Розслабтеся та відпочиньте в наших зручних гамаках."
+                }
+            }
         ]
     },
+
     {
         "link": "/b&h",
         "title": {
@@ -310,33 +395,61 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dmu8GW3",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Cosmetics Organizers",
+                    "pl": "Organizery Kosmetyczne",
+                    "ua": "Органайзери для Косметики"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Keep your beauty products neat and accessible with our cosmetics organizers.",
+                    "pl": "Utrzymuj swoje kosmetyki w porządku i łatwo dostępnymi dzięki naszym organizerom kosmetycznym.",
+                    "ua": "Тримайте свої косметичні продукти в порядку та доступності з нашими органайзерами для косметики."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DksMelv",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Back Massage Instrument",
+                    "pl": "Urządzenie do Masażu Pleców",
+                    "ua": "Прилад для Масажу Спини"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Relieve tension and stress with our back massage instruments.",
+                    "pl": "Złagodź napięcie i stres dzięki naszym urządzeniom do masażu pleców.",
+                    "ua": "Зніміть напругу та стрес за допомогою наших приладів для масажу спини."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DlpxD7p",
+                "title": {
+                    "en": "Massage Comb",
+                    "pl": "Grzebień do Masażu",
+                    "ua": "Масажна Гребінець"
+                },
+                "description": {
+                    "en": "Stimulate your scalp and improve circulation with our massage combs.",
+                    "pl": "Stymuluj skórę głowy i popraw krążenie dzięki naszym grzebieniom do masażu.",
+                    "ua": "Стимулюйте шкіру голови та покращуйте циркуляцію за допомогою наших масажних гребінців."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DFdmRtl",
+                "title": {
+                    "en": "Permanent Makeup Machines",
+                    "pl": "Maszyny do Makijażu Permanentnego",
+                    "ua": "Машинки для Перманентного Макіяжу"
+                },
+                "description": {
+                    "en": "Achieve flawless permanent makeup with our advanced machines.",
+                    "pl": "Uzyskaj idealny makijaż permanentny dzięki naszym zaawansowanym maszynom.",
+                    "ua": "Досягніть бездоганного перманентного макіяжу за допомогою наших передових машинок."
+                }
+            }
         ]
     },
     {
@@ -990,7 +1103,7 @@ const Categories = (props: CategoriesPropsType) => {
 // -------------------------------------------
 //     слухає лінк і в залежності від нього вертає відповідну субкатегорію
     const CategoryDetails = () => {
-        const { categoryLink } = useParams<{ categoryLink: string }>();
+        const {categoryLink} = useParams<{ categoryLink: string }>();
         const category = categories.find(cat => cat.link === `/${categoryLink}`);
 
         if (!category) {
@@ -1156,7 +1269,7 @@ const Categories = (props: CategoriesPropsType) => {
                 </ul>
             </div>
             <Routes>
-                <Route path=":categoryLink" element={<CategoryDetails />} />
+                <Route path=":categoryLink" element={<CategoryDetails/>}/>
             </Routes>
         </div>
 
