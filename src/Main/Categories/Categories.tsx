@@ -679,7 +679,7 @@ const categories = [
         ]
     },
     {
-        "link": "/lighting",
+        "link": "/home_improvement",
         "title": {
             "en": "Home Improvement & Lighting",
             "pl": "Wykończenia wnętrz i oświetlenie",
@@ -692,33 +692,89 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DCqrdr5",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Light Bulbs",
+                    "pl": "Żarówki",
+                    "ua": "Лампочки"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Energy-efficient and bright light bulbs for every room.",
+                    "pl": "Energooszczędne i jasne żarówki do każdego pomieszczenia.",
+                    "ua": "Енергоефективні та яскраві лампочки для кожної кімнати."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DFAEqz5",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Bathroom Hardwares",
+                    "pl": "Sprzęt łazienkowy",
+                    "ua": "Сантехніка для ванної"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "High-quality bathroom hardware to upgrade your space.",
+                    "pl": "Wysokiej jakości sprzęt łazienkowy do modernizacji Twojej przestrzeni.",
+                    "ua": "Якісна сантехніка для ванної кімнати для оновлення вашого простору."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DEHRYL1",
+                "title": {
+                    "en": "Light Tubes",
+                    "pl": "Rury świetlne",
+                    "ua": "Світлові трубки"
+                },
+                "description": {
+                    "en": "Durable and bright light tubes for all your lighting needs.",
+                    "pl": "Trwałe i jasne rury świetlne do wszystkich Twoich potrzeb oświetleniowych.",
+                    "ua": "Міцні та яскраві світлові трубки для всіх ваших потреб у освітленні."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DEXI7zh",
+                "title": {
+                    "en": "Cold Room Systems",
+                    "pl": "Systemy chłodni",
+                    "ua": "Системи холодних кімнат"
+                },
+                "description": {
+                    "en": "Efficient and reliable cold room systems for your home.",
+                    "pl": "Wydajne i niezawodne systemy chłodni do Twojego domu.",
+                    "ua": "Ефективні та надійні системи холодних кімнат для вашого дому."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdijddZ",
+                "title": {
+                    "en": "Smart Bathroom",
+                    "pl": "Inteligentna łazienka",
+                    "ua": "Розумна ванна"
+                },
+                "description": {
+                    "en": "Upgrade to a smart bathroom with the latest technology.",
+                    "pl": "Zmodernizuj swoją łazienkę dzięki najnowszej technologii.",
+                    "ua": "Оновіть свою ванну кімнату за допомогою найновіших технологій."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DcRSNaF",
+                "title": {
+                    "en": "Solar Panels",
+                    "pl": "Panele słoneczne",
+                    "ua": "Сонячні панелі"
+                },
+                "description": {
+                    "en": "Sustainable and efficient solar panels for your home.",
+                    "pl": "Zrównoważone i wydajne panele słoneczne do Twojego domu.",
+                    "ua": "Екологічно чисті та ефективні сонячні панелі для вашого дому."
+                }
+            }
         ]
     },
     {
@@ -731,37 +787,121 @@ const categories = [
         "description": {
             "en": "Explore a wide range of automotive and motorcycle products to keep your vehicles running smoothly.",
             "pl": "Odkryj szeroki wybór produktów motoryzacyjnych i motocyklowych, aby utrzymać swoje pojazdy w doskonałym stanie.",
-            "ua": "Відкрий широкий асортимент автомобільних та мотоциклетних товарів."
+            "ua": "Відкрий широкий асортимент автомобільних та мотоциклетних товарів, щоб підтримувати свої транспортні засоби в належному стані."
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdvB8YT",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Inspection Tools",
+                    "pl": "Narzędzia Inspekcyjne",
+                    "ua": "Інспекційні Інструменти"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Ensure your vehicle is in top condition with our inspection tools.",
+                    "pl": "Zadbaj o to, aby Twój pojazd był w doskonałym stanie dzięki naszym narzędziom inspekcyjnym.",
+                    "ua": "Забезпечте ідеальний стан вашого транспортного засобу за допомогою наших інспекційних інструментів."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DkShqjh",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Motorcycles",
+                    "pl": "Motocykle",
+                    "ua": "Мотоцикли"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Discover a variety of motorcycles for all riding enthusiasts.",
+                    "pl": "Odkryj różnorodność motocykli dla wszystkich miłośników jazdy.",
+                    "ua": "Відкрийте різноманітність мотоциклів для всіх шанувальників їзди."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DCiILVD",
+                "title": {
+                    "en": "Accessories",
+                    "pl": "Akcesoria",
+                    "ua": "Аксесуари"
+                },
+                "description": {
+                    "en": "Enhance your ride with our selection of motorcycle accessories.",
+                    "pl": "Ulepsz swoją jazdę dzięki naszej ofercie akcesoriów motocyklowych.",
+                    "ua": "Покращіть вашу поїздку за допомогою нашого вибору мотоциклетних аксесуарів."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dl8kM19",
+                "title": {
+                    "en": "Interior Replacement Parts",
+                    "pl": "Części Wewnętrzne",
+                    "ua": "Заміна внутрішніх частин"
+                },
+                "description": {
+                    "en": "Find the perfect interior replacement parts for your vehicle.",
+                    "pl": "Znajdź idealne części wewnętrzne do swojego pojazdu.",
+                    "ua": "Знайдіть ідеальні внутрішні частини для вашого автомобіля."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_Dl70dcP",
+                "title": {
+                    "en": "Car DVR",
+                    "pl": "Wideorejestratory",
+                    "ua": "Автомобільні DVR"
+                },
+                "description": {
+                    "en": "Record your journeys with our reliable car DVRs.",
+                    "pl": "Nagrywaj swoje podróże za pomocą naszych niezawodnych wideorejestratorów.",
+                    "ua": "Записуйте ваші подорожі за допомогою наших надійних автомобільних DVR."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBH8iob",
+                "title": {
+                    "en": "Jump Starters",
+                    "pl": "Rozruszniki",
+                    "ua": "Пускачі"
+                },
+                "description": {
+                    "en": "Never get stranded with our powerful jump starters.",
+                    "pl": "Nigdy nie zostawaj na drodze dzięki naszym mocnym rozrusznikom.",
+                    "ua": "Ніколи не залишайтеся на дорозі з нашими потужними пускачами."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBzEqpV",
+                "title": {
+                    "en": "Car Electronic Accessories",
+                    "pl": "Akcesoria Elektroniczne do Samochodów",
+                    "ua": "Автомобільні електронні аксесуари"
+                },
+                "description": {
+                    "en": "Upgrade your car with our latest electronic accessories.",
+                    "pl": "Zmodernizuj swój samochód dzięki naszym najnowszym akcesoriom elektronicznym.",
+                    "ua": "Оновіть ваш автомобіль за допомогою наших новітніх електронних аксесуарів."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DFNHWAJ",
+                "title": {
+                    "en": "Car Stickers",
+                    "pl": "Naklejki na Samochód",
+                    "ua": "Автомобільні наклейки"
+                },
+                "description": {
+                    "en": "Personalize your vehicle with our range of car stickers.",
+                    "pl": "Personalizuj swój pojazd dzięki naszej gamie naklejek na samochód.",
+                    "ua": "Персоналізуйте ваш автомобіль за допомогою наших автомобільних наклейок."
+                }
+            }
         ]
     },
     {
@@ -778,33 +918,90 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DDF5NxH",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Women's Necklace",
+                    "pl": "",
+                    "ua": ""
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdQ1i4b",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Electronic Watches",
+                    "pl": "",
+                    "ua": ""
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DlNg3Ox",
+                "title": {
+                    "en": "New in Women's Watches",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DEi3f3z",
+                "title": {
+                    "en": "Jewelry Sets",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdV29yR",
+                "title": {
+                    "en": "Earring Set",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DkkQ7w3",
+                "title": {
+                    "en": "Polarized Sunglasses",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+
         ]
     },
     {
@@ -821,31 +1018,59 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DDKu1Np",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Smart Home",
+                    "pl": "",
+                    "ua": ""
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DcgOaU7",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Chargers",
+                    "pl": "",
+                    "ua": ""
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DF1MGPt",
+                "title": {
+                    "en": "Automation Kits",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DDNOsRt",
+                "title": {
+                    "en": "Handheld Gimbal & Stabilizers",
+                    "pl": "",
+                    "ua": ""
+                },
+                "description": {
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
         ]
@@ -864,31 +1089,17 @@ const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img3,
+                "link": "",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "TUTAJ",
+                    "pl": "",
+                    "ua": ""
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
-                }
-            },
-            {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
-                "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
-                },
-                "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "",
+                    "pl": "",
+                    "ua": ""
                 }
             },
         ]
