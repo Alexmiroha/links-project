@@ -1090,18 +1090,116 @@ const categories = [
         "subcategories": [
             {
                 "img": img3,
-                "link": "",
+                "link": "https://s.click.aliexpress.com/e/_DlXcnI3",
                 "title": {
-                    "en": "TUTAJ",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Sneaker",
+                    "pl": "Trampki",
+                    "ua": "Кросівки"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Trendy sneakers for everyday use.",
+                    "pl": "Modne trampki na co dzień.",
+                    "ua": "Модні кросівки для повсякденного використання."
                 }
             },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DmeTZsr",
+                "title": {
+                    "en": "Flat Sandals",
+                    "pl": "Płaskie Sandały",
+                    "ua": "Плоскі Сандалі"
+                },
+                "description": {
+                    "en": "Comfortable flat sandals for summer days.",
+                    "pl": "Wygodne płaskie sandały na letnie dni.",
+                    "ua": "Зручні плоскі сандалі для літніх днів."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBZJXF5",
+                "title": {
+                    "en": "Casual Sneaker",
+                    "pl": "Casualowe Trampki",
+                    "ua": "Повсякденні Кросівки"
+                },
+                "description": {
+                    "en": "Casual sneakers for everyday wear.",
+                    "pl": "Casualowe trampki na co dzień.",
+                    "ua": "Повсякденні кросівки для щоденного носіння."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DeRqpuR",
+                "title": {
+                    "en": "Outdoor Boots",
+                    "pl": "Buty Outdoorowe",
+                    "ua": "Вуличні Черевики"
+                },
+                "description": {
+                    "en": "Durable outdoor boots for all terrains.",
+                    "pl": "Wytrzymałe buty outdoorowe na każdy teren.",
+                    "ua": "Міцні вуличні черевики для будь-яких умов."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DlEnljN",
+                "title": {
+                    "en": "Flip Flops",
+                    "pl": "Klapki",
+                    "ua": "Шльопанці"
+                },
+                "description": {
+                    "en": "Easy-going flip flops for casual wear.",
+                    "pl": "Lekkie klapki na co dzień.",
+                    "ua": "Легкі шльопанці для повсякденного носіння."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DBhozbH",
+                "title": {
+                    "en": "Heeled Sandals",
+                    "pl": "Sandały na Obcasie",
+                    "ua": "Сандалі на Каблуці"
+                },
+                "description": {
+                    "en": "Elegant heeled sandals for special occasions.",
+                    "pl": "Eleganckie sandały na obcasie na specjalne okazje.",
+                    "ua": "Елегантні сандалі на підборах для особливих подій."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdzNqsT",
+                "title": {
+                    "en": "Work & Safety Shoes",
+                    "pl": "Buty Robocze i Ochronne",
+                    "ua": "Робоче та Захисне Взуття"
+                },
+                "description": {
+                    "en": "Reliable work and safety shoes for professional use.",
+                    "pl": "Niezawodne buty robocze i ochronne do użytku zawodowego.",
+                    "ua": "Надійне робоче та захисне взуття для професійного використання."
+                }
+            },
+            {
+                "img": img3,
+                "link": "https://s.click.aliexpress.com/e/_DdhlJR9",
+                "title": {
+                    "en": "Platform Sandals",
+                    "pl": "Sandały na Platformie",
+                    "ua": "Сандалі на Платформі"
+                },
+                "description": {
+                    "en": "Stylish platform sandals for a trendy look.",
+                    "pl": "Stylowe sandały na platformie na modny wygląd.",
+                    "ua": "Стильні сандалі на платформі для модного образу."
+                }
+            }
         ]
     },
     {
@@ -1119,75 +1217,130 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DmUdcuL",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Connectors",
+                    "pl": "Łączniki",
+                    "ua": "З'єднувачі"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Durable connectors for hair extensions.",
+                    "pl": "Trwałe łączniki do przedłużania włosów.",
+                    "ua": "Міцні з'єднувачі для накладного волосся."
                 }
             },
-            {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
-                "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
-                },
-                "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
-                }
-            },
-        ]
-    },
-    {
-        "link": "/Office&Education",
-        "title": {
-            "en": "Computer, Office & Education",
-            "pl": "Komputery, Biuro i Edukacja",
-            "ua": "Комп'ютери, Офіс та Освіта"
-        },
-        "description": {
-            "en": "Explore our selection of computer equipment, office supplies, and educational resources.",
-            "pl": "Odkryj nasz wybór sprzętu komputerowego, artykułów biurowych i materiałów edukacyjnych.",
-            "ua": "Досліджуйте наш вибір комп'ютерного обладнання, офісних приладдя та освітніх ресурсів."
-        },
-        "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DDke9zD",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Jumbo Braids",
+                    "pl": "Jumbo Warkocze",
+                    "ua": "Джумбо Коси"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Thick and stylish jumbo braids.",
+                    "pl": "Grube i stylowe jumbo warkocze.",
+                    "ua": "Товсті та стильні джумбо коси."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DcvSy0b",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Clip-In Extensions",
+                    "pl": "Doczepiane Przedłużenia",
+                    "ua": "Кліпси для Нарощування"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Easy to use clip-in extensions.",
+                    "pl": "Łatwe w użyciu doczepiane przedłużenia.",
+                    "ua": "Легкі у використанні кліпси для нарощування."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DBiS7jN",
+                "title": {
+                    "en": "Human Hair Full Lace",
+                    "pl": "Pełna Koronka z Ludzkich Włosów",
+                    "ua": "Повний Мереживний Перука з Людського Волосся"
+                },
+                "description": {
+                    "en": "High-quality full lace wigs made from human hair.",
+                    "pl": "Wysokiej jakości pełna koronka wykonana z ludzkich włosów.",
+                    "ua": "Високоякісні повні мереживні перуки з людського волосся."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeIjRTH",
+                "title": {
+                    "en": "Human Hair Extensions",
+                    "pl": "Przedłużenia z Ludzkich Włosów",
+                    "ua": "Нарощування Людського Волосся"
+                },
+                "description": {
+                    "en": "Natural-looking human hair extensions.",
+                    "pl": "Przedłużenia z ludzkich włosów o naturalnym wyglądzie.",
+                    "ua": "Нарощування людського волосся, що виглядає натурально."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DFew9hh",
+                "title": {
+                    "en": "Synthetic Ponytails",
+                    "pl": "Syntetyczne Kucyki",
+                    "ua": "Синтетичні Хвости"
+                },
+                "description": {
+                    "en": "Stylish and affordable synthetic ponytails.",
+                    "pl": "Stylowe i niedrogie syntetyczne kucyki.",
+                    "ua": "Стильні та доступні синтетичні хвости."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DBqIQoF",
+                "title": {
+                    "en": "Hair Weaving",
+                    "pl": "Tkactwo Włosów",
+                    "ua": "Ткацтво Волосся"
+                },
+                "description": {
+                    "en": "Premium hair weaving products.",
+                    "pl": "Wysokiej jakości produkty do tkactwa włosów.",
+                    "ua": "Преміум продукти для ткацтва волосся."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DdZgfRd",
+                "title": {
+                    "en": "African American Wigs",
+                    "pl": "Peruki Afroamerykańskie",
+                    "ua": "Афроамериканські Перуки"
+                },
+                "description": {
+                    "en": "Natural-looking African American wigs.",
+                    "pl": "Peruki afroamerykańskie o naturalnym wyglądzie.",
+                    "ua": "Афроамериканські перуки, що виглядають натурально."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DBEes9z",
+                "title": {
+                    "en": "Synthetic Hair Lace",
+                    "pl": "Syntetyczna Koronka do Włosów",
+                    "ua": "Синтетична Мереживна Волосся"
+                },
+                "description": {
+                    "en": "High-quality synthetic hair lace.",
+                    "pl": "Wysokiej jakości syntetyczna koronka do włosów.",
+                    "ua": "Високоякісна синтетична мереживна волосся."
+                }
+            }
         ]
     },
     {
@@ -1205,32 +1358,116 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_Dd9yvbd",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Smartphone Android",
+                    "pl": "Smartfon z Androidem",
+                    "ua": "Смартфон Android"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Latest Android smartphones with advanced features.",
+                    "pl": "Najnowsze smartfony z Androidem z zaawansowanymi funkcjami.",
+                    "ua": "Найновіші смартфони Android з передовими функціями."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DlMFSLv",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Power Banks",
+                    "pl": "Power Banki",
+                    "ua": "Павербанки"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "High-capacity power banks for your devices.",
+                    "pl": "Power banki o dużej pojemności do twoich urządzeń.",
+                    "ua": "Павербанки великої ємності для ваших пристроїв."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeCfarh",
+                "title": {
+                    "en": "Mobile Phone Cables",
+                    "pl": "Kable do Telefonów Komórkowych",
+                    "ua": "Кабелі для Мобільних Телефонів"
+                },
+                "description": {
+                    "en": "Durable and fast-charging mobile phone cables.",
+                    "pl": "Trwałe kable do telefonów komórkowych z szybkim ładowaniem.",
+                    "ua": "Міцні кабелі для мобільних телефонів з швидкою зарядкою."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DByaynh",
+                "title": {
+                    "en": "Phone Repair Tools",
+                    "pl": "Narzędzia do Naprawy Telefonów",
+                    "ua": "Інструменти для Ремонту Телефонів"
+                },
+                "description": {
+                    "en": "Professional tools for repairing mobile phones.",
+                    "pl": "Profesjonalne narzędzia do naprawy telefonów komórkowych.",
+                    "ua": "Професійні інструменти для ремонту мобільних телефонів."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeXSU6r",
+                "title": {
+                    "en": "Holders & Stands",
+                    "pl": "Uchwyty i Stojaki",
+                    "ua": "Тримачі та Підставки"
+                },
+                "description": {
+                    "en": "Convenient holders and stands for your devices.",
+                    "pl": "Wygodne uchwyty i stojaki do twoich urządzeń.",
+                    "ua": "Зручні тримачі та підставки для ваших пристроїв."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DmhlvkP",
+                "title": {
+                    "en": "Rugged Smartphones",
+                    "pl": "Wytrzymałe Smartfony",
+                    "ua": "Міцні Смартфони"
+                },
+                "description": {
+                    "en": "Durable and rugged smartphones for tough conditions.",
+                    "pl": "Wytrzymałe smartfony do trudnych warunków.",
+                    "ua": "Міцні смартфони для складних умов."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_Ddhu7PH",
+                "title": {
+                    "en": "Phone Cases",
+                    "pl": "Etui na Telefony",
+                    "ua": "Чохли для Телефонів"
+                },
+                "description": {
+                    "en": "Stylish and protective phone cases.",
+                    "pl": "Stylowe i ochronne etui na telefony.",
+                    "ua": "Стильні та захисні чохли для телефонів."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_Ddu62dd",
+                "title": {
+                    "en": "Mobile Phone Flex Cables",
+                    "pl": "Kable Flex do Telefonów Komórkowych",
+                    "ua": "Гнучкі Кабелі для Мобільних Телефонів"
+                },
+                "description": {
+                    "en": "Flexible and durable flex cables for mobile phones.",
+                    "pl": "Elastyczne i trwałe kable flex do telefonów komórkowych.",
+                    "ua": "Гнучкі та міцні гнучкі кабелі для мобільних телефонів."
+                }
+            }
         ]
     },
     {
@@ -1248,32 +1485,102 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DdAkf0J",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Bodysuits & One-Pieces",
+                    "pl": "Body i Kombinezony",
+                    "ua": "Боді та Комбінезони"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Comfortable bodysuits and one-pieces for babies.",
+                    "pl": "Wygodne body i kombinezony dla niemowląt.",
+                    "ua": "Зручні боді та комбінезони для немовлят."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_Dl30Ji7",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Accessories",
+                    "pl": "Akcesoria",
+                    "ua": "Аксесуари"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Cute and practical accessories for babies and kids.",
+                    "pl": "Urocze i praktyczne akcesoria dla dzieci i niemowląt.",
+                    "ua": "Милі та практичні аксесуари для дітей та немовлят."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DCfblAb",
+                "title": {
+                    "en": "Girls Party Dresses",
+                    "pl": "Sukienki Imprezowe dla Dziewczynek",
+                    "ua": "Вечірні Сукні для Дівчаток"
+                },
+                "description": {
+                    "en": "Stylish party dresses for girls.",
+                    "pl": "Stylowe sukienki imprezowe dla dziewczynek.",
+                    "ua": "Стильні вечірні сукні для дівчаток."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DCnH4Vd",
+                "title": {
+                    "en": "Lightweight Strollers",
+                    "pl": "Lekkie Wózki",
+                    "ua": "Легкі Візочки"
+                },
+                "description": {
+                    "en": "Convenient lightweight strollers for easy travel.",
+                    "pl": "Wygodne lekkie wózki dla łatwego podróżowania.",
+                    "ua": "Зручні легкі візочки для легких подорожей."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DBJ0oP1",
+                "title": {
+                    "en": "Outerwear",
+                    "pl": "Odzież Wierzchnia",
+                    "ua": "Верхній Одяг"
+                },
+                "description": {
+                    "en": "Warm and stylish outerwear for kids.",
+                    "pl": "Ciepła i stylowa odzież wierzchnia dla dzieci.",
+                    "ua": "Теплий і стильний верхній одяг для дітей."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_Dma1U8b",
+                "title": {
+                    "en": "Casual Shoes",
+                    "pl": "Obuwie Codzienne",
+                    "ua": "Повсякденне Взуття"
+                },
+                "description": {
+                    "en": "Comfortable and stylish casual shoes for kids.",
+                    "pl": "Wygodne i stylowe obuwie codzienne dla dzieci.",
+                    "ua": "Зручне та стильне повсякденне взуття для дітей."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DFDQssb",
+                "title": {
+                    "en": "Baby Seats & Sofas",
+                    "pl": "Siedziska i Sofy dla Niemowląt",
+                    "ua": "Сидіння та Дивани для Немовлят"
+                },
+                "description": {
+                    "en": "Comfortable seats and sofas for babies.",
+                    "pl": "Wygodne siedziska i sofy dla niemowląt.",
+                    "ua": "Зручні сидіння та дивани для немовлят."
+                }
+            }
         ]
     },
     {
@@ -1291,32 +1598,116 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DBe4oVz",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Drinkware",
+                    "pl": "Naczynia do Picia",
+                    "ua": "Посуд для Напоїв"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Stylish drinkware for every occasion.",
+                    "pl": "Stylowe naczynia do picia na każdą okazję.",
+                    "ua": "Стильний посуд для напоїв на будь-який випадок."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DCLuk0j",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Drawers",
+                    "pl": "Szuflady",
+                    "ua": "Шухляди"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Organize your home with our practical drawers.",
+                    "pl": "Zorganizuj swój dom dzięki naszym praktycznym szufladom.",
+                    "ua": "Організуйте свій дім за допомогою наших практичних шухляд."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DEjXGSn",
+                "title": {
+                    "en": "Boxes",
+                    "pl": "Pudełka",
+                    "ua": "Коробки"
+                },
+                "description": {
+                    "en": "Versatile boxes for storage and decoration.",
+                    "pl": "Wszechstronne pudełka do przechowywania i dekoracji.",
+                    "ua": "Багатофункціональні коробки для зберігання та декору."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeyReIP",
+                "title": {
+                    "en": "Outdoor Decors",
+                    "pl": "Dekoracje Ogrodowe",
+                    "ua": "Декор для Вулиці"
+                },
+                "description": {
+                    "en": "Beautiful decorations to enhance your outdoor space.",
+                    "pl": "Piękne dekoracje do Twojej przestrzeni na świeżym powietrzu.",
+                    "ua": "Чудовий декор для вашого вуличного простору."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeZHZYr",
+                "title": {
+                    "en": "Box",
+                    "pl": "Pudełko",
+                    "ua": "Коробка"
+                },
+                "description": {
+                    "en": "Functional and decorative storage boxes.",
+                    "pl": "Funkcjonalne i dekoracyjne pudełka do przechowywania.",
+                    "ua": "Функціональні та декоративні коробки для зберігання."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DduWvxH",
+                "title": {
+                    "en": "Wall Art",
+                    "pl": "Sztuka Ścienna",
+                    "ua": "Настінне Мистецтво"
+                },
+                "description": {
+                    "en": "Artistic wall decor to brighten up your home.",
+                    "pl": "Artystyczna dekoracja ścienna, która rozjaśni Twój dom.",
+                    "ua": "Художній настінний декор для прикрашання вашого дому."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DC6n9tZ",
+                "title": {
+                    "en": "Bathroom Accessories",
+                    "pl": "Akcesoria Łazienkowe",
+                    "ua": "Аксесуари для Ванної"
+                },
+                "description": {
+                    "en": "Essential accessories for a well-organized bathroom.",
+                    "pl": "Niezbędne akcesoria do dobrze zorganizowanej łazienki.",
+                    "ua": "Необхідні аксесуари для добре організованої ванної кімнати."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DExfqaB",
+                "title": {
+                    "en": "Table Decoration & Accessories",
+                    "pl": "Dekoracje i Akcesoria Stołowe",
+                    "ua": "Декор та Аксесуари для Столу"
+                },
+                "description": {
+                    "en": "Elegant table decorations and accessories for every meal.",
+                    "pl": "Eleganckie dekoracje i akcesoria stołowe na każdy posiłek.",
+                    "ua": "Елегантний декор та аксесуари для столу на кожен прийом їжі."
+                }
+            }
         ]
     },
     {
@@ -1334,32 +1725,116 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DBJV26r",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Tees",
+                    "pl": "Koszulki",
+                    "ua": "Футболки"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Comfortable and stylish tees for everyday wear.",
+                    "pl": "Wygodne i stylowe koszulki na co dzień.",
+                    "ua": "Зручні та стильні футболки для щоденного носіння."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DCkA9uP",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Short Dresses",
+                    "pl": "Krótkie Sukienki",
+                    "ua": "Короткі Сукні"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Trendy short dresses for various occasions.",
+                    "pl": "Modne krótkie sukienki na różne okazje.",
+                    "ua": "Модні короткі сукні для різних випадків."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DDgWKUb",
+                "title": {
+                    "en": "Long Dresses",
+                    "pl": "Długie Sukienki",
+                    "ua": "Довгі Сукні"
+                },
+                "description": {
+                    "en": "Elegant long dresses for special events.",
+                    "pl": "Eleganckie długie sukienki na specjalne okazje.",
+                    "ua": "Елегантні довгі сукні для особливих подій."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DDMvKFZ",
+                "title": {
+                    "en": "Bikinis Sets",
+                    "pl": "Zestawy Bikini",
+                    "ua": "Комплекти Бікіні"
+                },
+                "description": {
+                    "en": "Stylish bikinis sets for beach and pool.",
+                    "pl": "Stylowe zestawy bikini na plażę i basen.",
+                    "ua": "Стильні комплекти бікіні для пляжу та басейну."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DeUzzEx",
+                "title": {
+                    "en": "Pant Sets",
+                    "pl": "Zestawy Spodni",
+                    "ua": "Комплекти Штанів"
+                },
+                "description": {
+                    "en": "Versatile pant sets for casual and formal wear.",
+                    "pl": "Wszechstronne zestawy spodni na co dzień i na specjalne okazje.",
+                    "ua": "Універсальні комплекти штанів для повсякденного та офіційного одягу."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DdqHVpZ",
+                "title": {
+                    "en": "Shorts",
+                    "pl": "Szorty",
+                    "ua": "Шорти"
+                },
+                "description": {
+                    "en": "Casual and comfortable shorts for warm weather.",
+                    "pl": "Swobodne i wygodne szorty na ciepłe dni.",
+                    "ua": "Повсякденні та зручні шорти для теплої погоди."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DDuZ9uJ",
+                "title": {
+                    "en": "Midi Dresses",
+                    "pl": "Sukienki Midi",
+                    "ua": "Сукні Міді"
+                },
+                "description": {
+                    "en": "Chic midi dresses for a stylish look.",
+                    "pl": "Szykowne sukienki midi na stylowy wygląd.",
+                    "ua": "Шикарні сукні міді для стильного образу."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DFvZCyT",
+                "title": {
+                    "en": "Party Dresses",
+                    "pl": "Sukienki Imprezowe",
+                    "ua": "Вечірні Сукні"
+                },
+                "description": {
+                    "en": "Glamorous party dresses for your next event.",
+                    "pl": "Glamourowe sukienki imprezowe na Twoje kolejne wydarzenie.",
+                    "ua": "Гламурні вечірні сукні для вашого наступного заходу."
+                }
+            }
         ]
     },
     {
@@ -1377,34 +1852,133 @@ const categories = [
         "subcategories": [
             {
                 "img": img1,
-                "link": "https://www.aliexpress.com/w/wholesale-Electric-Bike.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Electric%20Bike%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "link": "https://s.click.aliexpress.com/e/_DmMiLor",
                 "title": {
-                    "en": "Electric Bike",
-                    "pl": "Rowery Elektryczne",
-                    "ua": "Електровелосипеди"
+                    "en": "Alphabet T-Shirt",
+                    "pl": "Koszulka z alfabetem",
+                    "ua": "Футболка з алфавітом"
                 },
                 "description": {
-                    "en": "Cool Electric Bike for You",
-                    "pl": "Rowery Elektryczne dla ciebie",
-                    "ua": "Електровелосипеди для тебе"
+                    "en": "Trendy T-shirt with alphabet print for a casual look.",
+                    "pl": "Modna koszulka z nadrukiem alfabetu na swobodny wygląd.",
+                    "ua": "Модна футболка з принтом алфавіту для повсякденного вигляду."
                 }
             },
             {
-                "img": img2,
-                "link": "https://www.aliexpress.com/w/wholesale-Yoga-Clothing.html?spm=a2g0o.categorymp.0.0.708dJilIJilIs7&categoryUrlParams=%7B%22q%22%3A%22Yoga%20Clothing%22%2C%22s%22%3A%22qp_nw%22%2C%22osf%22%3A%22category_navigate%22%2C%22sg_search_params%22%3A%22%22%2C%22guide_trace%22%3A%2265737617-597f-413b-bd56-2347b63e13b5%22%2C%22scene_id%22%3A%2237749%22%2C%22searchBizScene%22%3A%22openSearch%22%2C%22recog_lang%22%3A%22en%22%2C%22bizScene%22%3A%22category_navigate%22%2C%22guideModule%22%3A%22category_navigate_vertical%22%2C%22postCatIds%22%3A%2218%2C201768104%2C150401%2C100005769%22%2C%22scene%22%3A%22category_navigate%22%7D&isFromCategory=y",
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_Ddr1yAJ",
                 "title": {
-                    "en": "Yoga Clothing",
-                    "pl": "Odzież dla Yogi",
-                    "ua": "Одяг для йоги"
+                    "en": "Ice Shorts",
+                    "pl": "Szorty lodowe",
+                    "ua": "Крижані шорти"
                 },
                 "description": {
-                    "en": "Yoga Clothing for You",
-                    "pl": "Odzież dla Yogi dla ciebie",
-                    "ua": "Одяг для йоги для тебе"
+                    "en": "Cool and comfortable shorts for hot days.",
+                    "pl": "Chłodne i wygodne szorty na gorące dni.",
+                    "ua": "Прохолодні та зручні шорти для спекотних днів."
                 }
             },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DC3ZCg7",
+                "title": {
+                    "en": "Plain T-Shirt",
+                    "pl": "Gładka koszulka",
+                    "ua": "Однотонна футболка"
+                },
+                "description": {
+                    "en": "Simple and classic plain T-shirt for everyday wear.",
+                    "pl": "Prosta i klasyczna gładka koszulka na co dzień.",
+                    "ua": "Проста та класична однотонна футболка для щоденного носіння."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DmqvHkf",
+                "title": {
+                    "en": "Quick-Drying T-Shirt",
+                    "pl": "Szybkoschnąca koszulka",
+                    "ua": "Швидковисихаюча футболка"
+                },
+                "description": {
+                    "en": "Perfect for sports and outdoor activities.",
+                    "pl": "Idealna do uprawiania sportu i aktywności na świeżym powietrzu.",
+                    "ua": "Ідеальна для спорту та активного відпочинку."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DEuiao7",
+                "title": {
+                    "en": "Sports Suits",
+                    "pl": "Stroje sportowe",
+                    "ua": "Спортивні костюми"
+                },
+                "description": {
+                    "en": "Comfortable sports suits for training and casual wear.",
+                    "pl": "Wygodne stroje sportowe do treningu i codziennego noszenia.",
+                    "ua": "Зручні спортивні костюми для тренувань та повсякденного носіння."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DdyTVb9",
+                "title": {
+                    "en": "Casual Shorts",
+                    "pl": "Szorty codzienne",
+                    "ua": "Повсякденні шорти"
+                },
+                "description": {
+                    "en": "Casual and comfortable shorts for daily wear.",
+                    "pl": "Codzienne i wygodne szorty na co dzień.",
+                    "ua": "Повсякденні та зручні шорти для щоденного носіння."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DDxEz3d",
+                "title": {
+                    "en": "Cargo Shorts",
+                    "pl": "Szorty cargo",
+                    "ua": "Карго шорти"
+                },
+                "description": {
+                    "en": "Functional and stylish cargo shorts with multiple pockets.",
+                    "pl": "Funkcjonalne i stylowe szorty cargo z wieloma kieszeniami.",
+                    "ua": "Функціональні та стильні карго шорти з численними кишенями."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DmYH3kB",
+                "title": {
+                    "en": "Shorts Polo",
+                    "pl": "Szorty polo",
+                    "ua": "Поло шорти"
+                },
+                "description": {
+                    "en": "Casual polo shorts for a relaxed look.",
+                    "pl": "Swobodne szorty polo na luźny wygląd.",
+                    "ua": "Повсякденні поло шорти для розслабленого вигляду."
+                }
+            },
+            {
+                "img": img1,
+                "link": "https://s.click.aliexpress.com/e/_DEg5SbZ",
+                "title": {
+                    "en": "New in Men's Sets",
+                    "pl": "Nowości w zestawach męskich",
+                    "ua": "Новинки в чоловічих комплектах"
+                },
+                "description": {
+                    "en": "Explore the latest arrivals in men's sets.",
+                    "pl": "Odkryj najnowsze nowości w zestawach męskich.",
+                    "ua": "Ознайомтеся з останніми новинками в чоловічих комплектах."
+                }
+            }
         ]
     }
+
 
 
 ]
