@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/links-project/static/css/main.a3ebc876.css",
-    "main.js": "/links-project/static/js/main.5de3ff5e.js",
+    "main.css": "/links-project/static/css/main.4c9af81b.css",
+    "main.js": "/links-project/static/js/main.eb9218a6.js",
     "static/js/453.3a7366d0.chunk.js": "/links-project/static/js/453.3a7366d0.chunk.js",
-    "static/media/scooter.jpg": "/links-project/static/media/scooter.423449e52d4c050644bf.jpg",
-    "static/media/ebike.jpg": "/links-project/static/media/ebike.90659f178a6dd0d3bf07.jpg",
     "static/media/v1.webp": "/links-project/static/media/v1.f0b525fb4067b4d4fb31.webp",
-    "static/media/pets.jpg": "/links-project/static/media/pets.ada5898fd8aa216c790f.jpg",
+    "static/media/Cosmetics Organizers.jpg": "/links-project/static/media/Cosmetics Organizers.799bacc351e82d07604e.jpg",
+    "static/media/comb-hair-massage.jpg": "/links-project/static/media/comb-hair-massage.07140b34b4d531e8c76d.jpg",
+    "static/media/bmi.jpg": "/links-project/static/media/bmi.bf8a449e4db1b1a17cf0.jpg",
+    "static/media/permanent-makeup_mini.jpg": "/links-project/static/media/permanent-makeup_mini.2f87dad3f102ed538862.jpg",
     "index.html": "/links-project/index.html",
-    "main.a3ebc876.css.map": "/links-project/static/css/main.a3ebc876.css.map",
-    "main.5de3ff5e.js.map": "/links-project/static/js/main.5de3ff5e.js.map",
+    "main.4c9af81b.css.map": "/links-project/static/css/main.4c9af81b.css.map",
+    "main.eb9218a6.js.map": "/links-project/static/js/main.eb9218a6.js.map",
     "453.3a7366d0.chunk.js.map": "/links-project/static/js/453.3a7366d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ebc876.css",
-    "static/js/main.5de3ff5e.js"
+    "static/css/main.4c9af81b.css",
+    "static/js/main.eb9218a6.js"
   ]
 }
