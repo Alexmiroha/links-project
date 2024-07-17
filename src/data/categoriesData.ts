@@ -1,7 +1,127 @@
-import img1 from "../img/Categories/Cosmetics Organizers.jpg";
-import img2 from "../img/Categories/bmi.jpg";
-import img3 from "../img/Categories/comb-hair-massage.jpg";
-import img4 from "../img/Categories/permanent-makeup_mini.jpg";
+import img1_1 from "../img/Categories/Cosmetics Organizers.jpg";
+import img1_2 from "../img/Categories/bmi.jpg";
+import img1_3 from "../img/Categories/comb-hair-massage.jpg";
+import img1_4 from "../img/Categories/permanent-makeup_mini.jpg";
+import img2_1 from "../img/Categories/scooter.jpg";
+import img2_2 from "../img/Categories/ebike.jpg";
+import img2_3 from "../img/Categories/Dumbbells.jpg";
+import img2_4 from "../img/Categories/scooter.jpg";
+import img2_5 from "../img/Categories/scooter.jpg";
+import img2_6 from "../img/Categories/scooter.jpg";
+import img2_7 from "../img/Categories/scooter.jpg";
+import img2_8 from "../img/Categories/scooter.jpg";
+import img2_9 from "../img/Categories/scooter.jpg";
+import img3_1 from "../img/Categories/scooter.jpg";
+import img3_2 from "../img/Categories/scooter.jpg";
+import img3_3 from "../img/Categories/scooter.jpg";
+import img3_4 from "../img/Categories/scooter.jpg";
+import img3_5 from "../img/Categories/scooter.jpg";
+import img3_6 from "../img/Categories/scooter.jpg";
+import img4_1 from "../img/Categories/scooter.jpg";
+import img4_2 from "../img/Categories/scooter.jpg";
+import img4_3 from "../img/Categories/scooter.jpg";
+import img4_4 from "../img/Categories/scooter.jpg";
+import img4_5 from "../img/Categories/scooter.jpg";
+import img4_6 from "../img/Categories/scooter.jpg";
+import img4_7 from "../img/Categories/scooter.jpg";
+import img4_8 from "../img/Categories/scooter.jpg";
+import img5_1 from "../img/Categories/scooter.jpg";
+import img5_2 from "../img/Categories/scooter.jpg";
+import img5_3 from "../img/Categories/scooter.jpg";
+import img5_4 from "../img/Categories/scooter.jpg";
+import img5_5 from "../img/Categories/scooter.jpg";
+import img5_6 from "../img/Categories/scooter.jpg";
+import img5_7 from "../img/Categories/scooter.jpg";
+import img5_8 from "../img/Categories/scooter.jpg";
+import img6_1 from "../img/Categories/scooter.jpg";
+import img6_2 from "../img/Categories/scooter.jpg";
+import img6_3 from "../img/Categories/scooter.jpg";
+import img6_4 from "../img/Categories/scooter.jpg";
+import img6_5 from "../img/Categories/scooter.jpg";
+import img6_6 from "../img/Categories/scooter.jpg";
+import img7_1 from "../img/Categories/scooter.jpg";
+import img7_2 from "../img/Categories/scooter.jpg";
+import img7_3 from "../img/Categories/scooter.jpg";
+import img7_4 from "../img/Categories/scooter.jpg";
+import img7_5 from "../img/Categories/scooter.jpg";
+import img7_6 from "../img/Categories/scooter.jpg";
+import img8_1 from "../img/Categories/scooter.jpg";
+import img8_2 from "../img/Categories/scooter.jpg";
+import img8_3 from "../img/Categories/scooter.jpg";
+import img8_4 from "../img/Categories/scooter.jpg";
+import img8_5 from "../img/Categories/scooter.jpg";
+import img8_6 from "../img/Categories/scooter.jpg";
+import img8_7 from "../img/Categories/scooter.jpg";
+import img8_8 from "../img/Categories/scooter.jpg";
+import img9_1 from "../img/Categories/scooter.jpg";
+import img9_2 from "../img/Categories/scooter.jpg";
+import img9_3 from "../img/Categories/scooter.jpg";
+import img9_4 from "../img/Categories/scooter.jpg";
+import img9_5 from "../img/Categories/scooter.jpg";
+import img9_6 from "../img/Categories/scooter.jpg";
+import img10_1 from "../img/Categories/scooter.jpg";
+import img10_2 from "../img/Categories/scooter.jpg";
+import img10_3 from "../img/Categories/scooter.jpg";
+import img10_4 from "../img/Categories/scooter.jpg";
+import img11_1 from "../img/Categories/scooter.jpg";
+import img11_2 from "../img/Categories/scooter.jpg";
+import img11_3 from "../img/Categories/scooter.jpg";
+import img11_4 from "../img/Categories/scooter.jpg";
+import img11_5 from "../img/Categories/scooter.jpg";
+import img11_6 from "../img/Categories/scooter.jpg";
+import img11_7 from "../img/Categories/scooter.jpg";
+import img11_8 from "../img/Categories/scooter.jpg";
+import img12_1 from "../img/Categories/scooter.jpg";
+import img12_2 from "../img/Categories/scooter.jpg";
+import img12_3 from "../img/Categories/scooter.jpg";
+import img12_4 from "../img/Categories/scooter.jpg";
+import img12_5 from "../img/Categories/scooter.jpg";
+import img12_6 from "../img/Categories/scooter.jpg";
+import img12_7 from "../img/Categories/scooter.jpg";
+import img12_8 from "../img/Categories/scooter.jpg";
+import img12_9 from "../img/Categories/scooter.jpg";
+import img13_1 from "../img/Categories/scooter.jpg";
+import img13_2 from "../img/Categories/scooter.jpg";
+import img13_3 from "../img/Categories/scooter.jpg";
+import img13_4 from "../img/Categories/scooter.jpg";
+import img13_5 from "../img/Categories/scooter.jpg";
+import img13_6 from "../img/Categories/scooter.jpg";
+import img13_7 from "../img/Categories/scooter.jpg";
+import img13_8 from "../img/Categories/scooter.jpg";
+import img14_1 from "../img/Categories/scooter.jpg";
+import img14_2 from "../img/Categories/scooter.jpg";
+import img14_3 from "../img/Categories/scooter.jpg";
+import img14_4 from "../img/Categories/scooter.jpg";
+import img14_5 from "../img/Categories/scooter.jpg";
+import img14_6 from "../img/Categories/scooter.jpg";
+import img14_7 from "../img/Categories/scooter.jpg";
+import img15_1 from "../img/Categories/scooter.jpg";
+import img15_2 from "../img/Categories/scooter.jpg";
+import img15_3 from "../img/Categories/scooter.jpg";
+import img15_4 from "../img/Categories/scooter.jpg";
+import img15_5 from "../img/Categories/scooter.jpg";
+import img15_6 from "../img/Categories/scooter.jpg";
+import img15_7 from "../img/Categories/scooter.jpg";
+import img15_8 from "../img/Categories/scooter.jpg";
+import img16_1 from "../img/Categories/scooter.jpg";
+import img16_2 from "../img/Categories/scooter.jpg";
+import img16_3 from "../img/Categories/scooter.jpg";
+import img16_4 from "../img/Categories/scooter.jpg";
+import img16_5 from "../img/Categories/scooter.jpg";
+import img16_6 from "../img/Categories/scooter.jpg";
+import img16_7 from "../img/Categories/scooter.jpg";
+import img16_8 from "../img/Categories/scooter.jpg";
+import img17_1 from "../img/Categories/scooter.jpg";
+import img17_2 from "../img/Categories/scooter.jpg";
+import img17_3 from "../img/Categories/scooter.jpg";
+import img17_4 from "../img/Categories/scooter.jpg";
+import img17_5 from "../img/Categories/scooter.jpg";
+import img17_6 from "../img/Categories/scooter.jpg";
+import img17_7 from "../img/Categories/scooter.jpg";
+import img17_8 from "../img/Categories/scooter.jpg";
+import img17_9 from "../img/Categories/scooter.jpg";
+
+
 
 export const categories = [
     {
@@ -18,7 +138,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img1_1,
                 "link": "https://s.click.aliexpress.com/e/_Dmu8GW3",
                 "title": {
                     "en": "Cosmetics Organizers",
@@ -32,7 +152,7 @@ export const categories = [
                 }
             },
             {
-                "img": img2,
+                "img": img1_2,
                 "link": "https://s.click.aliexpress.com/e/_DksMelv",
                 "title": {
                     "en": "Back Massage Instrument",
@@ -46,7 +166,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img1_3,
                 "link": "https://s.click.aliexpress.com/e/_DlpxD7p",
                 "title": {
                     "en": "Massage Comb",
@@ -60,7 +180,7 @@ export const categories = [
                 }
             },
             {
-                "img": img4,
+                "img": img1_4,
                 "link": "https://s.click.aliexpress.com/e/_DFdmRtl",
                 "title": {
                     "en": "Permanent Makeup Machines",
@@ -89,7 +209,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img2_1,
                 "link": "https://s.click.aliexpress.com/e/_DdQnaZp",
                 "title": {
                     "en": "Electric Scooter",
@@ -103,7 +223,7 @@ export const categories = [
                 }
             },
             {
-                "img": img2,
+                "img": img2_2,
                 "link": "https://s.click.aliexpress.com/e/_DCIENZz",
                 "title": {
                     "en": "Electric Bike",
@@ -117,7 +237,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_3,
                 "link": "https://s.click.aliexpress.com/e/_DdDkfdz",
                 "title": {
                     "en": "Dumbbells",
@@ -131,7 +251,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_4,
                 "link": "https://s.click.aliexpress.com/e/_DnnUwO3",
                 "title": {
                     "en": "Yoga Clothing",
@@ -145,7 +265,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_5,
                 "link": "https://s.click.aliexpress.com/e/_DCvOALl",
                 "title": {
                     "en": "Fishing Accessories",
@@ -159,7 +279,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_6,
                 "link": "https://s.click.aliexpress.com/e/_Dk1PEXz",
                 "title": {
                     "en": "Road Bicycle",
@@ -173,7 +293,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_7,
                 "link": "https://s.click.aliexpress.com/e/_DCjQIXV",
                 "title": {
                     "en": "Mountain bike",
@@ -187,7 +307,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_8,
                 "link": "https://s.click.aliexpress.com/e/_DkRivuL",
                 "title": {
                     "en": "Electric Bike Motor",
@@ -201,7 +321,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img2_9,
                 "link": "https://s.click.aliexpress.com/e/_Dk5vZ9N",
                 "title": {
                     "en": "Bicycle Accessories",
@@ -230,7 +350,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img3_1,
                 "link": "https://s.click.aliexpress.com/e/_DCx0WiF",
                 "title": {
                     "en": "Toys",
@@ -244,7 +364,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img3_2,
                 "link": "https://s.click.aliexpress.com/e/_DFLyBHz",
                 "title": {
                     "en": "Beds & Furniture",
@@ -258,7 +378,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img3_3,
                 "link": "https://s.click.aliexpress.com/e/_DB469AB",
                 "title": {
                     "en": "Carriers & Travel Products",
@@ -272,7 +392,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img3_4,
                 "link": "https://s.click.aliexpress.com/e/_DBhYUdv",
                 "title": {
                     "en": "Grooming",
@@ -286,7 +406,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img3_5,
                 "link": "https://s.click.aliexpress.com/e/_DEQJfVd",
                 "title": {
                     "en": "Feeding & Watering Supplies",
@@ -300,7 +420,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img3_6,
                 "link": "https://s.click.aliexpress.com/e/_DnOqwJ5",
                 "title": {
                     "en": "Collars, Harnesses & Leashes",
@@ -329,7 +449,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img4_1,
                 "link": "https://s.click.aliexpress.com/e/_Dd7T01p",
                 "title": {
                     "en": "Coffee Tables",
@@ -343,7 +463,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_2,
                 "link": "https://s.click.aliexpress.com/e/_DEPRKz1",
                 "title": {
                     "en": "Living Room Cabinets",
@@ -357,7 +477,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_3,
                 "link": "https://s.click.aliexpress.com/e/_DBoxGFV",
                 "title": {
                     "en": "Sun Loungers",
@@ -371,7 +491,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_4,
                 "link": "https://s.click.aliexpress.com/e/_Dlod9dV",
                 "title": {
                     "en": "Living Room Sofas",
@@ -385,7 +505,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_5,
                 "link": "https://s.click.aliexpress.com/e/_DFjuNoT",
                 "title": {
                     "en": "Inflatable Seatings",
@@ -399,7 +519,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_6,
                 "link": "https://s.click.aliexpress.com/e/_Dm5XmNh",
                 "title": {
                     "en": "Bed Bases & Frames",
@@ -413,7 +533,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_7,
                 "link": "https://s.click.aliexpress.com/e/_DcAfpwn",
                 "title": {
                     "en": "Dressers",
@@ -427,7 +547,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img4_8,
                 "link": "https://s.click.aliexpress.com/e/_Ddb2xHd",
                 "title": {
                     "en": "Hammocks",
@@ -456,7 +576,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img5_1,
                 "link": "https://s.click.aliexpress.com/e/_DBzBpj1",
                 "title": {
                     "en": "Movies & TV",
@@ -470,7 +590,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_2,
                 "link": "https://s.click.aliexpress.com/e/_DDJc39H",
                 "title": {
                     "en": "Inflatable Toys",
@@ -484,7 +604,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_3,
                 "link": "https://s.click.aliexpress.com/e/_DdcDMpp",
                 "title": {
                     "en": "Toy Sports",
@@ -498,7 +618,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_4,
                 "link": "https://s.click.aliexpress.com/e/_DmUq2gP",
                 "title": {
                     "en": "Party Games",
@@ -512,7 +632,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_5,
                 "link": "https://s.click.aliexpress.com/e/_DecSOVv",
                 "title": {
                     "en": "RC Cars",
@@ -526,7 +646,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_6,
                 "link": "https://s.click.aliexpress.com/e/_DdBQWUB",
                 "title": {
                     "en": "Bath Toys",
@@ -540,7 +660,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_7,
                 "link": "https://s.click.aliexpress.com/e/_DkRG0RV",
                 "title": {
                     "en": "Stress Relief Toys",
@@ -554,7 +674,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img5_8,
                 "link": "https://s.click.aliexpress.com/e/_DmqjBYb",
                 "title": {
                     "en": "Ride On Vehicles",
@@ -583,7 +703,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img6_1,
                 "link": "https://s.click.aliexpress.com/e/_DecJJ5z",
                 "title": {
                     "en": "Tote Bag",
@@ -597,7 +717,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img6_2,
                 "link": "https://s.click.aliexpress.com/e/_DexYrld",
                 "title": {
                     "en": "Middle Size Luggage",
@@ -611,7 +731,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img6_3,
                 "link": "https://s.click.aliexpress.com/e/_DBarZsL",
                 "title": {
                     "en": "Casual Backpack",
@@ -625,7 +745,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img6_4,
                 "link": "https://s.click.aliexpress.com/e/_DDO3IMf",
                 "title": {
                     "en": "Carry-Ons Luggage",
@@ -639,7 +759,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img6_5,
                 "link": "https://s.click.aliexpress.com/e/_DcZwED1",
                 "title": {
                     "en": "Travel Bag",
@@ -653,7 +773,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img6_6,
                 "link": "https://s.click.aliexpress.com/e/_Dls1tIB",
                 "title": {
                     "en": "Women's Fold Wallet",
@@ -682,7 +802,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img7_1,
                 "link": "https://s.click.aliexpress.com/e/_DCqrdr5",
                 "title": {
                     "en": "Light Bulbs",
@@ -696,7 +816,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img7_2,
                 "link": "https://s.click.aliexpress.com/e/_DFAEqz5",
                 "title": {
                     "en": "Bathroom Hardwares",
@@ -710,7 +830,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img7_3,
                 "link": "https://s.click.aliexpress.com/e/_DEHRYL1",
                 "title": {
                     "en": "Light Tubes",
@@ -724,7 +844,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img7_4,
                 "link": "https://s.click.aliexpress.com/e/_DEXI7zh",
                 "title": {
                     "en": "Cold Room Systems",
@@ -738,7 +858,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img7_5,
                 "link": "https://s.click.aliexpress.com/e/_DdijddZ",
                 "title": {
                     "en": "Smart Bathroom",
@@ -752,7 +872,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img7_6,
                 "link": "https://s.click.aliexpress.com/e/_DcRSNaF",
                 "title": {
                     "en": "Solar Panels",
@@ -781,7 +901,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img8_1,
                 "link": "https://s.click.aliexpress.com/e/_DdvB8YT",
                 "title": {
                     "en": "Inspection Tools",
@@ -795,7 +915,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_2,
                 "link": "https://s.click.aliexpress.com/e/_DkShqjh",
                 "title": {
                     "en": "Motorcycles",
@@ -809,7 +929,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_3,
                 "link": "https://s.click.aliexpress.com/e/_DCiILVD",
                 "title": {
                     "en": "Accessories",
@@ -823,7 +943,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_4,
                 "link": "https://s.click.aliexpress.com/e/_Dl8kM19",
                 "title": {
                     "en": "Interior Replacement Parts",
@@ -837,7 +957,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_5,
                 "link": "https://s.click.aliexpress.com/e/_Dl70dcP",
                 "title": {
                     "en": "Car DVR",
@@ -851,7 +971,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_6,
                 "link": "https://s.click.aliexpress.com/e/_DBH8iob",
                 "title": {
                     "en": "Jump Starters",
@@ -865,7 +985,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_7,
                 "link": "https://s.click.aliexpress.com/e/_DBzEqpV",
                 "title": {
                     "en": "Car Electronic Accessories",
@@ -879,7 +999,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img8_8,
                 "link": "https://s.click.aliexpress.com/e/_DFNHWAJ",
                 "title": {
                     "en": "Car Stickers",
@@ -908,90 +1028,89 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img9_1,
                 "link": "https://s.click.aliexpress.com/e/_DDF5NxH",
                 "title": {
                     "en": "Women's Necklace",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Naszyjnik damski",
+                    "ua": "Жіночі намиста"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Elegant necklaces to complement any outfit.",
+                    "pl": "Eleganckie naszyjniki do każdej stylizacji.",
+                    "ua": "Елегантні намиста до будь-якого вбрання."
                 }
             },
             {
-                "img": img3,
+                "img": img9_2,
                 "link": "https://s.click.aliexpress.com/e/_DdQ1i4b",
                 "title": {
                     "en": "Electronic Watches",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Zegarki elektroniczne",
+                    "ua": "Електронні годинники"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Modern electronic watches with various features.",
+                    "pl": "Nowoczesne zegarki elektroniczne z różnymi funkcjami.",
+                    "ua": "Сучасні електронні годинники з різними функціями."
                 }
             },
             {
-                "img": img3,
+                "img": img9_3,
                 "link": "https://s.click.aliexpress.com/e/_DlNg3Ox",
                 "title": {
                     "en": "New in Women's Watches",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Nowości w zegarkach damskich",
+                    "ua": "Новинки в жіночих годинниках"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Discover the latest styles in women's watches.",
+                    "pl": "Odkryj najnowsze style zegarków damskich.",
+                    "ua": "Відкрийте для себе найновіші стилі жіночих годинників."
                 }
             },
             {
-                "img": img3,
+                "img": img9_4,
                 "link": "https://s.click.aliexpress.com/e/_DEi3f3z",
                 "title": {
                     "en": "Jewelry Sets",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Zestawy biżuterii",
+                    "ua": "Комплекти прикрас"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Beautifully matched jewelry sets.",
+                    "pl": "Pięknie dobrane zestawy biżuterii.",
+                    "ua": "Гарно підібрані комплекти прикрас."
                 }
             },
             {
-                "img": img3,
+                "img": img9_5,
                 "link": "https://s.click.aliexpress.com/e/_DdV29yR",
                 "title": {
                     "en": "Earring Set",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Zestaw kolczyków",
+                    "ua": "Набір сережок"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Stylish earring sets for every occasion.",
+                    "pl": "Stylowe zestawy kolczyków na każdą okazję.",
+                    "ua": "Стильні набори сережок на будь-який випадок."
                 }
             },
             {
-                "img": img3,
+                "img": img9_6,
                 "link": "https://s.click.aliexpress.com/e/_DkkQ7w3",
                 "title": {
                     "en": "Polarized Sunglasses",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Okulary przeciwsłoneczne polaryzacyjne",
+                    "ua": "Поляризовані сонцезахисні окуляри"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Protect your eyes with stylish polarized sunglasses.",
+                    "pl": "Chroń oczy stylowymi okularami przeciwsłonecznymi z polaryzacją.",
+                    "ua": "Захистіть очі стильними поляризованими окулярами."
                 }
-            },
-
+            }
         ]
     },
     {
@@ -1008,61 +1127,61 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img10_1,
                 "link": "https://s.click.aliexpress.com/e/_DDKu1Np",
                 "title": {
                     "en": "Smart Home",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Inteligentny dom",
+                    "ua": "Розумний дім"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Upgrade your home with the latest smart technology.",
+                    "pl": "Ulepsz swój dom dzięki najnowszej inteligentnej technologii.",
+                    "ua": "Оснастіть свій дім новітніми розумними технологіями."
                 }
             },
             {
-                "img": img3,
+                "img": img10_2,
                 "link": "https://s.click.aliexpress.com/e/_DcgOaU7",
                 "title": {
                     "en": "Chargers",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Ładowarki",
+                    "ua": "Зарядні пристрої"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Stay powered up with our range of chargers.",
+                    "pl": "Pozostań naładowany dzięki naszym ładowarkom.",
+                    "ua": "Залишайтесь зарядженими з нашими зарядними пристроями."
                 }
             },
             {
-                "img": img3,
+                "img": img10_3,
                 "link": "https://s.click.aliexpress.com/e/_DF1MGPt",
                 "title": {
                     "en": "Automation Kits",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Zestawy automatyzacyjne",
+                    "ua": "Набори автоматизації"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Streamline your tasks with automation kits.",
+                    "pl": "Usprawnij swoje zadania dzięki zestawom automatyzacyjnym.",
+                    "ua": "Спрощуйте свої завдання за допомогою наборів автоматизації."
                 }
             },
             {
-                "img": img3,
+                "img": img10_4,
                 "link": "https://s.click.aliexpress.com/e/_DDNOsRt",
                 "title": {
                     "en": "Handheld Gimbal & Stabilizers",
-                    "pl": "",
-                    "ua": ""
+                    "pl": "Gimbale ręczne i stabilizatory",
+                    "ua": "Ручні стабілізатори та гімбали"
                 },
                 "description": {
-                    "en": "",
-                    "pl": "",
-                    "ua": ""
+                    "en": "Capture smooth footage with our gimbals and stabilizers.",
+                    "pl": "Nagrywaj płynne filmy dzięki naszym gimbalom i stabilizatorom.",
+                    "ua": "Знімайте плавне відео за допомогою наших стабілізаторів та гімбалів."
                 }
-            },
+            }
         ]
     },
     {
@@ -1079,7 +1198,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img3,
+                "img": img11_1,
                 "link": "https://s.click.aliexpress.com/e/_DlXcnI3",
                 "title": {
                     "en": "Sneaker",
@@ -1093,7 +1212,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_2,
                 "link": "https://s.click.aliexpress.com/e/_DmeTZsr",
                 "title": {
                     "en": "Flat Sandals",
@@ -1107,7 +1226,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_3,
                 "link": "https://s.click.aliexpress.com/e/_DBZJXF5",
                 "title": {
                     "en": "Casual Sneaker",
@@ -1121,7 +1240,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_4,
                 "link": "https://s.click.aliexpress.com/e/_DeRqpuR",
                 "title": {
                     "en": "Outdoor Boots",
@@ -1135,7 +1254,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_5,
                 "link": "https://s.click.aliexpress.com/e/_DlEnljN",
                 "title": {
                     "en": "Flip Flops",
@@ -1149,7 +1268,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_6,
                 "link": "https://s.click.aliexpress.com/e/_DBhozbH",
                 "title": {
                     "en": "Heeled Sandals",
@@ -1163,7 +1282,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_7,
                 "link": "https://s.click.aliexpress.com/e/_DdzNqsT",
                 "title": {
                     "en": "Work & Safety Shoes",
@@ -1177,7 +1296,7 @@ export const categories = [
                 }
             },
             {
-                "img": img3,
+                "img": img11_8,
                 "link": "https://s.click.aliexpress.com/e/_DdhlJR9",
                 "title": {
                     "en": "Platform Sandals",
@@ -1206,7 +1325,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img12_1,
                 "link": "https://s.click.aliexpress.com/e/_DmUdcuL",
                 "title": {
                     "en": "Connectors",
@@ -1220,7 +1339,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_2,
                 "link": "https://s.click.aliexpress.com/e/_DDke9zD",
                 "title": {
                     "en": "Jumbo Braids",
@@ -1234,7 +1353,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_3,
                 "link": "https://s.click.aliexpress.com/e/_DcvSy0b",
                 "title": {
                     "en": "Clip-In Extensions",
@@ -1248,7 +1367,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_4,
                 "link": "https://s.click.aliexpress.com/e/_DBiS7jN",
                 "title": {
                     "en": "Human Hair Full Lace",
@@ -1262,7 +1381,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_5,
                 "link": "https://s.click.aliexpress.com/e/_DeIjRTH",
                 "title": {
                     "en": "Human Hair Extensions",
@@ -1276,7 +1395,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_6,
                 "link": "https://s.click.aliexpress.com/e/_DFew9hh",
                 "title": {
                     "en": "Synthetic Ponytails",
@@ -1290,7 +1409,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_7,
                 "link": "https://s.click.aliexpress.com/e/_DBqIQoF",
                 "title": {
                     "en": "Hair Weaving",
@@ -1304,7 +1423,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_8,
                 "link": "https://s.click.aliexpress.com/e/_DdZgfRd",
                 "title": {
                     "en": "African American Wigs",
@@ -1318,7 +1437,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img12_9,
                 "link": "https://s.click.aliexpress.com/e/_DBEes9z",
                 "title": {
                     "en": "Synthetic Hair Lace",
@@ -1347,7 +1466,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img13_1,
                 "link": "https://s.click.aliexpress.com/e/_Dd9yvbd",
                 "title": {
                     "en": "Smartphone Android",
@@ -1361,7 +1480,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_2,
                 "link": "https://s.click.aliexpress.com/e/_DlMFSLv",
                 "title": {
                     "en": "Power Banks",
@@ -1375,7 +1494,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_3,
                 "link": "https://s.click.aliexpress.com/e/_DeCfarh",
                 "title": {
                     "en": "Mobile Phone Cables",
@@ -1389,7 +1508,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_4,
                 "link": "https://s.click.aliexpress.com/e/_DByaynh",
                 "title": {
                     "en": "Phone Repair Tools",
@@ -1403,7 +1522,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_5,
                 "link": "https://s.click.aliexpress.com/e/_DeXSU6r",
                 "title": {
                     "en": "Holders & Stands",
@@ -1417,7 +1536,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_6,
                 "link": "https://s.click.aliexpress.com/e/_DmhlvkP",
                 "title": {
                     "en": "Rugged Smartphones",
@@ -1431,7 +1550,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_7,
                 "link": "https://s.click.aliexpress.com/e/_Ddhu7PH",
                 "title": {
                     "en": "Phone Cases",
@@ -1445,7 +1564,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img13_8,
                 "link": "https://s.click.aliexpress.com/e/_Ddu62dd",
                 "title": {
                     "en": "Mobile Phone Flex Cables",
@@ -1474,7 +1593,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img14_1,
                 "link": "https://s.click.aliexpress.com/e/_DdAkf0J",
                 "title": {
                     "en": "Bodysuits & One-Pieces",
@@ -1488,7 +1607,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_2,
                 "link": "https://s.click.aliexpress.com/e/_Dl30Ji7",
                 "title": {
                     "en": "Accessories",
@@ -1502,7 +1621,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_3,
                 "link": "https://s.click.aliexpress.com/e/_DCfblAb",
                 "title": {
                     "en": "Girls Party Dresses",
@@ -1516,7 +1635,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_4,
                 "link": "https://s.click.aliexpress.com/e/_DCnH4Vd",
                 "title": {
                     "en": "Lightweight Strollers",
@@ -1530,7 +1649,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_5,
                 "link": "https://s.click.aliexpress.com/e/_DBJ0oP1",
                 "title": {
                     "en": "Outerwear",
@@ -1544,7 +1663,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_6,
                 "link": "https://s.click.aliexpress.com/e/_Dma1U8b",
                 "title": {
                     "en": "Casual Shoes",
@@ -1558,7 +1677,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img14_7,
                 "link": "https://s.click.aliexpress.com/e/_DFDQssb",
                 "title": {
                     "en": "Baby Seats & Sofas",
@@ -1587,7 +1706,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img15_1,
                 "link": "https://s.click.aliexpress.com/e/_DBe4oVz",
                 "title": {
                     "en": "Drinkware",
@@ -1601,7 +1720,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_2,
                 "link": "https://s.click.aliexpress.com/e/_DCLuk0j",
                 "title": {
                     "en": "Drawers",
@@ -1615,7 +1734,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_3,
                 "link": "https://s.click.aliexpress.com/e/_DEjXGSn",
                 "title": {
                     "en": "Boxes",
@@ -1629,7 +1748,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_4,
                 "link": "https://s.click.aliexpress.com/e/_DeyReIP",
                 "title": {
                     "en": "Outdoor Decors",
@@ -1643,7 +1762,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_5,
                 "link": "https://s.click.aliexpress.com/e/_DeZHZYr",
                 "title": {
                     "en": "Box",
@@ -1657,7 +1776,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_6,
                 "link": "https://s.click.aliexpress.com/e/_DduWvxH",
                 "title": {
                     "en": "Wall Art",
@@ -1671,7 +1790,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_7,
                 "link": "https://s.click.aliexpress.com/e/_DC6n9tZ",
                 "title": {
                     "en": "Bathroom Accessories",
@@ -1685,7 +1804,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img15_8,
                 "link": "https://s.click.aliexpress.com/e/_DExfqaB",
                 "title": {
                     "en": "Table Decoration & Accessories",
@@ -1714,7 +1833,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img16_1,
                 "link": "https://s.click.aliexpress.com/e/_DBJV26r",
                 "title": {
                     "en": "Tees",
@@ -1728,7 +1847,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_2,
                 "link": "https://s.click.aliexpress.com/e/_DCkA9uP",
                 "title": {
                     "en": "Short Dresses",
@@ -1742,7 +1861,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_3,
                 "link": "https://s.click.aliexpress.com/e/_DDgWKUb",
                 "title": {
                     "en": "Long Dresses",
@@ -1756,7 +1875,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_4,
                 "link": "https://s.click.aliexpress.com/e/_DDMvKFZ",
                 "title": {
                     "en": "Bikinis Sets",
@@ -1770,7 +1889,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_5,
                 "link": "https://s.click.aliexpress.com/e/_DeUzzEx",
                 "title": {
                     "en": "Pant Sets",
@@ -1784,7 +1903,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_6,
                 "link": "https://s.click.aliexpress.com/e/_DdqHVpZ",
                 "title": {
                     "en": "Shorts",
@@ -1798,7 +1917,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_7,
                 "link": "https://s.click.aliexpress.com/e/_DDuZ9uJ",
                 "title": {
                     "en": "Midi Dresses",
@@ -1812,7 +1931,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img16_8,
                 "link": "https://s.click.aliexpress.com/e/_DFvZCyT",
                 "title": {
                     "en": "Party Dresses",
@@ -1841,7 +1960,7 @@ export const categories = [
         },
         "subcategories": [
             {
-                "img": img1,
+                "img": img17_1,
                 "link": "https://s.click.aliexpress.com/e/_DmMiLor",
                 "title": {
                     "en": "Alphabet T-Shirt",
@@ -1855,7 +1974,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_2,
                 "link": "https://s.click.aliexpress.com/e/_Ddr1yAJ",
                 "title": {
                     "en": "Ice Shorts",
@@ -1869,7 +1988,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_3,
                 "link": "https://s.click.aliexpress.com/e/_DC3ZCg7",
                 "title": {
                     "en": "Plain T-Shirt",
@@ -1883,7 +2002,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_4,
                 "link": "https://s.click.aliexpress.com/e/_DmqvHkf",
                 "title": {
                     "en": "Quick-Drying T-Shirt",
@@ -1897,7 +2016,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_5,
                 "link": "https://s.click.aliexpress.com/e/_DEuiao7",
                 "title": {
                     "en": "Sports Suits",
@@ -1911,7 +2030,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_6,
                 "link": "https://s.click.aliexpress.com/e/_DdyTVb9",
                 "title": {
                     "en": "Casual Shorts",
@@ -1925,7 +2044,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_7,
                 "link": "https://s.click.aliexpress.com/e/_DDxEz3d",
                 "title": {
                     "en": "Cargo Shorts",
@@ -1939,7 +2058,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_8,
                 "link": "https://s.click.aliexpress.com/e/_DmYH3kB",
                 "title": {
                     "en": "Shorts Polo",
@@ -1953,7 +2072,7 @@ export const categories = [
                 }
             },
             {
-                "img": img1,
+                "img": img17_9,
                 "link": "https://s.click.aliexpress.com/e/_DEg5SbZ",
                 "title": {
                     "en": "New in Men's Sets",
