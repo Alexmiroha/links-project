@@ -12,19 +12,17 @@ import img2_7 from "../img/Categories/sport.jpg";
 import img2_8 from "../img/Categories/ebikeMotor.jpg";
 import img2_9 from "../img/Categories/Bicycle Accessories.jpg";
 import img3_1 from "../img/Categories/petToys.jpg";
-import img3_2 from "../img/Categories/scooter.jpg";
-import img3_3 from "../img/Categories/scooter.jpg";
-import img3_4 from "../img/Categories/scooter.jpg";
-import img3_5 from "../img/Categories/scooter.jpg";
-import img3_6 from "../img/Categories/scooter.jpg";
-import img4_1 from "../img/Categories/scooter.jpg";
-import img4_2 from "../img/Categories/scooter.jpg";
-import img4_3 from "../img/Categories/scooter.jpg";
-import img4_4 from "../img/Categories/scooter.jpg";
-import img4_5 from "../img/Categories/scooter.jpg";
-import img4_6 from "../img/Categories/scooter.jpg";
-import img4_7 from "../img/Categories/scooter.jpg";
-import img4_8 from "../img/Categories/scooter.jpg";
+import img3_2 from "../img/Categories/beds.jpg";
+import img3_3 from "../img/Categories/Carriers & Travel Products.jpg";
+import img3_4 from "../img/Categories/Grooming.jpg";
+import img3_5 from "../img/Categories/Feeding & Watering Supplies.jpg";
+import img3_6 from "../img/Categories/Collars, Harnesses & Leashes.jpg";
+import img4_1 from "../img/Categories/coffeetableround.jpg";
+import img4_2 from "../img/Categories/Cabinets.jpg";
+import img4_3 from "../img/Categories/Sun Loungers.jpg";
+import img4_4 from "../img/Categories/sofaset.jpg";
+import img4_5 from "../img/Categories/Inflatable Seatings.jpg";
+import img4_8 from "../img/Categories/Hammock.jpg";
 import img5_1 from "../img/Categories/scooter.jpg";
 import img5_2 from "../img/Categories/scooter.jpg";
 import img5_3 from "../img/Categories/scooter.jpg";
@@ -516,34 +514,6 @@ export const categories = [
                     "en": "Versatile and fun inflatable seatings for any occasion.",
                     "pl": "Wszechstronne i zabawne nadmuchiwane siedzenia na każdą okazję.",
                     "ua": "Універсальні та веселі надувні сидіння для будь-якої нагоди."
-                }
-            },
-            {
-                "img": img4_6,
-                "link": "https://s.click.aliexpress.com/e/_Dm5XmNh",
-                "title": {
-                    "en": "Bed Bases & Frames",
-                    "pl": "Bazy i ramy łóżek",
-                    "ua": "Підстави та рами для ліжок"
-                },
-                "description": {
-                    "en": "Sturdy and stylish bed bases and frames for a good night's sleep.",
-                    "pl": "Solidne i stylowe bazy i ramy łóżek dla dobrego snu.",
-                    "ua": "Міцні та стильні підстави та рами для ліжок для хорошого сну."
-                }
-            },
-            {
-                "img": img4_7,
-                "link": "https://s.click.aliexpress.com/e/_DcAfpwn",
-                "title": {
-                    "en": "Dressers",
-                    "pl": "Komody",
-                    "ua": "Комоди"
-                },
-                "description": {
-                    "en": "Elegant dressers to keep your clothes organized.",
-                    "pl": "Eleganckie komody, aby utrzymać ubrania w porządku.",
-                    "ua": "Елегантні комоди для організації вашого одягу."
                 }
             },
             {

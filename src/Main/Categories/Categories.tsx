@@ -146,7 +146,7 @@ const Categories = (props: CategoriesPropsType) => {
                     {categories.map((category, index) => (
                         <Category
                             key={index}
-                            icon={'skmdkas'}
+                            icon={'icon'}
                             link={category.link}
                             name={props.language === 'ua' ? category.title['ua'] : props.language === 'pl' ? category.title['pl'] : category.title['en']}
                             onClick={() => navigate(category.link)}

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import errorImg from '../../img/Categories/error-image-photo-icon.svg'
 
 type SubCategoryPropsType = {
     language: string,
@@ -60,10 +61,20 @@ const SubCategories = (props: SubCategoryPropsType) => {
                             bg-white border border-gray-200 rounded-lg shadow
                              hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700
                               ${index === currentIndex ? 'block' : 'hidden'}`} data-carousel-item>
-                            <img
-                                className="object-cover w-full rounded-t-lg h-44 md:h-auto md:w-[35%] md:rounded-none md:rounded-s-lg"
-                                src={SubCategory.img} alt={SubCategory.link}/>
-                            <div className="flex flex-col justify-between p-4 leading-normal h-[40%] md:h-[100%] w-[90%]">
+                            {SubCategory.img ?
+                                <img
+                                    className="object-cover w-full rounded-t-lg h-44 md:h-auto md:w-[35%] md:rounded-none md:rounded-s-lg"
+                                    src={SubCategory.img} alt={SubCategory.link}/>
+                                :
+                                <img
+                                    className="object-cover w-full rounded-t-lg h-44 md:h-auto md:w-[35%] md:rounded-none md:rounded-s-lg"
+                                    src={errorImg} alt={'error'}/>
+                            // здобити онлоадер
+                            }
+
+
+                            <div
+                                className="flex flex-col justify-between p-4 leading-normal h-[40%] md:h-[100%] w-[90%]">
                                 <h3 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white 3xl:text-4xl 2xl:text-2xl text-sm">{props.language === 'ua' ? SubCategory.title.ua : props.language === 'pl' ? SubCategory.title.pl : SubCategory.title.en}</h3>
                                 <p className="mb-2 font-normal text-gray-700 dark:text-gray-400 3xl:text-2xl 2xl:text-lg text-sm">{props.language === 'ua' ? SubCategory.description.ua : props.language === 'pl' ? SubCategory.description.pl : SubCategory.description.en}</p>
                                 <button type="button"
