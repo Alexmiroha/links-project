@@ -23,7 +23,7 @@ import img4_3 from "../img/Categories/Sun Loungers.jpg";
 import img4_4 from "../img/Categories/sofaset.jpg";
 import img4_5 from "../img/Categories/Inflatable Seatings.jpg";
 import img4_8 from "../img/Categories/Hammock.jpg";
-import img5_1 from "../img/Categories/scooter.jpg";
+import img5_1 from "../img/Categories/CToys.jpg";
 import img5_2 from "../img/Categories/scooter.jpg";
 import img5_3 from "../img/Categories/scooter.jpg";
 import img5_4 from "../img/Categories/scooter.jpg";
