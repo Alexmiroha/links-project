@@ -28,12 +28,12 @@ import img5_2 from "../img/Categories/Inflatable Toys.jpg";
 import img5_3 from "../img/Categories/sports.jpg";
 import img5_4 from "../img/Categories/partyGames.jpg";
 import img5_5 from "../img/Categories/RcCars.jpg";
-import img5_6 from "../img/Categories/scooter.jpg";
-import img5_7 from "../img/Categories/scooter.jpg";
-import img5_8 from "../img/Categories/scooter.jpg";
-import img6_1 from "../img/Categories/scooter.jpg";
-import img6_2 from "../img/Categories/scooter.jpg";
-import img6_3 from "../img/Categories/scooter.jpg";
+import img5_6 from "../img/Categories/Bath Toys.jpg";
+import img5_7 from "../img/Categories/Stress Relief Toys.jpg";
+import img5_8 from "../img/Categories/KidCar.jpg";
+import img6_1 from "../img/Categories/Tote Bag.jpg";
+import img6_2 from "../img/Categories/Luggage.jpg";
+import img6_3 from "../img/Categories/Backpack.jpg";
 import img6_4 from "../img/Categories/scooter.jpg";
 import img6_5 from "../img/Categories/scooter.jpg";
 import img6_6 from "../img/Categories/scooter.jpg";
@@ -648,13 +648,13 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DmqjBYb",
                 "title": {
                     "en": "Ride On Vehicles",
-                    "pl": "Pojazdy na baterie",
-                    "ua": "Каталки"
+                    "pl": "Jeździki",
+                    "ua": "Дитячі електромобілі"
                 },
                 "description": {
                     "en": "Let your little ones drive around in style with our ride-on vehicles.",
                     "pl": "Pozwól swoim maluchom jeździć w stylu dzięki naszym pojazdom na baterie.",
-                    "ua": "Нехай ваші малюки катаються стильно з нашими каталками."
+                    "ua": "Здійсніть дитячі мрії завдяки автомобілям на радіокеруванні для дітей."
                 }
             }
         ]
