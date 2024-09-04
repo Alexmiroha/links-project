@@ -34,21 +34,19 @@ import img5_8 from "../img/Categories/KidCar.jpg";
 import img6_1 from "../img/Categories/Tote Bag.jpg";
 import img6_2 from "../img/Categories/Luggage.jpg";
 import img6_3 from "../img/Categories/Backpack.jpg";
-import img6_4 from "../img/Categories/scooter.jpg";
-import img6_5 from "../img/Categories/scooter.jpg";
-import img6_6 from "../img/Categories/scooter.jpg";
-import img7_1 from "../img/Categories/scooter.jpg";
-import img7_2 from "../img/Categories/scooter.jpg";
-import img7_3 from "../img/Categories/scooter.jpg";
-import img7_4 from "../img/Categories/scooter.jpg";
-import img7_5 from "../img/Categories/scooter.jpg";
-import img7_6 from "../img/Categories/scooter.jpg";
-import img8_1 from "../img/Categories/scooter.jpg";
-import img8_2 from "../img/Categories/scooter.jpg";
-import img8_3 from "../img/Categories/scooter.jpg";
-import img8_4 from "../img/Categories/scooter.jpg";
-import img8_5 from "../img/Categories/scooter.jpg";
-import img8_6 from "../img/Categories/scooter.jpg";
+import img6_4 from "../img/Categories/Carry-Ons Luggage.jpg";
+import img6_5 from "../img/Categories/Travel Bag.jpg";
+import img6_6 from "../img/Categories/Wallet.jpg";
+import img7_1 from "../img/Categories/Light Bulbs.jpg";
+import img7_2 from "../img/Categories/Bathroom Hardwares.jpg";
+import img7_3 from "../img/Categories/Light.jpg";
+import img7_5 from "../img/Categories/Bathroom Hardwares.jpg";
+import img7_6 from "../img/Categories/Solar Panels.jpg";
+import img8_1 from "../img/Categories/moto.jpg";
+import img8_3 from "../img/Categories/AutoAc.jpg";
+import img8_4 from "../img/Categories/Interior.jpg";
+import img8_5 from "../img/Categories/DVR.png";
+import img8_6 from "../img/Categories/jumpstarters.jpg";
 import img8_7 from "../img/Categories/scooter.jpg";
 import img8_8 from "../img/Categories/scooter.jpg";
 import img9_1 from "../img/Categories/scooter.jpg";
@@ -803,28 +801,14 @@ export const categories = [
                 "img": img7_3,
                 "link": "https://s.click.aliexpress.com/e/_DEHRYL1",
                 "title": {
-                    "en": "Light Tubes",
-                    "pl": "Rury świetlne",
-                    "ua": "Світлові трубки"
+                    "en": "Light Tubes, LEDs",
+                    "pl": "Rurлш świetlne, LEDy",
+                    "ua": "Світлові трубки, LED-и"
                 },
                 "description": {
                     "en": "Durable and bright light tubes for all your lighting needs.",
                     "pl": "Trwałe i jasne rury świetlne do wszystkich Twoich potrzeb oświetleniowych.",
                     "ua": "Міцні та яскраві світлові трубки для всіх ваших потреб у освітленні."
-                }
-            },
-            {
-                "img": img7_4,
-                "link": "https://s.click.aliexpress.com/e/_DEXI7zh",
-                "title": {
-                    "en": "Cold Room Systems",
-                    "pl": "Systemy chłodni",
-                    "ua": "Системи холодних кімнат"
-                },
-                "description": {
-                    "en": "Efficient and reliable cold room systems for your home.",
-                    "pl": "Wydajne i niezawodne systemy chłodni do Twojego domu.",
-                    "ua": "Ефективні та надійні системи холодних кімнат для вашого дому."
                 }
             },
             {
@@ -872,20 +856,6 @@ export const categories = [
         "subcategories": [
             {
                 "img": img8_1,
-                "link": "https://s.click.aliexpress.com/e/_DdvB8YT",
-                "title": {
-                    "en": "Inspection Tools",
-                    "pl": "Narzędzia Inspekcyjne",
-                    "ua": "Інспекційні Інструменти"
-                },
-                "description": {
-                    "en": "Ensure your vehicle is in top condition with our inspection tools.",
-                    "pl": "Zadbaj o to, aby Twój pojazd był w doskonałym stanie dzięki naszym narzędziom inspekcyjnym.",
-                    "ua": "Забезпечте ідеальний стан вашого транспортного засобу за допомогою наших інспекційних інструментів."
-                }
-            },
-            {
-                "img": img8_2,
                 "link": "https://s.click.aliexpress.com/e/_DkShqjh",
                 "title": {
                     "en": "Motorcycles",
