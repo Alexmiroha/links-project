@@ -49,26 +49,25 @@ import img8_5 from "../img/Categories/DVR.png";
 import img8_6 from "../img/Categories/jumpstarters.jpg";
 import img8_7 from "../img/Categories/CarAcc.jpg";
 import img8_8 from "../img/Categories/car stickers.jpg";
-import img9_1 from "../img/Categories/scooter.jpg";
-import img9_2 from "../img/Categories/scooter.jpg";
-import img9_3 from "../img/Categories/scooter.jpg";
-import img9_4 from "../img/Categories/scooter.jpg";
-import img9_5 from "../img/Categories/scooter.jpg";
-import img9_6 from "../img/Categories/scooter.jpg";
-import img10_1 from "../img/Categories/scooter.jpg";
-import img10_2 from "../img/Categories/scooter.jpg";
-import img10_3 from "../img/Categories/scooter.jpg";
-import img10_4 from "../img/Categories/scooter.jpg";
-import img11_1 from "../img/Categories/scooter.jpg";
-import img11_2 from "../img/Categories/scooter.jpg";
-import img11_3 from "../img/Categories/scooter.jpg";
-import img11_4 from "../img/Categories/scooter.jpg";
-import img11_5 from "../img/Categories/scooter.jpg";
-import img11_6 from "../img/Categories/scooter.jpg";
-import img11_7 from "../img/Categories/scooter.jpg";
-import img11_8 from "../img/Categories/scooter.jpg";
-import img12_1 from "../img/Categories/scooter.jpg";
-import img12_2 from "../img/Categories/scooter.jpg";
+import img9_1 from "../img/Categories/Necklace.jpg";
+import img9_2 from "../img/Categories/Watches.jpg";
+import img9_4 from "../img/Categories/jewelry-sets.jpg";
+import img9_5 from "../img/Categories/earring-set.jpg";
+import img9_6 from "../img/Categories/Polarized Sunglasses.jpg";
+import img10_1 from "../img/Categories/smart-home-devices.jpg";
+import img10_2 from "../img/Categories/Chargers.jpg";
+import img10_3 from "../img/Categories/consumer-electronics.jpg";
+import img10_4 from "../img/Categories/Handheld Gimbal.jpg";
+import img11_1 from "../img/Categories/Sneaker.jpg";
+import img11_2 from "../img/Categories/Flat Sandals.jpg";
+import img11_3 from "../img/Categories/Casual Sneaker.jpg";
+import img11_4 from "../img/Categories/Outdoor Boots.jpg";
+import img11_5 from "../img/Categories/Flip Flops.jpg";
+import img11_6 from "../img/Categories/Heeled Sandals.jpg";
+import img11_7 from "../img/Categories/Work & Safety Shoes.jpg";
+import img11_8 from "../img/Categories/Platform Sandals.jpg";
+import img12_1 from "../img/Categories/Hair Connectors.jpg";
+import img12_2 from "../img/Categories/jumbo-braids.jpg";
 import img12_3 from "../img/Categories/scooter.jpg";
 import img12_4 from "../img/Categories/scooter.jpg";
 import img12_5 from "../img/Categories/scooter.jpg";
@@ -996,20 +995,6 @@ export const categories = [
                 }
             },
             {
-                "img": img9_3,
-                "link": "https://s.click.aliexpress.com/e/_DlNg3Ox",
-                "title": {
-                    "en": "New in Women's Watches",
-                    "pl": "Nowości w zegarkach damskich",
-                    "ua": "Новинки в жіночих годинниках"
-                },
-                "description": {
-                    "en": "Discover the latest styles in women's watches.",
-                    "pl": "Odkryj najnowsze style zegarków damskich.",
-                    "ua": "Відкрийте для себе найновіші стилі жіночих годинників."
-                }
-            },
-            {
                 "img": img9_4,
                 "link": "https://s.click.aliexpress.com/e/_DEi3f3z",
                 "title": {
@@ -1096,16 +1081,16 @@ export const categories = [
             },
             {
                 "img": img10_3,
-                "link": "https://s.click.aliexpress.com/e/_DF1MGPt",
+                "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.productlist.allcategoriespc.6.6f3dz9ofz9ofpt&categoryTab=consumer_electronics",
                 "title": {
-                    "en": "Automation Kits",
-                    "pl": "Zestawy automatyzacyjne",
-                    "ua": "Набори автоматизації"
+                    "en": "consumer_electronics",
+                    "pl": "consumer_electronics",
+                    "ua": "consumer_electronics"
                 },
                 "description": {
-                    "en": "Streamline your tasks with automation kits.",
-                    "pl": "Usprawnij swoje zadania dzięki zestawom automatyzacyjnym.",
-                    "ua": "Спрощуйте свої завдання за допомогою наборів автоматизації."
+                    "en": "consumer_electronics!!!!!",
+                    "pl": "consumer_electronics!!!!!!",
+                    "ua": "consumer_electronics!!!!!!"
                 }
             },
             {
