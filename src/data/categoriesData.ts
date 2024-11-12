@@ -68,17 +68,13 @@ import img11_7 from "../img/Categories/Work & Safety Shoes.jpg";
 import img11_8 from "../img/Categories/Platform Sandals.jpg";
 import img12_1 from "../img/Categories/Hair Connectors.jpg";
 import img12_2 from "../img/Categories/jumbo-braids.jpg";
-import img12_3 from "../img/Categories/scooter.jpg";
-import img12_4 from "../img/Categories/scooter.jpg";
-import img12_5 from "../img/Categories/scooter.jpg";
-import img12_6 from "../img/Categories/scooter.jpg";
-import img12_7 from "../img/Categories/scooter.jpg";
-import img12_8 from "../img/Categories/scooter.jpg";
-import img12_9 from "../img/Categories/scooter.jpg";
-import img13_1 from "../img/Categories/scooter.jpg";
-import img13_2 from "../img/Categories/scooter.jpg";
-import img13_3 from "../img/Categories/scooter.jpg";
-import img13_4 from "../img/Categories/scooter.jpg";
+import img12_6 from "../img/Categories/Synthetic Ponytails.jpg";
+import img12_8 from "../img/Categories/African American Wigs.jpg";
+import img12_9 from "../img/Categories/Synthetic Hair Lace.jpg";
+import img13_1 from "../img/Categories/Smartphone Android.jpg";
+import img13_2 from "../img/Categories/Power Bank.jpg";
+import img13_3 from "../img/Categories/Mobile Phone Cables.jpg";
+import img13_4 from "../img/Categories/phone-repair-tools.jpg";
 import img13_5 from "../img/Categories/scooter.jpg";
 import img13_6 from "../img/Categories/scooter.jpg";
 import img13_7 from "../img/Categories/scooter.jpg";
@@ -1278,48 +1274,6 @@ export const categories = [
                 }
             },
             {
-                "img": img12_3,
-                "link": "https://s.click.aliexpress.com/e/_DcvSy0b",
-                "title": {
-                    "en": "Clip-In Extensions",
-                    "pl": "Doczepiane Przedłużenia",
-                    "ua": "Кліпси для Нарощування"
-                },
-                "description": {
-                    "en": "Easy to use clip-in extensions.",
-                    "pl": "Łatwe w użyciu doczepiane przedłużenia.",
-                    "ua": "Легкі у використанні кліпси для нарощування."
-                }
-            },
-            {
-                "img": img12_4,
-                "link": "https://s.click.aliexpress.com/e/_DBiS7jN",
-                "title": {
-                    "en": "Human Hair Full Lace",
-                    "pl": "Pełna Koronka z Ludzkich Włosów",
-                    "ua": "Повний Мереживний Перука з Людського Волосся"
-                },
-                "description": {
-                    "en": "High-quality full lace wigs made from human hair.",
-                    "pl": "Wysokiej jakości pełna koronka wykonana z ludzkich włosów.",
-                    "ua": "Високоякісні повні мереживні перуки з людського волосся."
-                }
-            },
-            {
-                "img": img12_5,
-                "link": "https://s.click.aliexpress.com/e/_DeIjRTH",
-                "title": {
-                    "en": "Human Hair Extensions",
-                    "pl": "Przedłużenia z Ludzkich Włosów",
-                    "ua": "Нарощування Людського Волосся"
-                },
-                "description": {
-                    "en": "Natural-looking human hair extensions.",
-                    "pl": "Przedłużenia z ludzkich włosów o naturalnym wyglądzie.",
-                    "ua": "Нарощування людського волосся, що виглядає натурально."
-                }
-            },
-            {
                 "img": img12_6,
                 "link": "https://s.click.aliexpress.com/e/_DFew9hh",
                 "title": {
@@ -1331,20 +1285,6 @@ export const categories = [
                     "en": "Stylish and affordable synthetic ponytails.",
                     "pl": "Stylowe i niedrogie syntetyczne kucyki.",
                     "ua": "Стильні та доступні синтетичні хвости."
-                }
-            },
-            {
-                "img": img12_7,
-                "link": "https://s.click.aliexpress.com/e/_DBqIQoF",
-                "title": {
-                    "en": "Hair Weaving",
-                    "pl": "Tkactwo Włosów",
-                    "ua": "Ткацтво Волосся"
-                },
-                "description": {
-                    "en": "Premium hair weaving products.",
-                    "pl": "Wysokiej jakości produkty do tkactwa włosów.",
-                    "ua": "Преміум продукти для ткацтва волосся."
                 }
             },
             {
