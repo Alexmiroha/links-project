@@ -84,14 +84,13 @@ import img14_3 from "../img/Categories/Girls Party Dresses.jpg";
 import img14_4 from "../img/Categories/lightweight-strollers.jpg";
 import img14_5 from "../img/Categories/Outerwear.jpg";
 import img14_6 from "../img/Categories/kids-casual-shoes.jpg";
-import img14_7 from "../img/Categories/drinkwares.jpg";
-import img15_1 from "../img/Categories/scooter.jpg";
-import img15_2 from "../img/Categories/scooter.jpg";
-import img15_3 from "../img/Categories/scooter.jpg";
-import img15_4 from "../img/Categories/scooter.jpg";
-import img15_5 from "../img/Categories/scooter.jpg";
-import img15_6 from "../img/Categories/scooter.jpg";
-import img15_7 from "../img/Categories/scooter.jpg";
+import img14_7 from "../img/Categories/Baby Seats & Sofas.jpg";
+import img15_1 from "../img/Categories/drinkware.jpg";
+import img15_2 from "../img/Categories/Drawers.jpg";
+import img15_3 from "../img/Categories/boxes.jpg";
+import img15_4 from "../img/Categories/outdoor-decors.jpg";
+import img15_6 from "../img/Categories/Wall Art.jpg";
+import img15_7 from "../img/Categories/Bathroom Accessories.jpg";
 import img15_8 from "../img/Categories/scooter.jpg";
 import img16_1 from "../img/Categories/scooter.jpg";
 import img16_2 from "../img/Categories/scooter.jpg";
@@ -1588,8 +1587,8 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DEjXGSn",
                 "title": {
                     "en": "Boxes",
-                    "pl": "Pudełka",
-                    "ua": "Коробки"
+                    "pl": "Pudełeczka",
+                    "ua": "Коробоки"
                 },
                 "description": {
                     "en": "Versatile boxes for storage and decoration.",
@@ -1609,20 +1608,6 @@ export const categories = [
                     "en": "Beautiful decorations to enhance your outdoor space.",
                     "pl": "Piękne dekoracje do Twojej przestrzeni na świeżym powietrzu.",
                     "ua": "Чудовий декор для вашого вуличного простору."
-                }
-            },
-            {
-                "img": img15_5,
-                "link": "https://s.click.aliexpress.com/e/_DeZHZYr",
-                "title": {
-                    "en": "Box",
-                    "pl": "Pudełko",
-                    "ua": "Коробка"
-                },
-                "description": {
-                    "en": "Functional and decorative storage boxes.",
-                    "pl": "Funkcjonalne i dekoracyjne pudełka do przechowywania.",
-                    "ua": "Функціональні та декоративні коробки для зберігання."
                 }
             },
             {
