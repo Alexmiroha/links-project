@@ -75,17 +75,16 @@ import img13_1 from "../img/Categories/Smartphone Android.jpg";
 import img13_2 from "../img/Categories/Power Bank.jpg";
 import img13_3 from "../img/Categories/Mobile Phone Cables.jpg";
 import img13_4 from "../img/Categories/phone-repair-tools.jpg";
-import img13_5 from "../img/Categories/scooter.jpg";
-import img13_6 from "../img/Categories/scooter.jpg";
-import img13_7 from "../img/Categories/scooter.jpg";
-import img13_8 from "../img/Categories/scooter.jpg";
-import img14_1 from "../img/Categories/scooter.jpg";
-import img14_2 from "../img/Categories/scooter.jpg";
-import img14_3 from "../img/Categories/scooter.jpg";
-import img14_4 from "../img/Categories/scooter.jpg";
-import img14_5 from "../img/Categories/scooter.jpg";
-import img14_6 from "../img/Categories/scooter.jpg";
-import img14_7 from "../img/Categories/scooter.jpg";
+import img13_5 from "../img/Categories/Holders & Stands.jpg";
+import img13_6 from "../img/Categories/rugged-smartphones.jpg";
+import img13_7 from "../img/Categories/Phone Cases.jpg";
+import img14_1 from "../img/Categories/baby-bodysuits-one-pieces.jpg";
+import img14_2 from "../img/Categories/сute-accessories-for-babies.jpg";
+import img14_3 from "../img/Categories/Girls Party Dresses.jpg";
+import img14_4 from "../img/Categories/lightweight-strollers.jpg";
+import img14_5 from "../img/Categories/Outerwear.jpg";
+import img14_6 from "../img/Categories/kids-casual-shoes.jpg";
+import img14_7 from "../img/Categories/drinkwares.jpg";
 import img15_1 from "../img/Categories/scooter.jpg";
 import img15_2 from "../img/Categories/scooter.jpg";
 import img15_3 from "../img/Categories/scooter.jpg";
@@ -1428,20 +1427,6 @@ export const categories = [
                     "ua": "Стильні та захисні чохли для телефонів."
                 }
             },
-            {
-                "img": img13_8,
-                "link": "https://s.click.aliexpress.com/e/_Ddu62dd",
-                "title": {
-                    "en": "Mobile Phone Flex Cables",
-                    "pl": "Kable Flex do Telefonów Komórkowych",
-                    "ua": "Гнучкі Кабелі для Мобільних Телефонів"
-                },
-                "description": {
-                    "en": "Flexible and durable flex cables for mobile phones.",
-                    "pl": "Elastyczne i trwałe kable flex do telefonów komórkowych.",
-                    "ua": "Гнучкі та міцні гнучкі кабелі для мобільних телефонів."
-                }
-            }
         ]
     },
     {
