@@ -97,18 +97,15 @@ import img16_2 from "../img/Categories/short-dresses.jpg";
 import img16_3 from "../img/Categories/long-dress.jpg";
 import img16_4 from "../img/Categories/bikinis-sets.jpg";
 import img16_5 from "../img/Categories/pants.jpg";
-import img16_6 from "../img/Categories/scooter.jpg";
-import img16_7 from "../img/Categories/scooter.jpg";
-import img16_8 from "../img/Categories/scooter.jpg";
-import img17_1 from "../img/Categories/scooter.jpg";
-import img17_2 from "../img/Categories/scooter.jpg";
-import img17_3 from "../img/Categories/scooter.jpg";
-import img17_4 from "../img/Categories/scooter.jpg";
-import img17_5 from "../img/Categories/scooter.jpg";
-import img17_6 from "../img/Categories/scooter.jpg";
-import img17_7 from "../img/Categories/scooter.jpg";
-import img17_8 from "../img/Categories/scooter.jpg";
-import img17_9 from "../img/Categories/scooter.jpg";
+import img16_6 from "../img/Categories/shorts.jpg";
+import img16_8 from "../img/Categories/party-dresses.jpg";
+import img17_1 from "../img/Categories/T-Short.jpg";
+import img17_2 from "../img/Categories/ice shorts.jpg";
+import img17_3 from "../img/Categories/Plain T-Shirt.jpg";
+import img17_5 from "../img/Categories/sports-suit.jpg";
+import img17_6 from "../img/Categories/casual-shorts.jpg";
+import img17_8 from "../img/Categories/polo.jpg";
+import img17_9 from "../img/Categories/man-new.jpg";
 
 
 
@@ -1752,20 +1749,6 @@ export const categories = [
                 }
             },
             {
-                "img": img16_7,
-                "link": "https://s.click.aliexpress.com/e/_DDuZ9uJ",
-                "title": {
-                    "en": "Midi Dresses",
-                    "pl": "Sukienki Midi",
-                    "ua": "Сукні Міді"
-                },
-                "description": {
-                    "en": "Chic midi dresses for a stylish look.",
-                    "pl": "Szykowne sukienki midi na stylowy wygląd.",
-                    "ua": "Шикарні сукні міді для стильного образу."
-                }
-            },
-            {
                 "img": img16_8,
                 "link": "https://s.click.aliexpress.com/e/_DFvZCyT",
                 "title": {
@@ -1799,8 +1782,8 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DmMiLor",
                 "title": {
                     "en": "Alphabet T-Shirt",
-                    "pl": "Koszulka z alfabetem",
-                    "ua": "Футболка з алфавітом"
+                    "pl": "Koszulki z nadrukiem",
+                    "ua": "Футболки з написом"
                 },
                 "description": {
                     "en": "Trendy T-shirt with alphabet print for a casual look.",
@@ -1813,8 +1796,8 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_Ddr1yAJ",
                 "title": {
                     "en": "Ice Shorts",
-                    "pl": "Szorty lodowe",
-                    "ua": "Крижані шорти"
+                    "pl": "Szorty lekkie",
+                    "ua": "Легкі шорти"
                 },
                 "description": {
                     "en": "Cool and comfortable shorts for hot days.",
@@ -1834,20 +1817,6 @@ export const categories = [
                     "en": "Simple and classic plain T-shirt for everyday wear.",
                     "pl": "Prosta i klasyczna gładka koszulka na co dzień.",
                     "ua": "Проста та класична однотонна футболка для щоденного носіння."
-                }
-            },
-            {
-                "img": img17_4,
-                "link": "https://s.click.aliexpress.com/e/_DmqvHkf",
-                "title": {
-                    "en": "Quick-Drying T-Shirt",
-                    "pl": "Szybkoschnąca koszulka",
-                    "ua": "Швидковисихаюча футболка"
-                },
-                "description": {
-                    "en": "Perfect for sports and outdoor activities.",
-                    "pl": "Idealna do uprawiania sportu i aktywności na świeżym powietrzu.",
-                    "ua": "Ідеальна для спорту та активного відпочинку."
                 }
             },
             {
@@ -1879,31 +1848,17 @@ export const categories = [
                 }
             },
             {
-                "img": img17_7,
-                "link": "https://s.click.aliexpress.com/e/_DDxEz3d",
-                "title": {
-                    "en": "Cargo Shorts",
-                    "pl": "Szorty cargo",
-                    "ua": "Карго шорти"
-                },
-                "description": {
-                    "en": "Functional and stylish cargo shorts with multiple pockets.",
-                    "pl": "Funkcjonalne i stylowe szorty cargo z wieloma kieszeniami.",
-                    "ua": "Функціональні та стильні карго шорти з численними кишенями."
-                }
-            },
-            {
                 "img": img17_8,
                 "link": "https://s.click.aliexpress.com/e/_DmYH3kB",
                 "title": {
-                    "en": "Shorts Polo",
-                    "pl": "Szorty polo",
-                    "ua": "Поло шорти"
+                    "en": "Polo t-short",
+                    "pl": "Koszulki polo",
+                    "ua": "Футболки Поло"
                 },
                 "description": {
-                    "en": "Casual polo shorts for a relaxed look.",
-                    "pl": "Swobodne szorty polo na luźny wygląd.",
-                    "ua": "Повсякденні поло шорти для розслабленого вигляду."
+                    "en": "Casual polo t-shorts for a relaxed look.",
+                    "pl": "Swobodne koszulki polo na luźny wygląd.",
+                    "ua": "Повсякденні поло для чоловіків."
                 }
             },
             {
