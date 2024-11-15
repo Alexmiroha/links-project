@@ -134,7 +134,7 @@ export const categories = [
                 "description": {
                     "en": "Keep your beauty products neat and accessible with our cosmetics organizers.",
                     "pl": "Utrzymuj swoje kosmetyki w porządku i łatwo dostępnymi dzięki naszym organizerom kosmetycznym.",
-                    "ua": "Тримайте свої косметичні продукти в порядку та доступності з нашими органайзерами для косметики."
+                    "ua": "Тримайте свою косметику в порядку та доступності з нашими органайзерами для косметики."
                 }
             },
             {
@@ -142,8 +142,8 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DksMelv",
                 "title": {
                     "en": "Back Massage Instrument",
-                    "pl": "Urządzenie do Masażu Pleców",
-                    "ua": "Прилад для Масажу Спини"
+                    "pl": "Urządzenia do Masażu Pleców",
+                    "ua": "Прилади для Масажу Спини"
                 },
                 "description": {
                     "en": "Relieve tension and stress with our back massage instruments.",
@@ -157,12 +157,12 @@ export const categories = [
                 "title": {
                     "en": "Massage Comb",
                     "pl": "Grzebień do Masażu",
-                    "ua": "Масажна Гребінець"
+                    "ua": "Масажні Гребінці"
                 },
                 "description": {
                     "en": "Stimulate your scalp and improve circulation with our massage combs.",
                     "pl": "Stymuluj skórę głowy i popraw krążenie dzięki naszym grzebieniom do masażu.",
-                    "ua": "Стимулюйте шкіру голови та покращуйте циркуляцію за допомогою наших масажних гребінців."
+                    "ua": "Стимулюйте шкіру голови та покращуйте циркуляцію крові за допомогою наших масажних гребінців."
                 }
             },
             {
@@ -205,7 +205,7 @@ export const categories = [
                 "description": {
                     "en": "Enjoy fast and eco-friendly rides with our electric scooters.",
                     "pl": "Ciesz się szybką i ekologiczną jazdą dzięki naszym hulajnogom elektrycznym.",
-                    "ua": "Насолоджуйтеся швидкими та екологічними поїздками на наших електросамокатах."
+                    "ua": "Насолоджуйтеся швидкими та екологічними поїздками на сучасних електросамокатах."
                 }
             },
             {
@@ -219,7 +219,7 @@ export const categories = [
                 "description": {
                     "en": "Discover the freedom of electric biking with our top models.",
                     "pl": "Odkryj wolność jazdy na rowerze elektrycznym z naszymi najlepszymi modelami.",
-                    "ua": "Відкрийте для себе свободу їзди на електровелосипеді з нашими найкращими моделями."
+                    "ua": "Відкрийте для себе свободу їзди на електровелосипеді з найкращими моделями."
                 }
             },
             {
@@ -233,7 +233,7 @@ export const categories = [
                 "description": {
                     "en": "Build strength and tone your muscles with our range of dumbbells.",
                     "pl": "Buduj siłę i rzeźb mięśnie dzięki naszemu asortymentowi hantli.",
-                    "ua": "Будуйте силу та тонізуйте м’язи з нашим асортиментом гантелей."
+                    "ua": "Будуйте силу та тонізуйте м’язи з найрізноманітнішим асортиментом гантелей."
                 }
             },
             {
@@ -247,7 +247,7 @@ export const categories = [
                 "description": {
                     "en": "Stay comfortable and stylish during your yoga sessions with our yoga clothing.",
                     "pl": "Pozostań wygodny i stylowy podczas sesji jogi dzięki naszej odzieży do jogi.",
-                    "ua": "Будьте зручними та стильними під час занять йогою з нашим одягом для йоги."
+                    "ua": "Будьте стильними та почувайтесь комфортно під час занять йогою в якісному одязі для йоги."
                 }
             },
             {
@@ -261,7 +261,7 @@ export const categories = [
                 "description": {
                     "en": "Gear up for the perfect fishing trip with our fishing accessories.",
                     "pl": "Przygotuj się na idealny wypad na ryby dzięki naszym akcesoriom wędkarskim.",
-                    "ua": "Підготуйтесь до ідеальної риболовлі з нашими аксесуарами для риболовлі."
+                    "ua": "Підготуйтесь до ідеальної риболовлі з різноманітними аксесуарами для риболовлі."
                 }
             },
             {
@@ -275,7 +275,7 @@ export const categories = [
                 "description": {
                     "en": "Experience speed and performance with our range of road bicycles.",
                     "pl": "Doświadcz prędkości i wydajności dzięki naszemu asortymentowi rowerów szosowych.",
-                    "ua": "Відчуйте швидкість та продуктивність з нашим асортиментом шосейних велосипедів."
+                    "ua": "Відчуйте швидкість та продуктивність з різноманітним асортиментом шосейних велосипедів."
                 }
             },
             {
@@ -289,7 +289,7 @@ export const categories = [
                 "description": {
                     "en": "Conquer any terrain with our rugged mountain bikes.",
                     "pl": "Podbijaj każde teren dzięki naszym wytrzymałym rowerom górskim.",
-                    "ua": "Підкорюйте будь-яку місцевість з нашими міцними гірськими велосипедами."
+                    "ua": "Підкорюйте будь-яку місцевість з міцними та якісними гірськими велосипедами."
                 }
             },
             {
@@ -303,7 +303,7 @@ export const categories = [
                 "description": {
                     "en": "Upgrade your bike with our powerful electric bike motors.",
                     "pl": "Ulepsz swój rower dzięki naszym potężnym silnikom elektrycznym.",
-                    "ua": "Покращте свій велосипед з нашими потужними електродвигунами."
+                    "ua": "Покращте свій велосипед потужними електродвигунами."
                 }
             },
             {
@@ -317,7 +317,7 @@ export const categories = [
                 "description": {
                     "en": "Enhance your cycling experience with our range of bicycle accessories.",
                     "pl": "Zwiększ swoje doświadczenie rowerowe dzięki naszemu asortymentowi akcesoriów rowerowych.",
-                    "ua": "Покращте свій досвід їзди на велосипеді з нашим асортиментом велоаксесуарів."
+                    "ua": "Відчуйте новий досвід їзди на велосипеді з цими велоаксесуарами."
                 }
             }
         ]
@@ -360,7 +360,7 @@ export const categories = [
                 "description": {
                     "en": "Comfortable beds and furniture for your pets to relax in style.",
                     "pl": "Wygodne łóżka i meble, aby twoje zwierzęta mogły relaksować się w stylu.",
-                    "ua": "Зручні ліжка та меблі для ваших тварин, щоб розслаблятися зі стилем."
+                    "ua": "Зручні ліжка та меблі для ваших тварин, щоб ваші пухнастики були щасливі."
                 }
             },
             {
@@ -374,7 +374,7 @@ export const categories = [
                 "description": {
                     "en": "Travel comfortably and safely with your pets using our carriers and travel products.",
                     "pl": "Podróżuj wygodnie i bezpiecznie ze swoimi zwierzętami dzięki naszym transporterom i produktom podróżnym.",
-                    "ua": "Подорожуйте зручно та безпечно з вашими тваринами, використовуючи наші переноски та товари для подорожей."
+                    "ua": "Подорожуйте зручно та безпечно з вашими тваринами, використовуючи ці переноски та товари для подорожей."
                 }
             },
             {
@@ -388,7 +388,7 @@ export const categories = [
                 "description": {
                     "en": "Keep your pets looking their best with our grooming supplies.",
                     "pl": "Utrzymuj swoje zwierzęta w najlepszej formie dzięki naszym artykułom do pielęgnacji.",
-                    "ua": "Зберігайте ваших тварин у найкращій формі з нашими засобами для грумінгу."
+                    "ua": "Утримуйте ваших тварин у найкращому вигляді з цими засобами для грумінгу."
                 }
             },
             {
@@ -402,7 +402,7 @@ export const categories = [
                 "description": {
                     "en": "High-quality feeding and watering supplies for your pets.",
                     "pl": "Wysokiej jakości artykuły do karmienia i pojenia twoich zwierząt.",
-                    "ua": "Високоякісні приладдя для годування та поїння ваших тварин."
+                    "ua": "Просту і якісне приладдя для годування та поїння ваших тварин."
                 }
             },
             {
@@ -431,7 +431,7 @@ export const categories = [
         "description": {
             "en": "Find furniture for your home and every room to suit your style.",
             "pl": "Znajdź meble do swojego domu i każdego pomieszczenia, które odpowiadają Twojemu stylowi.",
-            "ua": "Знайдіть меблі для вашого будинку та кожної кімнати, які відповідають вашому стилю."
+            "ua": "Тут ви знайдете меблі для вашого будинку та кожної кімнати, які відповідають вашому стилю."
         },
         "subcategories": [
             {
@@ -473,7 +473,7 @@ export const categories = [
                 "description": {
                     "en": "Relax in style with our comfortable sun loungers.",
                     "pl": "Zrelaksuj się w stylu z naszymi wygodnymi leżakami.",
-                    "ua": "Розслабтесь зі стилем на наших зручних шезлонгах."
+                    "ua": "Розслабтесь в сонячний день на цих зручних шезлонгах."
                 }
             },
             {
@@ -515,7 +515,7 @@ export const categories = [
                 "description": {
                     "en": "Relax and unwind in our comfortable hammocks.",
                     "pl": "Zrelaksuj się i odpręż w naszych wygodnych hamakach.",
-                    "ua": "Розслабтеся та відпочиньте в наших зручних гамаках."
+                    "ua": "Розслабтеся та відпочиньте в зручних та якісних гамаках."
                 }
             }
         ]
@@ -530,7 +530,7 @@ export const categories = [
         "description": {
             "en": "Explore a world of fun and imagination with our wide selection of toys and games.",
             "pl": "Odkryj świat zabawy i wyobraźni dzięki naszej szerokiej ofercie zabawek i gier.",
-            "ua": "Досліджуйте світ веселощів та уяви за допомогою нашого широкого вибору іграшок та ігор."
+            "ua": "Досліджуйте світ веселощів та уяви за допомогою широкого вибору іграшок та ігор."
         },
         "subcategories": [
             {
@@ -544,7 +544,7 @@ export const categories = [
                 "description": {
                     "en": "Bring your favorite characters to life with our movie and TV-themed toys.",
                     "pl": "Ożyw swoje ulubione postacie dzięki naszym zabawkom inspirowanym filmami i telewizją.",
-                    "ua": "Оживіть улюблених персонажів за допомогою наших іграшок за мотивами фільмів та телебачення."
+                    "ua": "Ваші улюблені іграшкові персонажі з фільмів та мультиків."
                 }
             },
             {
@@ -558,7 +558,7 @@ export const categories = [
                 "description": {
                     "en": "Bounce into fun with our variety of inflatable toys.",
                     "pl": "Skacz do zabawy z naszymi różnorodnymi zabawkami dmuchanymi.",
-                    "ua": "Пориньте у веселощі з нашими різноманітними надувними іграшками."
+                    "ua": "Пориньте у веселощі з різноманітними надувними іграшками."
                 }
             },
             {
@@ -572,7 +572,7 @@ export const categories = [
                 "description": {
                     "en": "Get active with our exciting range of toy sports equipment.",
                     "pl": "Bądź aktywny dzięki naszemu ekscytującemu asortymentowi sprzętu sportowego dla dzieci.",
-                    "ua": "Будьте активними з нашим захоплюючим асортиментом спортивних іграшок."
+                    "ua": "Будьте активними з цим захоплюючим асортиментом спортивних іграшок."
                 }
             },
             {
@@ -586,7 +586,7 @@ export const categories = [
                 "description": {
                     "en": "Liven up any gathering with our collection of party games.",
                     "pl": "Ożyw każde spotkanie dzięki naszej kolekcji gier imprezowych.",
-                    "ua": "Оживіть будь-яке зібрання за допомогою нашої колекції ігор для вечірок."
+                    "ua": "Оживіть будь-яку вечірку цими іграми для вечірок і компаній."
                 }
             },
             {
@@ -600,7 +600,7 @@ export const categories = [
                 "description": {
                     "en": "Race to the finish with our high-speed RC cars.",
                     "pl": "Ścigaj się do mety z naszymi szybkimi samochodami RC.",
-                    "ua": "Гоніть до фінішу з нашими швидкісними автомобілями на дистанційному управлінні."
+                    "ua": "Цікаві та різноманітні автомобілі на дистанційному управлінні."
                 }
             },
             {
@@ -614,7 +614,7 @@ export const categories = [
                 "description": {
                     "en": "Make bath time fun and playful with our bath toys.",
                     "pl": "Uczyń czas kąpieli zabawnym i pełnym zabawy dzięki naszym zabawkom do kąpieli.",
-                    "ua": "Зробіть час купання веселим та грайливим з нашими іграшками для ванни."
+                    "ua": "Зробіть час купання веселим та грайливим з цими іграшками для ванни."
                 }
             },
             {
@@ -628,7 +628,7 @@ export const categories = [
                 "description": {
                     "en": "Relax and unwind with our stress relief toys.",
                     "pl": "Zrelaksuj się i odpręż dzięki naszym zabawkom antystresowym.",
-                    "ua": "Розслабтесь та відпочиньте з нашими антистресовими іграшками."
+                    "ua": "Розслабтесь та відпочиньте з цими антистресовими іграшками."
                 }
             },
             {
@@ -756,7 +756,7 @@ export const categories = [
         "description": {
             "en": "Transform your home with our range of home improvement products and lighting solutions.",
             "pl": "Przekształć swój dom za pomocą naszej gamy produktów do wykończeń wnętrz i rozwiązań oświetleniowych.",
-            "ua": "Перетворіть свій дім за допомогою нашого асортименту продуктів для покращення дому та рішень освітлення."
+            "ua": "Перетворіть свій дім за допомогою різноманітного асортименту продуктів для покращення дому та рішень освітлення."
         },
         "subcategories": [
             {
@@ -836,7 +836,7 @@ export const categories = [
         "title": {
             "en": "Automotive & Motorcycle",
             "pl": "Motoryzacja i Motocykle",
-            "ua": "Автомобіль та Мотоцикли"
+            "ua": "Авто та Мотоцикли"
         },
         "description": {
             "en": "Explore a wide range of automotive and motorcycle products to keep your vehicles running smoothly.",
@@ -869,7 +869,7 @@ export const categories = [
                 "description": {
                     "en": "Enhance your ride with our selection of motorcycle accessories.",
                     "pl": "Ulepsz swoją jazdę dzięki naszej ofercie akcesoriów motocyklowych.",
-                    "ua": "Покращіть вашу поїздку за допомогою нашого вибору мотоциклетних аксесуарів."
+                    "ua": "Покращіть вашу поїздку за допомогою цих аксесуарів для мотоциклів."
                 }
             },
             {
@@ -878,12 +878,12 @@ export const categories = [
                 "title": {
                     "en": "Interior Replacement Parts",
                     "pl": "Części Wewnętrzne",
-                    "ua": "Заміна внутрішніх частин"
+                    "ua": "Замінні частини для салону авто"
                 },
                 "description": {
                     "en": "Find the perfect interior replacement parts for your vehicle.",
                     "pl": "Znajdź idealne części wewnętrzne do swojego pojazdu.",
-                    "ua": "Знайдіть ідеальні внутрішні частини для вашого автомобіля."
+                    "ua": "Знайдіть різноманітні запчастини для салону вашого авто."
                 }
             },
             {
@@ -892,12 +892,12 @@ export const categories = [
                 "title": {
                     "en": "Car DVR",
                     "pl": "Wideorejestratory",
-                    "ua": "Автомобільні DVR"
+                    "ua": "Автомобільні реєстратори"
                 },
                 "description": {
                     "en": "Record your journeys with our reliable car DVRs.",
                     "pl": "Nagrywaj swoje podróże za pomocą naszych niezawodnych wideorejestratorów.",
-                    "ua": "Записуйте ваші подорожі за допомогою наших надійних автомобільних DVR."
+                    "ua": "Записуйте поїздки за допомогою цих надійних відеорєєстраторів."
                 }
             },
             {
@@ -906,12 +906,12 @@ export const categories = [
                 "title": {
                     "en": "Jump Starters",
                     "pl": "Rozruszniki",
-                    "ua": "Пускачі"
+                    "ua": "Джампстартери"
                 },
                 "description": {
                     "en": "Never get stranded with our powerful jump starters.",
                     "pl": "Nigdy nie zostawaj na drodze dzięki naszym mocnym rozrusznikom.",
-                    "ua": "Ніколи не залишайтеся на дорозі з нашими потужними пускачами."
+                    "ua": "Ніколи не залишайтеся на дорозі з розрядженим аккумулятором з цими джампстартерами."
                 }
             },
             {
@@ -925,7 +925,7 @@ export const categories = [
                 "description": {
                     "en": "Upgrade your car with our latest electronic accessories.",
                     "pl": "Zmodernizuj swój samochód dzięki naszym najnowszym akcesoriom elektronicznym.",
-                    "ua": "Оновіть ваш автомобіль за допомогою наших новітніх електронних аксесуарів."
+                    "ua": "Оновіть ваш автомобіль за допомогою цих новітніх електронних аксесуарів."
                 }
             },
             {
@@ -939,7 +939,7 @@ export const categories = [
                 "description": {
                     "en": "Personalize your vehicle with our range of car stickers.",
                     "pl": "Personalizuj swój pojazd dzięki naszej gamie naklejek na samochód.",
-                    "ua": "Персоналізуйте ваш автомобіль за допомогою наших автомобільних наклейок."
+                    "ua": "Персоналізуйте ваш автомобіль за допомогою цих автомобільних наклейок."
                 }
             }
         ]
@@ -1024,7 +1024,7 @@ export const categories = [
                 "description": {
                     "en": "Protect your eyes with stylish polarized sunglasses.",
                     "pl": "Chroń oczy stylowymi okularami przeciwsłonecznymi z polaryzacją.",
-                    "ua": "Захистіть очі стильними поляризованими окулярами."
+                    "ua": "Захистіть очі від сонця стильними поляризованими окулярами."
                 }
             }
         ]
@@ -1067,21 +1067,21 @@ export const categories = [
                 "description": {
                     "en": "Stay powered up with our range of chargers.",
                     "pl": "Pozostań naładowany dzięki naszym ładowarkom.",
-                    "ua": "Залишайтесь зарядженими з нашими зарядними пристроями."
+                    "ua": "Зарядні пристрої для твоїх електронних гаджетів."
                 }
             },
             {
                 "img": img10_3,
-                "link": "https://www.aliexpress.com/p/calp-plus/index.html?spm=a2g0o.productlist.allcategoriespc.6.6f3dz9ofz9ofpt&categoryTab=consumer_electronics",
+                "link": "https://s.click.aliexpress.com/e/_DeS6qVn",
                 "title": {
-                    "en": "consumer_electronics",
-                    "pl": "consumer_electronics",
-                    "ua": "consumer_electronics"
+                    "en": "Consumer Electronics",
+                    "pl": "Elektronika Użytkowa",
+                    "ua": "Користувацька Електроніка"
                 },
                 "description": {
-                    "en": "consumer_electronics!!!!!",
-                    "pl": "consumer_electronics!!!!!!",
-                    "ua": "consumer_electronics!!!!!!"
+                    "en": "Сonsumer Electronics for everyone",
+                    "pl": "Elektronika Użytkowa dla każdego",
+                    "ua": "Користувацька Електроніка для кожного."
                 }
             },
             {
@@ -1152,7 +1152,7 @@ export const categories = [
                 "description": {
                     "en": "Casual sneakers for everyday wear.",
                     "pl": "Casualowe trampki na co dzień.",
-                    "ua": "Повсякденні кросівки для щоденного носіння."
+                    "ua": "Повсякденні кросівки на кожен день."
                 }
             },
             {
@@ -1232,12 +1232,12 @@ export const categories = [
         "title": {
             "en": "Hair Extensions & Wigs",
             "pl": "Włosy przedłużające i peruki",
-            "ua": "Накладні волосся та парики"
+            "ua": "Накладне волосся та парики"
         },
         "description": {
             "en": "Enhance your style with our range of high-quality hair extensions and wigs.",
             "pl": "Podkreśl swój styl za pomocą naszej gamy wysokiej jakości włosów przedłużających i peruk.",
-            "ua": "Підкресліть свій стиль за допомогою нашого асортименту високоякісних накладних волосся та париків."
+            "ua": "Змініть свій стиль використовуючи накладне волосся чи парики."
         },
         "subcategories": [
             {
@@ -1265,7 +1265,7 @@ export const categories = [
                 "description": {
                     "en": "Thick and stylish jumbo braids.",
                     "pl": "Grube i stylowe jumbo warkocze.",
-                    "ua": "Товсті та стильні джумбо коси."
+                    "ua": "Об'ємні та стильні джумбо коси."
                 }
             },
             {
@@ -1293,7 +1293,7 @@ export const categories = [
                 "description": {
                     "en": "Natural-looking African American wigs.",
                     "pl": "Peruki afroamerykańskie o naturalnym wyglądzie.",
-                    "ua": "Афроамериканські перуки, що виглядають натурально."
+                    "ua": "Натурального вигляду афроамериканські перуки."
                 }
             },
             {
@@ -1301,13 +1301,13 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DBEes9z",
                 "title": {
                     "en": "Synthetic Hair Lace",
-                    "pl": "Syntetyczna Koronka do Włosów",
-                    "ua": "Синтетична Мереживна Волосся"
+                    "pl": "Syntetyczna peruki",
+                    "ua": "Синтетичні перуки"
                 },
                 "description": {
-                    "en": "High-quality synthetic hair lace.",
-                    "pl": "Wysokiej jakości syntetyczna koronka do włosów.",
-                    "ua": "Високоякісна синтетична мереживна волосся."
+                    "en": "Natural-looking synthetic hair lace.",
+                    "pl": "",
+                    "ua": "Знайдіть тут перики на свій смак."
                 }
             }
         ]
@@ -1317,12 +1317,12 @@ export const categories = [
         "title": {
             "en": "Phones & Telecommunications",
             "pl": "Telefony i Telekomunikacja",
-            "ua": "Телефони та Телекомунікації"
+            "ua": "Телефони та Телекомунікація"
         },
         "description": {
             "en": "Discover the latest smartphones, accessories, and telecommunications devices.",
             "pl": "Odkryj najnowsze smartfony, akcesoria i urządzenia telekomunikacyjne.",
-            "ua": "Дізнайтеся про найновіші смартфони, аксесуари та телекомунікаційні пристрої."
+            "ua": "Найновіші смартфони, аксесуари та інші пристрої комунікації."
         },
         "subcategories": [
             {
@@ -1330,13 +1330,13 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_Dd9yvbd",
                 "title": {
                     "en": "Smartphone Android",
-                    "pl": "Smartfon z Androidem",
-                    "ua": "Смартфон Android"
+                    "pl": "Smartfony z Androidem",
+                    "ua": "Смартфони Android"
                 },
                 "description": {
                     "en": "Latest Android smartphones with advanced features.",
                     "pl": "Najnowsze smartfony z Androidem z zaawansowanymi funkcjami.",
-                    "ua": "Найновіші смартфони Android з передовими функціями."
+                    "ua": "Найновіші Android смартфони з передовими функціями."
                 }
             },
             {
@@ -1350,7 +1350,7 @@ export const categories = [
                 "description": {
                     "en": "High-capacity power banks for your devices.",
                     "pl": "Power banki o dużej pojemności do twoich urządzeń.",
-                    "ua": "Павербанки великої ємності для ваших пристроїв."
+                    "ua": "Павербанки будь-якої ємності для ваших різноманітних пристроїв."
                 }
             },
             {
@@ -1364,7 +1364,7 @@ export const categories = [
                 "description": {
                     "en": "Durable and fast-charging mobile phone cables.",
                     "pl": "Trwałe kable do telefonów komórkowych z szybkim ładowaniem.",
-                    "ua": "Міцні кабелі для мобільних телефонів з швидкою зарядкою."
+                    "ua": "Міцні та якісні кабелі для мобільних телефонів."
                 }
             },
             {
@@ -1548,7 +1548,7 @@ export const categories = [
         "description": {
             "en": "Transform your living space with our wide selection of home decor, gardening supplies, and outdoor furniture.",
             "pl": "Przekształć swoją przestrzeń życiową dzięki naszej szerokiej gamie dekoracji do domu, artykułów ogrodniczych i mebli ogrodowych.",
-            "ua": "Перетворіть свій простір для життя за допомогою нашого широкого вибору декору для дому, садового інвентарю та меблів для вуличних зон."
+            "ua": "Трансформуйте свій простір для життя за допомогою широкого вибору декору для дому, садового інвентарю та меблів для вуличних зон."
         },
         "subcategories": [
             {
@@ -1562,7 +1562,7 @@ export const categories = [
                 "description": {
                     "en": "Stylish drinkware for every occasion.",
                     "pl": "Stylowe naczynia do picia na każdą okazję.",
-                    "ua": "Стильний посуд для напоїв на будь-який випадок."
+                    "ua": "Стильний посуд для напоїв на будь-який смак."
                 }
             },
             {
@@ -1576,7 +1576,7 @@ export const categories = [
                 "description": {
                     "en": "Organize your home with our practical drawers.",
                     "pl": "Zorganizuj swój dom dzięki naszym praktycznym szufladom.",
-                    "ua": "Організуйте свій дім за допомогою наших практичних шухляд."
+                    "ua": "Впорядкуйте свій дім за допомогою наших практичних шухляд."
                 }
             },
             {
@@ -1590,7 +1590,7 @@ export const categories = [
                 "description": {
                     "en": "Versatile boxes for storage and decoration.",
                     "pl": "Wszechstronne pudełka do przechowywania i dekoracji.",
-                    "ua": "Багатофункціональні коробки для зберігання та декору."
+                    "ua": "Багатофункціональні коробки для зберігання речей та декору."
                 }
             },
             {
@@ -1618,7 +1618,7 @@ export const categories = [
                 "description": {
                     "en": "Artistic wall decor to brighten up your home.",
                     "pl": "Artystyczna dekoracja ścienna, która rozjaśni Twój dom.",
-                    "ua": "Художній настінний декор для прикрашання вашого дому."
+                    "ua": "Художній настінний декор який прикрасить кожен дім."
                 }
             },
             {
@@ -1632,7 +1632,7 @@ export const categories = [
                 "description": {
                     "en": "Essential accessories for a well-organized bathroom.",
                     "pl": "Niezbędne akcesoria do dobrze zorganizowanej łazienki.",
-                    "ua": "Необхідні аксесуари для добре організованої ванної кімнати."
+                    "ua": "Стильні аксесуари для вашої внної кімнати."
                 }
             },
             {
@@ -1641,12 +1641,12 @@ export const categories = [
                 "title": {
                     "en": "Table Decoration & Accessories",
                     "pl": "Dekoracje i Akcesoria Stołowe",
-                    "ua": "Декор та Аксесуари для Столу"
+                    "ua": "Декор та Аксесуари для робочого Столу"
                 },
                 "description": {
-                    "en": "Elegant table decorations and accessories for every meal.",
+                    "en": "Elegant table decorations and accessories for everyone.",
                     "pl": "Eleganckie dekoracje i akcesoria stołowe na każdy posiłek.",
-                    "ua": "Елегантний декор та аксесуари для столу на кожен прийом їжі."
+                    "ua": "Різноманітний декор та аксесуари для робочого столу."
                 }
             }
         ]
@@ -1661,7 +1661,7 @@ export const categories = [
         "description": {
             "en": "Discover the latest trends and timeless classics in women's fashion.",
             "pl": "Odkryj najnowsze trendy i ponadczasowe klasyki w modzie damsiej.",
-            "ua": "Відкрийте для себе найновіші тренди та вічні класики в жіночій моді."
+            "ua": "Відкрийте для себе найновіші тренди та вічну класику в жіночій моді."
         },
         "subcategories": [
             {
