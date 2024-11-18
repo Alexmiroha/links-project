@@ -1689,7 +1689,7 @@ export const categories = [
                 "description": {
                     "en": "Trendy short dresses for various occasions.",
                     "pl": "Modne krótkie sukienki na różne okazje.",
-                    "ua": "Модні короткі сукні для різних випадків."
+                    "ua": "Модні короткі сукні на різні оказії."
                 }
             },
             {
@@ -1759,7 +1759,7 @@ export const categories = [
                 "description": {
                     "en": "Glamorous party dresses for your next event.",
                     "pl": "Glamourowe sukienki imprezowe na Twoje kolejne wydarzenie.",
-                    "ua": "Гламурні вечірні сукні для вашого наступного заходу."
+                    "ua": "Гламурні вечірні сукні для вашого наступної події."
                 }
             }
         ]
@@ -1774,7 +1774,7 @@ export const categories = [
         "description": {
             "en": "Explore our collection of stylish and comfortable clothing for men.",
             "pl": "Odkryj naszą kolekcję stylowej i wygodnej odzieży dla mężczyzn.",
-            "ua": "Досліджуйте нашу колекцію стильного та комфортного одягу для чоловіків."
+            "ua": "Відкрий для себе колекцію стильного та комфортного одягу для чоловіків."
         },
         "subcategories": [
             {
@@ -1787,8 +1787,8 @@ export const categories = [
                 },
                 "description": {
                     "en": "Trendy T-shirt with alphabet print for a casual look.",
-                    "pl": "Modna koszulka z nadrukiem alfabetu na swobodny wygląd.",
-                    "ua": "Модна футболка з принтом алфавіту для повсякденного вигляду."
+                    "pl": "Modna koszulka z nadrukiem na swobodny wygląd.",
+                    "ua": "Модна футболка з принтом для повсякденного вигляду."
                 }
             },
             {
@@ -1802,7 +1802,7 @@ export const categories = [
                 "description": {
                     "en": "Cool and comfortable shorts for hot days.",
                     "pl": "Chłodne i wygodne szorty na gorące dni.",
-                    "ua": "Прохолодні та зручні шорти для спекотних днів."
+                    "ua": "Легкі та зручні шорти для спекотних днів."
                 }
             },
             {
@@ -1830,7 +1830,7 @@ export const categories = [
                 "description": {
                     "en": "Comfortable sports suits for training and casual wear.",
                     "pl": "Wygodne stroje sportowe do treningu i codziennego noszenia.",
-                    "ua": "Зручні спортивні костюми для тренувань та повсякденного носіння."
+                    "ua": "Зручні спортивні костюми для тренувань та щоденного використання."
                 }
             },
             {
@@ -1844,7 +1844,7 @@ export const categories = [
                 "description": {
                     "en": "Casual and comfortable shorts for daily wear.",
                     "pl": "Codzienne i wygodne szorty na co dzień.",
-                    "ua": "Повсякденні та зручні шорти для щоденного носіння."
+                    "ua": "Повсякденні та зручні шорти на кожен день."
                 }
             },
             {
