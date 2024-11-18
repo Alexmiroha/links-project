@@ -118,8 +118,8 @@ export const categories = [
             "ua": "Краса та Здоров'я"
         },
         "description": {
-            "en": "Discover a range of products to enhance your beauty and wellness.",
-            "pl": "Odkryj szeroki wybór produktów, które pomogą poprawić Twoje piękno i dobre samopoczucie.",
+            "en": "Explore a wide range of products designed to enhance your beauty and well-being.",
+            "pl": "Odkryj szeroką gamę produktów, które podkreślą Twoje piękno i poprawią samopoczucie.",
             "ua": "Відкрийте широкий вибір продуктів, які допоможуть підкреслити вашу красу та покращити самопочуття."
         },
         "subcategories": [
@@ -132,9 +132,9 @@ export const categories = [
                     "ua": "Органайзери для Косметики"
                 },
                 "description": {
-                    "en": "Keep your beauty products neat and accessible with our cosmetics organizers.",
-                    "pl": "Utrzymuj swoje kosmetyki w porządku i łatwo dostępnymi dzięki naszym organizerom kosmetycznym.",
-                    "ua": "Тримайте свою косметику в порядку та доступності з нашими органайзерами для косметики."
+                    "en": "Keep your beauty products organized and within reach with our cosmetic organizers.",
+                    "pl": "Utrzymuj swoje kosmetyki w porządku i zawsze pod ręką dzięki organizerom kosmetycznym.",
+                    "ua": "Тримайте свою косметику впорядкованою та завжди під рукою з органайзерами для косметики."
                 }
             },
             {
@@ -146,9 +146,9 @@ export const categories = [
                     "ua": "Прилади для Масажу Спини"
                 },
                 "description": {
-                    "en": "Relieve tension and stress with our back massage instruments.",
-                    "pl": "Złagodź napięcie i stres dzięki naszym urządzeniom do masażu pleców.",
-                    "ua": "Зніміть напругу та стрес за допомогою наших приладів для масажу спини."
+                    "en": "Ease tension and stress with back massage tools.",
+                    "pl": "Zredukuj napięcie i stres dzięki akcesoriom do masażu pleców.",
+                    "ua": "Позбавтеся напруги та стресу за допомогою цих інструментів для масажу спини."
                 }
             },
             {
@@ -160,9 +160,9 @@ export const categories = [
                     "ua": "Масажні Гребінці"
                 },
                 "description": {
-                    "en": "Stimulate your scalp and improve circulation with our massage combs.",
-                    "pl": "Stymuluj skórę głowy i popraw krążenie dzięki naszym grzebieniom do masażu.",
-                    "ua": "Стимулюйте шкіру голови та покращуйте циркуляцію крові за допомогою наших масажних гребінців."
+                    "en": "Stimulate your scalp and boost blood circulation with massage combs.",
+                    "pl": "Stymuluj skórę głowy i popraw przepływ krwi za pomocą grzebieni do masażu.",
+                    "ua": "Стимулюйте шкіру голови та покращуйте кровообіг за допомогою масажних гребінців."
                 }
             },
             {
@@ -170,13 +170,13 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DFdmRtl",
                 "title": {
                     "en": "Permanent Makeup Machines",
-                    "pl": "Maszyny do Makijażu Permanentnego",
+                    "pl": "Maszynki do Makijażu Permanentnego",
                     "ua": "Машинки для Перманентного Макіяжу"
                 },
                 "description": {
-                    "en": "Achieve flawless permanent makeup with our advanced machines.",
-                    "pl": "Uzyskaj idealny makijaż permanentny dzięki naszym zaawansowanym maszynom.",
-                    "ua": "Досягніть бездоганного перманентного макіяжу за допомогою наших передових машинок."
+                    "en": "Achieve flawless permanent makeup with advanced machines.",
+                    "pl": "Uzyskaj idealny makijaż permanentny dzięki tym urządzeniam do makijażu permanentnego.",
+                    "ua": "Досягніть бездоганного перманентного макіяжу за допомогою цих машинок для макіяжу."
                 }
             }
         ]
@@ -189,9 +189,9 @@ export const categories = [
             "ua": "Спорт і Розваги"
         },
         "description": {
-            "en": "Dive into the thrill of sports and entertainment with our diverse selection.",
-            "pl": "Zanurz się w emocje sportu i rozrywki z naszym różnorodnym wyborem.",
-            "ua": "Поринь у захоплення спортом та розвагами з нашим різноманітним асортиментом."
+            "en": "Dive into the thrill of sports and entertainment with these diverse selection.",
+            "pl": "Zanurz się w emocje sportu i rozrywki z tymi produktami sportowymi.",
+            "ua": "Поринь у захоплення спортом та розвагами з цим різноманітним асортиментом."
         },
         "subcategories": [
             {
@@ -203,8 +203,8 @@ export const categories = [
                     "ua": "Електросамокати"
                 },
                 "description": {
-                    "en": "Enjoy fast and eco-friendly rides with our electric scooters.",
-                    "pl": "Ciesz się szybką i ekologiczną jazdą dzięki naszym hulajnogom elektrycznym.",
+                    "en": "Enjoy fast and eco-friendly rides with these electric scooters.",
+                    "pl": "Ciesz się szybką i ekologiczną jazdą dzięki tym hulajnogom elektrycznym.",
                     "ua": "Насолоджуйтеся швидкими та екологічними поїздками на сучасних електросамокатах."
                 }
             },
@@ -217,8 +217,8 @@ export const categories = [
                     "ua": "Електровелосипеди"
                 },
                 "description": {
-                    "en": "Discover the freedom of electric biking with our top models.",
-                    "pl": "Odkryj wolność jazdy na rowerze elektrycznym z naszymi najlepszymi modelami.",
+                    "en": "Discover the freedom of electric biking with these top models.",
+                    "pl": "Odkryj wolność jazdy na rowerze elektrycznym z tymi najlepszymi modelami.",
                     "ua": "Відкрийте для себе свободу їзди на електровелосипеді з найкращими моделями."
                 }
             },
@@ -231,8 +231,8 @@ export const categories = [
                     "ua": "Гантелі"
                 },
                 "description": {
-                    "en": "Build strength and tone your muscles with our range of dumbbells.",
-                    "pl": "Buduj siłę i rzeźb mięśnie dzięki naszemu asortymentowi hantli.",
+                    "en": "Build strength and tone your muscles with these range of dumbbells.",
+                    "pl": "Buduj siłę i rzeźb mięśnie dzięki temu asortymentowi hantli.",
                     "ua": "Будуйте силу та тонізуйте м’язи з найрізноманітнішим асортиментом гантелей."
                 }
             },
@@ -245,8 +245,8 @@ export const categories = [
                     "ua": "Одяг для йоги"
                 },
                 "description": {
-                    "en": "Stay comfortable and stylish during your yoga sessions with our yoga clothing.",
-                    "pl": "Pozostań wygodny i stylowy podczas sesji jogi dzięki naszej odzieży do jogi.",
+                    "en": "Stay comfortable and stylish during your yoga sessions with these yoga clothing.",
+                    "pl": "Pozostań wygodny i stylowy podczas sesji jogi dzięki tej odzieży do jogi.",
                     "ua": "Будьте стильними та почувайтесь комфортно під час занять йогою в якісному одязі для йоги."
                 }
             },
@@ -259,8 +259,8 @@ export const categories = [
                     "ua": "Аксесуари для риболовлі"
                 },
                 "description": {
-                    "en": "Gear up for the perfect fishing trip with our fishing accessories.",
-                    "pl": "Przygotuj się na idealny wypad na ryby dzięki naszym akcesoriom wędkarskim.",
+                    "en": "Gear up for the perfect fishing trip with fishing accessories.",
+                    "pl": "Przygotuj się na idealny wypad na ryby dzięki akcesoriom wędkarskim.",
                     "ua": "Підготуйтесь до ідеальної риболовлі з різноманітними аксесуарами для риболовлі."
                 }
             },
@@ -273,8 +273,8 @@ export const categories = [
                     "ua": "Шосейні Велосипеди"
                 },
                 "description": {
-                    "en": "Experience speed and performance with our range of road bicycles.",
-                    "pl": "Doświadcz prędkości i wydajności dzięki naszemu asortymentowi rowerów szosowych.",
+                    "en": "Experience speed and performance with range of road bicycles.",
+                    "pl": "Doświadcz prędkości i wydajności dzięki asortymentowi rowerów szosowych.",
                     "ua": "Відчуйте швидкість та продуктивність з різноманітним асортиментом шосейних велосипедів."
                 }
             },
@@ -287,8 +287,8 @@ export const categories = [
                     "ua": "Гірськькі Велосипеди"
                 },
                 "description": {
-                    "en": "Conquer any terrain with our rugged mountain bikes.",
-                    "pl": "Podbijaj każde teren dzięki naszym wytrzymałym rowerom górskim.",
+                    "en": "Conquer any terrain with rugged mountain bikes.",
+                    "pl": "Podbijaj każde teren dzięki wytrzymałym rowerom górskim.",
                     "ua": "Підкорюйте будь-яку місцевість з міцними та якісними гірськими велосипедами."
                 }
             },
@@ -301,8 +301,8 @@ export const categories = [
                     "ua": "Велосипедні Електродвигуни"
                 },
                 "description": {
-                    "en": "Upgrade your bike with our powerful electric bike motors.",
-                    "pl": "Ulepsz swój rower dzięki naszym potężnym silnikom elektrycznym.",
+                    "en": "Upgrade your bike with powerful electric bike motors.",
+                    "pl": "Ulepsz swój rower dzięki potężnym silnikom elektrycznym.",
                     "ua": "Покращте свій велосипед потужними електродвигунами."
                 }
             },
@@ -315,8 +315,8 @@ export const categories = [
                     "ua": "Велоаксесуари"
                 },
                 "description": {
-                    "en": "Enhance your cycling experience with our range of bicycle accessories.",
-                    "pl": "Zwiększ swoje doświadczenie rowerowe dzięki naszemu asortymentowi akcesoriów rowerowych.",
+                    "en": "Enhance your cycling experience with range of bicycle accessories.",
+                    "pl": "Zwiększ swoje doświadczenie rowerowe dzięki asortymentowi akcesoriów rowerowych.",
                     "ua": "Відчуйте новий досвід їзди на велосипеді з цими велоаксесуарами."
                 }
             }
@@ -372,8 +372,8 @@ export const categories = [
                     "ua": "Переноски та товари для подорожей"
                 },
                 "description": {
-                    "en": "Travel comfortably and safely with your pets using our carriers and travel products.",
-                    "pl": "Podróżuj wygodnie i bezpiecznie ze swoimi zwierzętami dzięki naszym transporterom i produktom podróżnym.",
+                    "en": "Travel comfortably and safely with your pets using these carriers and travel products.",
+                    "pl": "Podróżuj wygodnie i bezpiecznie ze swoimi zwierzętami dzięki transporterom i produktom podróżnym.",
                     "ua": "Подорожуйте зручно та безпечно з вашими тваринами, використовуючи ці переноски та товари для подорожей."
                 }
             },
@@ -386,8 +386,8 @@ export const categories = [
                     "ua": "Грумінг"
                 },
                 "description": {
-                    "en": "Keep your pets looking their best with our grooming supplies.",
-                    "pl": "Utrzymuj swoje zwierzęta w najlepszej formie dzięki naszym artykułom do pielęgnacji.",
+                    "en": "Keep your pets looking their best with these grooming supplies.",
+                    "pl": "Utrzymuj swoje zwierzęta w najlepszej formie dzięki artykułom do pielęgnacji.",
                     "ua": "Утримуйте ваших тварин у найкращому вигляді з цими засобами для грумінгу."
                 }
             },
@@ -471,8 +471,8 @@ export const categories = [
                     "ua": "Шезлонги"
                 },
                 "description": {
-                    "en": "Relax in style with our comfortable sun loungers.",
-                    "pl": "Zrelaksuj się w stylu z naszymi wygodnymi leżakami.",
+                    "en": "Relax in style with these comfortable sun loungers.",
+                    "pl": "Zrelaksuj się w stylu z wygodnymi leżakami.",
                     "ua": "Розслабтесь в сонячний день на цих зручних шезлонгах."
                 }
             },
@@ -513,8 +513,8 @@ export const categories = [
                     "ua": "Гамаки"
                 },
                 "description": {
-                    "en": "Relax and unwind in our comfortable hammocks.",
-                    "pl": "Zrelaksuj się i odpręż w naszych wygodnych hamakach.",
+                    "en": "Relax and unwind in comfortable hammocks.",
+                    "pl": "Zrelaksuj się i odpręż w wygodnych hamakach.",
                     "ua": "Розслабтеся та відпочиньте в зручних та якісних гамаках."
                 }
             }
@@ -528,8 +528,8 @@ export const categories = [
             "ua": "Іграшки та Ігри"
         },
         "description": {
-            "en": "Explore a world of fun and imagination with our wide selection of toys and games.",
-            "pl": "Odkryj świat zabawy i wyobraźni dzięki naszej szerokiej ofercie zabawek i gier.",
+            "en": "Explore a world of fun and imagination with wide selection of toys and games.",
+            "pl": "Odkryj świat zabawy i wyobraźni dzięki szerokiej ofercie zabawek i gier.",
             "ua": "Досліджуйте світ веселощів та уяви за допомогою широкого вибору іграшок та ігор."
         },
         "subcategories": [
@@ -542,8 +542,8 @@ export const categories = [
                     "ua": "Фільми та ТВ"
                 },
                 "description": {
-                    "en": "Bring your favorite characters to life with our movie and TV-themed toys.",
-                    "pl": "Ożyw swoje ulubione postacie dzięki naszym zabawkom inspirowanym filmami i telewizją.",
+                    "en": "Bring your favorite characters to life with movie and TV-themed toys.",
+                    "pl": "Ożyw swoje ulubione postacie dzięki zabawkom inspirowanym filmami i telewizją.",
                     "ua": "Ваші улюблені іграшкові персонажі з фільмів та мультиків."
                 }
             },
@@ -556,8 +556,8 @@ export const categories = [
                     "ua": "Надувні іграшки"
                 },
                 "description": {
-                    "en": "Bounce into fun with our variety of inflatable toys.",
-                    "pl": "Skacz do zabawy z naszymi różnorodnymi zabawkami dmuchanymi.",
+                    "en": "Bounce into fun with variety of inflatable toys.",
+                    "pl": "Skacz do zabawy z różnorodnymi zabawkami dmuchanymi.",
                     "ua": "Пориньте у веселощі з різноманітними надувними іграшками."
                 }
             },
@@ -570,8 +570,8 @@ export const categories = [
                     "ua": "Спортивні іграшки"
                 },
                 "description": {
-                    "en": "Get active with our exciting range of toy sports equipment.",
-                    "pl": "Bądź aktywny dzięki naszemu ekscytującemu asortymentowi sprzętu sportowego dla dzieci.",
+                    "en": "Get active with exciting range of toy sports equipment.",
+                    "pl": "Bądź aktywny dzięki ekscytującemu asortymentowi sprzętu sportowego dla dzieci.",
                     "ua": "Будьте активними з цим захоплюючим асортиментом спортивних іграшок."
                 }
             },
@@ -584,8 +584,8 @@ export const categories = [
                     "ua": "Ігри для вечірок"
                 },
                 "description": {
-                    "en": "Liven up any gathering with our collection of party games.",
-                    "pl": "Ożyw każde spotkanie dzięki naszej kolekcji gier imprezowych.",
+                    "en": "Liven up any gathering with collection of party games.",
+                    "pl": "Ożyw każde spotkanie dzięki kolekcji gier imprezowych.",
                     "ua": "Оживіть будь-яку вечірку цими іграми для вечірок і компаній."
                 }
             },
@@ -598,8 +598,8 @@ export const categories = [
                     "ua": "Автомобілі на дистанційному управлінні"
                 },
                 "description": {
-                    "en": "Race to the finish with our high-speed RC cars.",
-                    "pl": "Ścigaj się do mety z naszymi szybkimi samochodami RC.",
+                    "en": "Race to the finish with high-speed RC cars.",
+                    "pl": "Ścigaj się do mety z szybkimi samochodami RC.",
                     "ua": "Цікаві та різноманітні автомобілі на дистанційному управлінні."
                 }
             },
@@ -612,8 +612,8 @@ export const categories = [
                     "ua": "Іграшки для ванни"
                 },
                 "description": {
-                    "en": "Make bath time fun and playful with our bath toys.",
-                    "pl": "Uczyń czas kąpieli zabawnym i pełnym zabawy dzięki naszym zabawkom do kąpieli.",
+                    "en": "Make bath time fun and playful with bath toys.",
+                    "pl": "Uczyń czas kąpieli zabawnym i pełnym zabawy dzięki zabawkom do kąpieli.",
                     "ua": "Зробіть час купання веселим та грайливим з цими іграшками для ванни."
                 }
             },
@@ -626,8 +626,8 @@ export const categories = [
                     "ua": "Антистресові іграшки"
                 },
                 "description": {
-                    "en": "Relax and unwind with our stress relief toys.",
-                    "pl": "Zrelaksuj się i odpręż dzięki naszym zabawkom antystresowym.",
+                    "en": "Relax and unwind with stress relief toys.",
+                    "pl": "Zrelaksuj się i odpręż dzięki zabawkom antystresowym.",
                     "ua": "Розслабтесь та відпочиньте з цими антистресовими іграшками."
                 }
             },
@@ -640,8 +640,8 @@ export const categories = [
                     "ua": "Дитячі електромобілі"
                 },
                 "description": {
-                    "en": "Let your little ones drive around in style with our ride-on vehicles.",
-                    "pl": "Pozwól swoim maluchom jeździć w stylu dzięki naszym pojazdom na baterie.",
+                    "en": "Let your little ones drive around in style with ride-on vehicles.",
+                    "pl": "Pozwól swoim maluchom jeździć w stylu dzięki pojazdom na baterie.",
                     "ua": "Здійсніть дитячі мрії завдяки автомобілям на радіокеруванні для дітей."
                 }
             }
@@ -754,8 +754,8 @@ export const categories = [
             "ua": "Покращення дому та освітлення"
         },
         "description": {
-            "en": "Transform your home with our range of home improvement products and lighting solutions.",
-            "pl": "Przekształć swój dom za pomocą naszej gamy produktów do wykończeń wnętrz i rozwiązań oświetleniowych.",
+            "en": "Transform your home with range of home improvement products and lighting solutions.",
+            "pl": "Przekształć swój dom za pomocą gamy produktów do wykończeń wnętrz i rozwiązań oświetleniowych.",
             "ua": "Перетворіть свій дім за допомогою різноманітного асортименту продуктів для покращення дому та рішень освітлення."
         },
         "subcategories": [
@@ -867,8 +867,8 @@ export const categories = [
                     "ua": "Аксесуари"
                 },
                 "description": {
-                    "en": "Enhance your ride with our selection of motorcycle accessories.",
-                    "pl": "Ulepsz swoją jazdę dzięki naszej ofercie akcesoriów motocyklowych.",
+                    "en": "Enhance your ride with selection of motorcycle accessories.",
+                    "pl": "Ulepsz swoją jazdę dzięki ofercie akcesoriów motocyklowych.",
                     "ua": "Покращіть вашу поїздку за допомогою цих аксесуарів для мотоциклів."
                 }
             },
@@ -895,8 +895,8 @@ export const categories = [
                     "ua": "Автомобільні реєстратори"
                 },
                 "description": {
-                    "en": "Record your journeys with our reliable car DVRs.",
-                    "pl": "Nagrywaj swoje podróże za pomocą naszych niezawodnych wideorejestratorów.",
+                    "en": "Record your journeys with reliable car DVRs.",
+                    "pl": "Nagrywaj swoje podróże za pomocą niezawodnych wideorejestratorów.",
                     "ua": "Записуйте поїздки за допомогою цих надійних відеорєєстраторів."
                 }
             },
@@ -909,8 +909,8 @@ export const categories = [
                     "ua": "Джампстартери"
                 },
                 "description": {
-                    "en": "Never get stranded with our powerful jump starters.",
-                    "pl": "Nigdy nie zostawaj na drodze dzięki naszym mocnym rozrusznikom.",
+                    "en": "Never get stranded with powerful jump starters.",
+                    "pl": "Nigdy nie zostawaj na drodze dzięki mocnym rozrusznikom.",
                     "ua": "Ніколи не залишайтеся на дорозі з розрядженим аккумулятором з цими джампстартерами."
                 }
             },
@@ -923,8 +923,8 @@ export const categories = [
                     "ua": "Автомобільні електронні аксесуари"
                 },
                 "description": {
-                    "en": "Upgrade your car with our latest electronic accessories.",
-                    "pl": "Zmodernizuj swój samochód dzięki naszym najnowszym akcesoriom elektronicznym.",
+                    "en": "Upgrade your car with latest electronic accessories.",
+                    "pl": "Zmodernizuj swój samochód dzięki najnowszym akcesoriom elektronicznym.",
                     "ua": "Оновіть ваш автомобіль за допомогою цих новітніх електронних аксесуарів."
                 }
             },
@@ -937,8 +937,8 @@ export const categories = [
                     "ua": "Автомобільні наклейки"
                 },
                 "description": {
-                    "en": "Personalize your vehicle with our range of car stickers.",
-                    "pl": "Personalizuj swój pojazd dzięki naszej gamie naklejek na samochód.",
+                    "en": "Personalize your vehicle with range of car stickers.",
+                    "pl": "Personalizuj swój pojazd dzięki gamie naklejek na samochód.",
                     "ua": "Персоналізуйте ваш автомобіль за допомогою цих автомобільних наклейок."
                 }
             }
@@ -952,8 +952,8 @@ export const categories = [
             "ua": "Прикраси, Годинники та Аксесуари"
         },
         "description": {
-            "en": "Explore our exquisite collection of jewelry, watches, and accessories to add elegance to any outfit.",
-            "pl": "Odkryj naszą wykwintną kolekcję biżuterii, zegarków i akcesoriów, aby dodać elegancji do każdej stylizacji.",
+            "en": "Explore exquisite collection of jewelry, watches, and accessories to add elegance to any outfit.",
+            "pl": "Odkryj wykwintną kolekcję biżuterii, zegarków i akcesoriów, aby dodać elegancji do każdej stylizacji.",
             "ua": "Тут ти знайдеш прикраси, годинники та аксесуари на свій смак."
         },
         "subcategories": [
@@ -1065,8 +1065,8 @@ export const categories = [
                     "ua": "Зарядні пристрої"
                 },
                 "description": {
-                    "en": "Stay powered up with our range of chargers.",
-                    "pl": "Pozostań naładowany dzięki naszym ładowarkom.",
+                    "en": "Stay powered up with range of chargers.",
+                    "pl": "Pozostań naładowany dzięki ładowarkom.",
                     "ua": "Зарядні пристрої для твоїх електронних гаджетів."
                 }
             },
@@ -1093,9 +1093,9 @@ export const categories = [
                     "ua": "Ручні стабілізатори та гімбали"
                 },
                 "description": {
-                    "en": "Capture smooth footage with our gimbals and stabilizers.",
-                    "pl": "Nagrywaj płynne filmy dzięki naszym gimbalom i stabilizatorom.",
-                    "ua": "Знімайте плавне відео за допомогою наших стабілізаторів та гімбалів."
+                    "en": "Capture smooth footage with gimbals and stabilizers.",
+                    "pl": "Nagrywaj płynne filmy dzięki gimbalom i stabilizatorom.",
+                    "ua": "Знімайте плавне відео за допомогою стабілізаторів та гімбалів."
                 }
             }
         ]
@@ -1235,8 +1235,8 @@ export const categories = [
             "ua": "Накладне волосся та парики"
         },
         "description": {
-            "en": "Enhance your style with our range of high-quality hair extensions and wigs.",
-            "pl": "Podkreśl swój styl za pomocą naszej gamy wysokiej jakości włosów przedłużających i peruk.",
+            "en": "Enhance your style with range of high-quality hair extensions and wigs.",
+            "pl": "Podkreśl swój styl za pomocą gamy wysokiej jakości włosów przedłużających i peruk.",
             "ua": "Змініть свій стиль використовуючи накладне волосся чи парики."
         },
         "subcategories": [
@@ -1433,9 +1433,9 @@ export const categories = [
             "ua": "Діти та Немовлята"
         },
         "description": {
-            "en": "Explore our range of products designed for babies and kids to ensure their comfort and enjoyment.",
-            "pl": "Odkryj naszą ofertę produktów zaprojektowanych dla dzieci i niemowląt, aby zapewnić im komfort i przyjemność.",
-            "ua": "Досліджуйте наш асортимент продуктів, призначених для дітей та немовлят, щоб забезпечити їх комфорт та задоволення."
+            "en": "Explore range of products designed for babies and kids to ensure their comfort and enjoyment.",
+            "pl": "Odkryj ofertę produktów zaprojektowanych dla dzieci i niemowląt, aby zapewnić im komfort i przyjemność.",
+            "ua": "Досліджуйте асортимент продуктів, призначених для дітей та немовлят, щоб забезпечити їх комфорт та задоволення."
         },
         "subcategories": [
             {
@@ -1546,8 +1546,8 @@ export const categories = [
             "ua": "Дім і Сад"
         },
         "description": {
-            "en": "Transform your living space with our wide selection of home decor, gardening supplies, and outdoor furniture.",
-            "pl": "Przekształć swoją przestrzeń życiową dzięki naszej szerokiej gamie dekoracji do domu, artykułów ogrodniczych i mebli ogrodowych.",
+            "en": "Transform your living space with wide selection of home decor, gardening supplies, and outdoor furniture.",
+            "pl": "Przekształć swoją przestrzeń życiową dzięki szerokiej gamie dekoracji do domu, artykułów ogrodniczych i mebli ogrodowych.",
             "ua": "Трансформуйте свій простір для життя за допомогою широкого вибору декору для дому, садового інвентарю та меблів для вуличних зон."
         },
         "subcategories": [
@@ -1574,9 +1574,9 @@ export const categories = [
                     "ua": "Шухляди"
                 },
                 "description": {
-                    "en": "Organize your home with our practical drawers.",
-                    "pl": "Zorganizuj swój dom dzięki naszym praktycznym szufladom.",
-                    "ua": "Впорядкуйте свій дім за допомогою наших практичних шухляд."
+                    "en": "Organize your home with practical drawers.",
+                    "pl": "Zorganizuj swój dom dzięki praktycznym szufladom.",
+                    "ua": "Впорядкуйте свій дім за допомогою практичних шухляд."
                 }
             },
             {
@@ -1772,8 +1772,8 @@ export const categories = [
             "ua": "Чоловічий одяг"
         },
         "description": {
-            "en": "Explore our collection of stylish and comfortable clothing for men.",
-            "pl": "Odkryj naszą kolekcję stylowej i wygodnej odzieży dla mężczyzn.",
+            "en": "Explore collection of stylish and comfortable clothing for men.",
+            "pl": "Odkryj kolekcję stylowej i wygodnej odzieży dla mężczyzn.",
             "ua": "Відкрий для себе колекцію стильного та комфортного одягу для чоловіків."
         },
         "subcategories": [
