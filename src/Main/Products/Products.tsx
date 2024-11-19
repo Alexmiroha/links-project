@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import s from "../Categories/Categories.module.css";
 import ProductCard from "./ProductCard/ProductCard";
-import { cards } from "../../Data/productsData";
+import { cards } from "../../data/productsData";
 
 type ProductsPropsType = {
     language: 'en' | 'pl' | 'ua'

@@ -49,9 +49,45 @@ const SubCategories = (props: SubCategoryPropsType) => {
         }
     }, [currentIndex, carouselItems]);
 
+
+    // свайп-функціонал
+
+    useEffect(() => {
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        const handleTouchStart = (e: TouchEvent) => {
+            touchStartX = e.touches[0].clientX;
+        };
+
+        const handleTouchEnd = (e: TouchEvent) => {
+            touchEndX = e.changedTouches[0].clientX;
+            if (touchStartX - touchEndX > 50) {
+                // Свайп вліво
+                nextSlide();
+            } else if (touchEndX - touchStartX > 50) {
+                // Свайп вправо
+                prevSlide();
+            }
+        };
+
+        const carousel = document.getElementById("default-carousel");
+        if (carousel) {
+            carousel.addEventListener("touchstart", handleTouchStart);
+            carousel.addEventListener("touchend", handleTouchEnd);
+        }
+
+        return () => {
+            if (carousel) {
+                carousel.removeEventListener("touchstart", handleTouchStart);
+                carousel.removeEventListener("touchend", handleTouchEnd);
+            }
+        };
+    }, [carouselItems, currentIndex]);
+
     return (
         <div>
-            <h2 className="mt-4 mb-8 md:text-lg text-gray-900 dark:text-white">{props.language === 'ua' ? props.CategoryTitle.ua : props.language === 'pl' ? props.CategoryTitle.pl : props.CategoryTitle.en}</h2>
+            <h2 className="mt-4 mb-8 text-lg md:text-lg 2xl:text-2xl text-gray-900 dark:text-white">{props.language === 'ua' ? props.CategoryTitle.ua : props.language === 'pl' ? props.CategoryTitle.pl : props.CategoryTitle.en}</h2>
 
             <div id="default-carousel" className="relative w-full flex justify-center" data-carousel="slide">
                 <div className="relative h-auto md:h-[200px] xl:h-[300px] 2xl:h-[350px] 3xl:h-[370px] 4xl:h-[450px] overflow-hidden rounded-lg w-[93%] md:w-[80%] lg:w-[85%] 2xl:w-[88%]">
@@ -110,7 +146,7 @@ const SubCategories = (props: SubCategoryPropsType) => {
 
                 <button
                     type="button"
-                    className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    className="hidden md:absolute top-0 start-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none "
                     data-carousel-prev
                     onClick={prevSlide}
                 >
@@ -137,7 +173,7 @@ const SubCategories = (props: SubCategoryPropsType) => {
 
                 <button
                     type="button"
-                    className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    className="hidden md:absolute top-0 end-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-next
                     onClick={nextSlide}
                 >

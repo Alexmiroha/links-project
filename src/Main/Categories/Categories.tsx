@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {Route, Routes, useNavigate, useParams} from "react-router-dom";
 import s from './Categories.module.css';
-import { categories } from "../../Data/categoriesData";
+import { categories } from "../../data/categoriesData";
 import img1 from "../../img/Categories/Cosmetics Organizers.jpg";
 import img2 from "../../img/Categories/bmi.jpg";
 import img3 from "../../img/Categories/comb-hair-massage.jpg";
