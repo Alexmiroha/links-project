@@ -46,15 +46,7 @@ const Categories = (props: CategoriesPropsType) => {
         };
     }, []);
 
-    // -----------------------------------------------------------------
-
-    const nextSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
-    };
+    // ----------------------------------------------------------------
 
 // -------------------------------------------
 //     слухає лінк і в залежності від нього вертає відповідну субкатегорію

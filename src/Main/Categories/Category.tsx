@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import {NavLink, useLocation} from "react-router-dom";
 
 type CategoryPropsType = {
     link: string,
@@ -9,9 +9,13 @@ type CategoryPropsType = {
 }
 
 const Category = (props: CategoryPropsType) => {
+
+    let location = useLocation();
+    const isActive = location.pathname === props.link;
+
     return (
         <li className="me-6 min-w-max">
-            <NavLink to={props.link}
+            <NavLink to={props.link} style={{color:"red", border:"1px solid red"}}
                className="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
                 <svg
                     className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
