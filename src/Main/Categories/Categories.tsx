@@ -9,6 +9,10 @@ import img4 from "../../img/Categories/permanent-makeup_mini.jpg";
 
 import Category from "./Category";
 import SubCategories from "./SubCategories";
+import img1_1 from "../../img/Categories/Cosmetics Organizers.jpg";
+import img1_2 from "../../img/Categories/bmi.jpg";
+import img1_3 from "../../img/Categories/comb-hair-massage.jpg";
+import img1_4 from "../../img/Categories/permanent-makeup_mini.jpg";
 
 type CategoriesPropsType = {
     language: string,
@@ -18,8 +22,6 @@ const Categories = (props: CategoriesPropsType) => {
 
     const listRef = useRef<HTMLUListElement | null>(null);
     const navigate = useNavigate();
-    const [currentSlide, setCurrentSlide] = useState(0);
-    const totalSlides = categories.length;
 
     // -----------------------------------------------------------------
     // scroll categories by mousewheel
@@ -51,7 +53,8 @@ const Categories = (props: CategoriesPropsType) => {
 // -------------------------------------------
 //     слухає лінк і в залежності від нього вертає відповідну субкатегорію
     const CategoryDetails = () => {
-        const {categoryLink} = useParams<{ categoryLink: string }>();
+
+        let {categoryLink} = useParams<{ categoryLink: string }>();
         const category = categories.find(cat => cat.link === `/${categoryLink}`);
 
         if (!category) {
@@ -60,7 +63,7 @@ const Categories = (props: CategoriesPropsType) => {
                 CategoryTitle={{en: 'Beauty & Health', pl: 'Uroda i Zdrowie', ua: 'Краса та Здоров\'я'}}
                 Subcategories={[
                     {
-                        "img": img1,
+                        "img": img1_1,
                         "link": "https://s.click.aliexpress.com/e/_Dmu8GW3",
                         "title": {
                             "en": "Cosmetics Organizers",
@@ -68,51 +71,51 @@ const Categories = (props: CategoriesPropsType) => {
                             "ua": "Органайзери для Косметики"
                         },
                         "description": {
-                            "en": "Keep your beauty products neat and accessible with our cosmetics organizers.",
-                            "pl": "Utrzymuj swoje kosmetyki w porządku i łatwo dostępnymi dzięki naszym organizerom kosmetycznym.",
-                            "ua": "Тримайте свої косметичні продукти в порядку та доступності з нашими органайзерами для косметики."
+                            "en": "Keep your beauty products organized and within reach with our cosmetic organizers.",
+                            "pl": "Utrzymuj swoje kosmetyki w porządku i zawsze pod ręką dzięki organizerom kosmetycznym.",
+                            "ua": "Тримайте свою косметику впорядкованою та завжди під рукою з органайзерами для косметики."
                         }
                     },
                     {
-                        "img": img2,
+                        "img": img1_2,
                         "link": "https://s.click.aliexpress.com/e/_DksMelv",
                         "title": {
                             "en": "Back Massage Instrument",
-                            "pl": "Urządzenie do Masażu Pleców",
-                            "ua": "Прилад для Масажу Спини"
+                            "pl": "Urządzenia do Masażu Pleców",
+                            "ua": "Прилади для Масажу Спини"
                         },
                         "description": {
-                            "en": "Relieve tension and stress with our back massage instruments.",
-                            "pl": "Złagodź napięcie i stres dzięki naszym urządzeniom do masażu pleców.",
-                            "ua": "Зніміть напругу та стрес за допомогою наших приладів для масажу спини."
+                            "en": "Ease tension and stress with back massage tools.",
+                            "pl": "Zredukuj napięcie i stres dzięki akcesoriom do masażu pleców.",
+                            "ua": "Позбавтеся напруги та стресу за допомогою цих інструментів для масажу спини."
                         }
                     },
                     {
-                        "img": img3,
+                        "img": img1_3,
                         "link": "https://s.click.aliexpress.com/e/_DlpxD7p",
                         "title": {
                             "en": "Massage Comb",
                             "pl": "Grzebień do Masażu",
-                            "ua": "Масажна Гребінець"
+                            "ua": "Масажні Гребінці"
                         },
                         "description": {
-                            "en": "Stimulate your scalp and improve circulation with our massage combs.",
-                            "pl": "Stymuluj skórę głowy i popraw krążenie dzięki naszym grzebieniom do masażu.",
-                            "ua": "Стимулюйте шкіру голови та покращуйте циркуляцію за допомогою наших масажних гребінців."
+                            "en": "Stimulate your scalp and boost blood circulation with massage combs.",
+                            "pl": "Stymuluj skórę głowy i popraw przepływ krwi za pomocą grzebieni do masażu.",
+                            "ua": "Стимулюйте шкіру голови та покращуйте кровообіг за допомогою масажних гребінців."
                         }
                     },
                     {
-                        "img": img4,
+                        "img": img1_4,
                         "link": "https://s.click.aliexpress.com/e/_DFdmRtl",
                         "title": {
                             "en": "Permanent Makeup Machines",
-                            "pl": "Maszyny do Makijażu Permanentnego",
+                            "pl": "Maszynki do Makijażu Permanentnego",
                             "ua": "Машинки для Перманентного Макіяжу"
                         },
                         "description": {
-                            "en": "Achieve flawless permanent makeup with our advanced machines.",
-                            "pl": "Uzyskaj idealny makijaż permanentny dzięki naszym zaawansowanym maszynom.",
-                            "ua": "Досягніть бездоганного перманентного макіяжу за допомогою наших передових машинок."
+                            "en": "Achieve flawless permanent makeup with advanced machines.",
+                            "pl": "Uzyskaj idealny makijaż permanentny dzięki tym urządzeniam do makijażu permanentnego.",
+                            "ua": "Досягніть бездоганного перманентного макіяжу за допомогою цих машинок для макіяжу."
                         }
                     }
                 ]}
@@ -146,7 +149,17 @@ const Categories = (props: CategoriesPropsType) => {
                     ))}
                 </ul>
             </div>
+
+            {/*рендерить категорію в залежності від лінку в адресному рядку*/}
             <Routes>
+                <Route
+                    path="/"
+                    element={<SubCategories
+                        language={props.language}
+                        CategoryTitle={{en: categories[0].title.en, pl: categories[0].title.pl, ua: categories[0].title.ua}}
+                        Subcategories={categories[0].subcategories}
+                    />}
+                />
                 <Route path=":categoryLink" element={<CategoryDetails/>}/>
             </Routes>
         </div>
