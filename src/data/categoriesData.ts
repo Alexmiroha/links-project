@@ -1301,12 +1301,12 @@ export const categories = [
                 "link": "https://s.click.aliexpress.com/e/_DBEes9z",
                 "title": {
                     "en": "Synthetic Hair Lace",
-                    "pl": "Syntetyczna peruki",
+                    "pl": "Syntetyczne peruki",
                     "ua": "Синтетичні перуки"
                 },
                 "description": {
                     "en": "Natural-looking synthetic hair lace.",
-                    "pl": "",
+                    "pl": "Naturalne peruki dla ciebie.",
                     "ua": "Знайдіть тут перики на свій смак."
                 }
             }
