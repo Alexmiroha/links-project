@@ -8,15 +8,15 @@ type CategoryPropsType = {
     onClick: () => void;
 }
 
-const Category = (props: CategoryPropsType) => {
+export const Category = (props: CategoryPropsType) => {
 
-    let location = useLocation();
+    const location = useLocation();
     const isActive = location.pathname === props.link;
 
     return (
-        <li className="me-6 min-w-max">
-            <NavLink to={props.link} style={{color:"red", border:"1px solid red"}}
-               className="inline-flex items-center justify-center p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+        <li className={`me-6 min-w-max border-transparent active:border-t-blue-500 dark:active:border-t-blue-700 border-t-2 ${isActive ? 'border-t-blue-500 dark:border-t-blue-700' : ''}`}>
+            <NavLink to={props.link}
+               className="inline-flex items-center justify-center p-1 pb-4 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
                 <svg
                     className="w-4 h-4 me-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
                     aria-hidden="true" xmlns={props.icon} fill="currentColor"
@@ -29,5 +29,3 @@ const Category = (props: CategoryPropsType) => {
         </li>
     );
 };
-
-export default Category;

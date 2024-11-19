@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef,} from 'react';
 import {Route, Routes, useNavigate, useParams} from "react-router-dom";
 import s from './Categories.module.css';
 import { categories } from "../../data/categoriesData";
@@ -7,7 +7,7 @@ import img2 from "../../img/Categories/bmi.jpg";
 import img3 from "../../img/Categories/comb-hair-massage.jpg";
 import img4 from "../../img/Categories/permanent-makeup_mini.jpg";
 
-import Category from "./Category";
+import {Category} from "./Category";
 import SubCategories from "./SubCategories";
 import img1_1 from "../../img/Categories/Cosmetics Organizers.jpg";
 import img1_2 from "../../img/Categories/bmi.jpg";
