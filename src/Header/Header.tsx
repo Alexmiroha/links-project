@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     return (
         <header className={`${s.header} ${props.isDarkMode ? 'bg-blue-950'  : 'bg-blue-50'}`}>
             <div className={s.header_container}>
-                <a href="#" className='text-orange-500 text-sm pl-3 md:text-xl md:pl-0 lg:text-3xl font-bold hover:text-orange-600'>AleAli Store links</a>
+                <a href="#" className='text-orange-500 text-sm pl-3 md:text-xl md:pl-0 lg:text-3xl font-bold hover:text-orange-600'>Click&Pick links</a>
                 <div className={s.toggle}>
                     <DarkModeToggle isDarkMode={props.isDarkMode} toggleDarkMode={props.toggleDarkMode}/>
                 </div>
